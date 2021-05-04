@@ -1,5 +1,7 @@
 #region
 
+using System;
+using JetBrains.Annotations;
 using UnityEngine;
 
 #endregion
@@ -8,6 +10,17 @@ namespace Appalachia.Utility.Colors
 {
     public static partial class Colors
     {
+        
+        public static ColorRef ToRef(this Color c)
+        {
+            return c;
+        }
+
+        public static Color ToColor(this Enum c)
+        {
+            return FromEnum(c);
+        }
+
         public static Color FromEnum(Enum c)
         {
             switch (c)
@@ -754,14 +767,14 @@ namespace Appalachia.Utility.Colors
                     return Azure2;
                 case Enum.Azure1:
                     return Azure1;
-                case Enum.Lightcyan4:
-                    return Lightcyan4;
-                case Enum.Lightcyan3:
-                    return Lightcyan3;
-                case Enum.Lightcyan2:
-                    return Lightcyan2;
-                case Enum.Lightcyan1:
-                    return Lightcyan1;
+                case Enum.LightCyan4:
+                    return LightCyan4;
+                case Enum.LightCyan3:
+                    return LightCyan3;
+                case Enum.LightCyan2:
+                    return LightCyan2;
+                case Enum.LightCyan1:
+                    return LightCyan1;
                 case Enum.PaleTurquoise4:
                     return PaleTurquoise4;
                 case Enum.PaleTurquoise3:

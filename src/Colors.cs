@@ -8,1661 +8,3833 @@ namespace Appalachia.Utility.Colors
 {
     public static partial class Colors
     {
-        /// <summary> 000  000  000 /// </summary>
-        public static readonly Color Black = new Color(0f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #000000 
-
-        /// <summary> 000  000  001 /// </summary>
-        public static readonly Color Gray01 = new Color(3f / 255f, 3f / 255f, 3f / 255f, 1.0f); // #030303 
-
-        /// <summary> 000  000  001 /// </summary>
-        public static readonly Color Gray02 = new Color(5f / 255f, 5f / 255f, 5f / 255f, 1.0f); // #050505 
-
-        /// <summary> 000  000  003 /// </summary>
-        public static readonly Color Gray03 = new Color(8f / 255f, 8f / 255f, 8f / 255f, 1.0f); // #080808 
-
-        /// <summary> 000  000  003 /// </summary>
-        public static readonly Color Gray04 = new Color(10f / 255f, 10f / 255f, 10f / 255f, 1.0f); // #0A0A0A 
-
-        /// <summary> 000  000  005 /// </summary>
-        public static readonly Color Gray05 = new Color(13f / 255f, 13f / 255f, 13f / 255f, 1.0f); // #0D0D0D 
-
-        /// <summary> 000  000  005 /// </summary>
-        public static readonly Color Gray06 = new Color(15f / 255f, 15f / 255f, 15f / 255f, 1.0f); // #0F0F0F 
-
-        /// <summary> 000  000  007 /// </summary>
-        public static readonly Color Gray07 = new Color(18f / 255f, 18f / 255f, 18f / 255f, 1.0f); // #121212 
-
-        /// <summary> 000  000  007 /// </summary>
-        public static readonly Color Gray08 = new Color(20f / 255f, 20f / 255f, 20f / 255f, 1.0f); // #141414 
-
-        /// <summary> 000  000  009 /// </summary>
-        public static readonly Color Gray09 = new Color(23f / 255f, 23f / 255f, 23f / 255f, 1.0f); // #171717 
-
-        /// <summary> 000  000  010 /// </summary>
-        public static readonly Color Gray10 = new Color(26f / 255f, 26f / 255f, 26f / 255f, 1.0f); // #1A1A1A 
-
-        /// <summary> 000  000  010 /// </summary>
-        public static readonly Color Gray11 = new Color(28f / 255f, 28f / 255f, 28f / 255f, 1.0f); // #1C1C1C 
-
-        /// <summary> 000  000  011 /// </summary>
-        public static readonly Color SgiGray12 = new Color(30f / 255f, 30f / 255f, 30f / 255f, 1.0f); // #1E1E1E 
-
-        /// <summary> 000  000  012 /// </summary>
-        public static readonly Color Gray12 = new Color(31f / 255f, 31f / 255f, 31f / 255f, 1.0f); // #1F1F1F 
-
-        /// <summary> 000  000  012 /// </summary>
-        public static readonly Color Gray13 = new Color(33f / 255f, 33f / 255f, 33f / 255f, 1.0f); // #212121 
-
-        /// <summary> 000  000  014 /// </summary>
-        public static readonly Color Gray14 = new Color(36f / 255f, 36f / 255f, 36f / 255f, 1.0f); // #242424 
-
-        /// <summary> 000  000  014 /// </summary>
-        public static readonly Color Gray15 = new Color(38f / 255f, 38f / 255f, 38f / 255f, 1.0f); // #262626 
-
-        /// <summary> 000  000  015 /// </summary>
-        public static readonly Color SgiGray16 = new Color(40f / 255f, 40f / 255f, 40f / 255f, 1.0f); // #282828 
-
-        /// <summary> 000  000  016 /// </summary>
-        public static readonly Color Gray16 = new Color(41f / 255f, 41f / 255f, 41f / 255f, 1.0f); // #292929 
-
-        /// <summary> 000  000  016 /// </summary>
-        public static readonly Color Gray17 = new Color(43f / 255f, 43f / 255f, 43f / 255f, 1.0f); // #2B2B2B 
-
-        /// <summary> 000  000  018 /// </summary>
-        public static readonly Color Gray18 = new Color(46f / 255f, 46f / 255f, 46f / 255f, 1.0f); // #2E2E2E 
-
-        /// <summary> 000  000  018 /// </summary>
-        public static readonly Color Gray19 = new Color(48f / 255f, 48f / 255f, 48f / 255f, 1.0f); // #303030 
-
-        /// <summary> 000  000  020 /// </summary>
-        public static readonly Color Gray20 = new Color(51f / 255f, 51f / 255f, 51f / 255f, 1.0f); // #333333 
-
-        /// <summary> 000  000  021 /// </summary>
-        public static readonly Color Gray21 = new Color(54f / 255f, 54f / 255f, 54f / 255f, 1.0f); // #363636 
-
-        /// <summary> 000  000  021 /// </summary>
-        public static readonly Color Gray22 = new Color(56f / 255f, 56f / 255f, 56f / 255f, 1.0f); // #383838 
-
-        /// <summary> 000  000  023 /// </summary>
-        public static readonly Color Gray23 = new Color(59f / 255f, 59f / 255f, 59f / 255f, 1.0f); // #3B3B3B 
-
-        /// <summary> 000  000  023 /// </summary>
-        public static readonly Color Gray24 = new Color(61f / 255f, 61f / 255f, 61f / 255f, 1.0f); // #3D3D3D 
-
-        /// <summary> 000  000  025 /// </summary>
-        public static readonly Color Gray25 = new Color(64f / 255f, 64f / 255f, 64f / 255f, 1.0f); // #404040 
-
-        /// <summary> 000  000  025 /// </summary>
-        public static readonly Color Gray26 = new Color(66f / 255f, 66f / 255f, 66f / 255f, 1.0f); // #424242 
-
-        /// <summary> 000  000  027 /// </summary>
-        public static readonly Color Gray27 = new Color(69f / 255f, 69f / 255f, 69f / 255f, 1.0f); // #454545 
-
-        /// <summary> 000  000  027 /// </summary>
-        public static readonly Color Gray28 = new Color(71f / 255f, 71f / 255f, 71f / 255f, 1.0f); // #474747 
-
-        /// <summary> 000  000  029 /// </summary>
-        public static readonly Color Gray29 = new Color(74f / 255f, 74f / 255f, 74f / 255f, 1.0f); // #4A4A4A 
-
-        /// <summary> 000  000  030 /// </summary>
-        public static readonly Color Gray30 = new Color(77f / 255f, 77f / 255f, 77f / 255f, 1.0f); // #4D4D4D 
-
-        /// <summary> 000  000  030 /// </summary>
-        public static readonly Color Gray31 = new Color(79f / 255f, 79f / 255f, 79f / 255f, 1.0f); // #4F4F4F 
-
-        /// <summary> 000  000  031 /// </summary>
-        public static readonly Color SgiGray32 = new Color(81f / 255f, 81f / 255f, 81f / 255f, 1.0f); // #515151 
-
-        /// <summary> 000  000  032 /// </summary>
-        public static readonly Color Gray32 = new Color(82f / 255f, 82f / 255f, 82f / 255f, 1.0f); // #525252 
-
-        /// <summary> 000  000  032 /// </summary>
-        public static readonly Color Gray33 = new Color(84f / 255f, 84f / 255f, 84f / 255f, 1.0f); // #545454 
-
-        /// <summary> 000  000  033 /// </summary>
-        public static readonly Color SgiDarkGray = new Color(85f / 255f, 85f / 255f, 85f / 255f, 1.0f); // #555555 
-
-        /// <summary> 000  000  034 /// </summary>
-        public static readonly Color Gray34 = new Color(87f / 255f, 87f / 255f, 87f / 255f, 1.0f); // #575757 
-
-        /// <summary> 000  000  034 /// </summary>
-        public static readonly Color Gray35 = new Color(89f / 255f, 89f / 255f, 89f / 255f, 1.0f); // #595959 
-
-        /// <summary> 000  000  035 /// </summary>
-        public static readonly Color SgiGray36 = new Color(91f / 255f, 91f / 255f, 91f / 255f, 1.0f); // #5B5B5B 
-
-        /// <summary> 000  000  036 /// </summary>
-        public static readonly Color Gray36 = new Color(92f / 255f, 92f / 255f, 92f / 255f, 1.0f); // #5C5C5C 
-
-        /// <summary> 000  000  036 /// </summary>
-        public static readonly Color Gray37 = new Color(94f / 255f, 94f / 255f, 94f / 255f, 1.0f); // #5E5E5E 
-
-        /// <summary> 000  000  038 /// </summary>
-        public static readonly Color Gray38 = new Color(97f / 255f, 97f / 255f, 97f / 255f, 1.0f); // #616161 
-
-        /// <summary> 000  000  038 /// </summary>
-        public static readonly Color Gray39 = new Color(99f / 255f, 99f / 255f, 99f / 255f, 1.0f); // #636363 
-
-        /// <summary> 000  000  040 /// </summary>
-        public static readonly Color Gray40 = new Color(102f / 255f, 102f / 255f, 102f / 255f, 1.0f); // #666666 
-
-        /// <summary> 000  000  041 /// </summary>
-        public static readonly Color DimGrayGray42 = new Color(105f / 255f, 105f / 255f, 105f / 255f, 1.0f); // #696969 
-
-        /// <summary> 000  000  041 /// </summary>
-        public static readonly Color Gray42 = new Color(107f / 255f, 107f / 255f, 107f / 255f, 1.0f); // #6B6B6B 
-
-        /// <summary> 000  000  043 /// </summary>
-        public static readonly Color Gray43 = new Color(110f / 255f, 110f / 255f, 110f / 255f, 1.0f); // #6E6E6E 
-
-        /// <summary> 000  000  043 /// </summary>
-        public static readonly Color Gray44 = new Color(112f / 255f, 112f / 255f, 112f / 255f, 1.0f); // #707070 
-
-        /// <summary> 000  000  045 /// </summary>
-        public static readonly Color Gray45 = new Color(115f / 255f, 115f / 255f, 115f / 255f, 1.0f); // #737373 
-
-        /// <summary> 000  000  045 /// </summary>
-        public static readonly Color Gray46 = new Color(117f / 255f, 117f / 255f, 117f / 255f, 1.0f); // #757575 
-
-        /// <summary> 000  000  047 /// </summary>
-        public static readonly Color Gray47 = new Color(120f / 255f, 120f / 255f, 120f / 255f, 1.0f); // #787878 
-
-        /// <summary> 000  000  047 /// </summary>
-        public static readonly Color Gray48 = new Color(122f / 255f, 122f / 255f, 122f / 255f, 1.0f); // #7A7A7A 
-
-        /// <summary> 000  000  049 /// </summary>
-        public static readonly Color Gray49 = new Color(125f / 255f, 125f / 255f, 125f / 255f, 1.0f); // #7D7D7D 
-
-        /// <summary> 000  000  049 /// </summary>
-        public static readonly Color Gray50 = new Color(127f / 255f, 127f / 255f, 127f / 255f, 1.0f); // #7F7F7F 
-
-        /// <summary> 000  000  050 /// </summary>
-        public static readonly Color Gray = new Color(128f / 255f, 128f / 255f, 128f / 255f, 1.0f); // #808080 
-
-        /// <summary> 000  000  050 /// </summary>
-        public static readonly Color Gray51 = new Color(130f / 255f, 130f / 255f, 130f / 255f, 1.0f); // #828282 
-
-        /// <summary> 000  000  051 /// </summary>
-        public static readonly Color SgiGray52 = new Color(132f / 255f, 132f / 255f, 132f / 255f, 1.0f); // #848484 
-
-        /// <summary> 000  000  052 /// </summary>
-        public static readonly Color Gray52 = new Color(133f / 255f, 133f / 255f, 133f / 255f, 1.0f); // #858585 
-
-        /// <summary> 000  000  052 /// </summary>
-        public static readonly Color Gray53 = new Color(135f / 255f, 135f / 255f, 135f / 255f, 1.0f); // #878787 
-
-        /// <summary> 000  000  054 /// </summary>
-        public static readonly Color Gray54 = new Color(138f / 255f, 138f / 255f, 138f / 255f, 1.0f); // #8A8A8A 
-
-        /// <summary> 000  000  054 /// </summary>
-        public static readonly Color Gray55 = new Color(140f / 255f, 140f / 255f, 140f / 255f, 1.0f); // #8C8C8C 
-
-        /// <summary> 000  000  055 /// </summary>
-        public static readonly Color SgiGray56 = new Color(142f / 255f, 142f / 255f, 142f / 255f, 1.0f); // #8E8E8E 
-
-        /// <summary> 000  000  056 /// </summary>
-        public static readonly Color Gray56 = new Color(143f / 255f, 143f / 255f, 143f / 255f, 1.0f); // #8F8F8F 
-
-        /// <summary> 000  000  056 /// </summary>
-        public static readonly Color Gray57 = new Color(145f / 255f, 145f / 255f, 145f / 255f, 1.0f); // #919191 
-
-        /// <summary> 000  000  058 /// </summary>
-        public static readonly Color Gray58 = new Color(148f / 255f, 148f / 255f, 148f / 255f, 1.0f); // #949494 
-
-        /// <summary> 000  000  058 /// </summary>
-        public static readonly Color Gray59 = new Color(150f / 255f, 150f / 255f, 150f / 255f, 1.0f); // #969696 
-
-        /// <summary> 000  000  060 /// </summary>
-        public static readonly Color Gray60 = new Color(153f / 255f, 153f / 255f, 153f / 255f, 1.0f); // #999999 
-
-        /// <summary> 000  000  061 /// </summary>
-        public static readonly Color Gray61 = new Color(156f / 255f, 156f / 255f, 156f / 255f, 1.0f); // #9C9C9C 
-
-        /// <summary> 000  000  061 /// </summary>
-        public static readonly Color Gray62 = new Color(158f / 255f, 158f / 255f, 158f / 255f, 1.0f); // #9E9E9E 
-
-        /// <summary> 000  000  063 /// </summary>
-        public static readonly Color Gray63 = new Color(161f / 255f, 161f / 255f, 161f / 255f, 1.0f); // #A1A1A1 
-
-        /// <summary> 000  000  063 /// </summary>
-        public static readonly Color Gray64 = new Color(163f / 255f, 163f / 255f, 163f / 255f, 1.0f); // #A3A3A3 
-
-        /// <summary> 000  000  065 /// </summary>
-        public static readonly Color Gray65 = new Color(166f / 255f, 166f / 255f, 166f / 255f, 1.0f); // #A6A6A6 
-
-        /// <summary> 000  000  065 /// </summary>
-        public static readonly Color Gray66 = new Color(168f / 255f, 168f / 255f, 168f / 255f, 1.0f); // #A8A8A8 
-
-        /// <summary> 000  000  066 /// </summary>
-        public static readonly Color DarkGray = new Color(169f / 255f, 169f / 255f, 169f / 255f, 1.0f); // #A9A9A9 
-
-        /// <summary> 000  000  066 /// </summary>
-        public static readonly Color SgiLightGray = new Color(170f / 255f, 170f / 255f, 170f / 255f, 1.0f); // #AAAAAA 
-
-        /// <summary> 000  000  067 /// </summary>
-        public static readonly Color Gray67 = new Color(171f / 255f, 171f / 255f, 171f / 255f, 1.0f); // #ABABAB 
-
-        /// <summary> 000  000  067 /// </summary>
-        public static readonly Color Gray68 = new Color(173f / 255f, 173f / 255f, 173f / 255f, 1.0f); // #ADADAD 
-
-        /// <summary> 000  000  069 /// </summary>
-        public static readonly Color Gray69 = new Color(176f / 255f, 176f / 255f, 176f / 255f, 1.0f); // #B0B0B0 
-
-        /// <summary> 000  000  070 /// </summary>
-        public static readonly Color Gray70 = new Color(179f / 255f, 179f / 255f, 179f / 255f, 1.0f); // #B3B3B3 
-
-        /// <summary> 000  000  070 /// </summary>
-        public static readonly Color Gray71 = new Color(181f / 255f, 181f / 255f, 181f / 255f, 1.0f); // #B5B5B5 
-
-        /// <summary> 000  000  071 /// </summary>
-        public static readonly Color SgiGray72 = new Color(183f / 255f, 183f / 255f, 183f / 255f, 1.0f); // #B7B7B7 
-
-        /// <summary> 000  000  072 /// </summary>
-        public static readonly Color Gray72 = new Color(184f / 255f, 184f / 255f, 184f / 255f, 1.0f); // #B8B8B8 
-
-        /// <summary> 000  000  072 /// </summary>
-        public static readonly Color Gray73 = new Color(186f / 255f, 186f / 255f, 186f / 255f, 1.0f); // #BABABA 
-
-        /// <summary> 000  000  074 /// </summary>
-        public static readonly Color Gray74 = new Color(189f / 255f, 189f / 255f, 189f / 255f, 1.0f); // #BDBDBD 
-
-        /// <summary> 000  000  074 /// </summary>
-        public static readonly Color Gray75 = new Color(191f / 255f, 191f / 255f, 191f / 255f, 1.0f); // #BFBFBF 
-
-        /// <summary> 000  000  075 /// </summary>
-        public static readonly Color SgiGray76 = new Color(193f / 255f, 193f / 255f, 193f / 255f, 1.0f); // #C1C1C1 
-
-        /// <summary> 000  000  075 /// </summary>
-        public static readonly Color Silver = new Color(192f / 255f, 192f / 255f, 192f / 255f, 1.0f); // #C0C0C0 
-
-        /// <summary> 000  000  076 /// </summary>
-        public static readonly Color Gray76 = new Color(194f / 255f, 194f / 255f, 194f / 255f, 1.0f); // #C2C2C2 
-
-        /// <summary> 000  000  076 /// </summary>
-        public static readonly Color Gray77 = new Color(196f / 255f, 196f / 255f, 196f / 255f, 1.0f); // #C4C4C4 
-
-        /// <summary> 000  000  078 /// </summary>
-        public static readonly Color Gray78 = new Color(199f / 255f, 199f / 255f, 199f / 255f, 1.0f); // #C7C7C7 
-
-        /// <summary> 000  000  078 /// </summary>
-        public static readonly Color Gray79 = new Color(201f / 255f, 201f / 255f, 201f / 255f, 1.0f); // #C9C9C9 
-
-        /// <summary> 000  000  080 /// </summary>
-        public static readonly Color Gray80 = new Color(204f / 255f, 204f / 255f, 204f / 255f, 1.0f); // #CCCCCC 
-
-        /// <summary> 000  000  081 /// </summary>
-        public static readonly Color Gray81 = new Color(207f / 255f, 207f / 255f, 207f / 255f, 1.0f); // #CFCFCF 
-
-        /// <summary> 000  000  081 /// </summary>
-        public static readonly Color Gray82 = new Color(209f / 255f, 209f / 255f, 209f / 255f, 1.0f); // #D1D1D1 
-
-        /// <summary> 000  000  082 /// </summary>
-        public static readonly Color LightGray = new Color(211f / 255f, 211f / 255f, 211f / 255f, 1.0f); // #D3D3D3 
-
-        /// <summary> 000  000  083 /// </summary>
-        public static readonly Color Gray83 = new Color(212f / 255f, 212f / 255f, 212f / 255f, 1.0f); // #D4D4D4 
-
-        /// <summary> 000  000  083 /// </summary>
-        public static readonly Color Gray84 = new Color(214f / 255f, 214f / 255f, 214f / 255f, 1.0f); // #D6D6D6 
-
-        /// <summary> 000  000  085 /// </summary>
-        public static readonly Color Gray85 = new Color(217f / 255f, 217f / 255f, 217f / 255f, 1.0f); // #D9D9D9 
-
-        /// <summary> 000  000  085 /// </summary>
-        public static readonly Color Gray86 = new Color(219f / 255f, 219f / 255f, 219f / 255f, 1.0f); // #DBDBDB 
-
-        /// <summary> 000  000  086 /// </summary>
-        public static readonly Color Gainsboro = new Color(220f / 255f, 220f / 255f, 220f / 255f, 1.0f); // #DCDCDC 
-
-        /// <summary> 000  000  087 /// </summary>
-        public static readonly Color Gray87 = new Color(222f / 255f, 222f / 255f, 222f / 255f, 1.0f); // #DEDEDE 
-
-        /// <summary> 000  000  087 /// </summary>
-        public static readonly Color Gray88 = new Color(224f / 255f, 224f / 255f, 224f / 255f, 1.0f); // #E0E0E0 
-
-        /// <summary> 000  000  089 /// </summary>
-        public static readonly Color Gray89 = new Color(227f / 255f, 227f / 255f, 227f / 255f, 1.0f); // #E3E3E3 
-
-        /// <summary> 000  000  089 /// </summary>
-        public static readonly Color Gray90 = new Color(229f / 255f, 229f / 255f, 229f / 255f, 1.0f); // #E5E5E5 
-
-        /// <summary> 000  000  090 /// </summary>
-        public static readonly Color Gray91 = new Color(232f / 255f, 232f / 255f, 232f / 255f, 1.0f); // #E8E8E8 
-
-        /// <summary> 000  000  091 /// </summary>
-        public static readonly Color SgiGray92 = new Color(234f / 255f, 234f / 255f, 234f / 255f, 1.0f); // #EAEAEA 
-
-        /// <summary> 000  000  092 /// </summary>
-        public static readonly Color Gray92 = new Color(235f / 255f, 235f / 255f, 235f / 255f, 1.0f); // #EBEBEB 
-
-        /// <summary> 000  000  092 /// </summary>
-        public static readonly Color Gray93 = new Color(237f / 255f, 237f / 255f, 237f / 255f, 1.0f); // #EDEDED 
-
-        /// <summary> 000  000  094 /// </summary>
-        public static readonly Color Gray94 = new Color(240f / 255f, 240f / 255f, 240f / 255f, 1.0f); // #F0F0F0 
-
-        /// <summary> 000  000  094 /// </summary>
-        public static readonly Color Gray95 = new Color(242f / 255f, 242f / 255f, 242f / 255f, 1.0f); // #F2F2F2 
-
-        /// <summary> 000  000  095 /// </summary>
-        public static readonly Color SgiGray96 = new Color(244f / 255f, 244f / 255f, 244f / 255f, 1.0f); // #F4F4F4 
-
-        /// <summary> 000  000  096 /// </summary>
-        public static readonly Color Gray97 = new Color(247f / 255f, 247f / 255f, 247f / 255f, 1.0f); // #F7F7F7 
-
-        /// <summary> 000  000  096 /// </summary>
-        public static readonly Color WhiteSmokeGray96 = new Color(245f / 255f, 245f / 255f, 245f / 255f, 1.0f); // #F5F5F5 
-
-        /// <summary> 000  000  098 /// </summary>
-        public static readonly Color Gray98 = new Color(250f / 255f, 250f / 255f, 250f / 255f, 1.0f); // #FAFAFA 
-
-        /// <summary> 000  000  098 /// </summary>
-        public static readonly Color Gray99 = new Color(252f / 255f, 252f / 255f, 252f / 255f, 1.0f); // #FCFCFC 
-
-        /// <summary> 000  000  100 /// </summary>
-        public static readonly Color White = new Color(255f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #FFFFFF 
-
-        /// <summary> 000  001  054 /// </summary>
-        public static readonly Color Snow4 = new Color(139f / 255f, 137f / 255f, 137f / 255f, 1.0f); // #8B8989 
-
-        /// <summary> 000  001  080 /// </summary>
-        public static readonly Color Snow3 = new Color(205f / 255f, 201f / 255f, 201f / 255f, 1.0f); // #CDC9C9 
-
-        /// <summary> 000  001  100 /// </summary>
-        public static readonly Color Snow1 = new Color(255f / 255f, 250f / 255f, 250f / 255f, 1.0f); // #FFFAFA 
-
-        /// <summary> 000  002  093 /// </summary>
-        public static readonly Color Snow2 = new Color(238f / 255f, 233f / 255f, 233f / 255f, 1.0f); // #EEE9E9 
-
-        /// <summary> 000  023  073 /// </summary>
-        public static readonly Color RosyBrown = new Color(188f / 255f, 143f / 255f, 143f / 255f, 1.0f); // #BC8F8F 
-
-        /// <summary> 000  024  054 /// </summary>
-        public static readonly Color RosyBrown4 = new Color(139f / 255f, 105f / 255f, 105f / 255f, 1.0f); // #8B6969 
-
-        /// <summary> 000  024  080 /// </summary>
-        public static readonly Color RosyBrown3 = new Color(205f / 255f, 155f / 255f, 155f / 255f, 1.0f); // #CD9B9B 
-
-        /// <summary> 000  024  093 /// </summary>
-        public static readonly Color RosyBrown2 = new Color(238f / 255f, 180f / 255f, 180f / 255f, 1.0f); // #EEB4B4 
-
-        /// <summary> 000  024  100 /// </summary>
-        public static readonly Color RosyBrown1 = new Color(255f / 255f, 193f / 255f, 193f / 255f, 1.0f); // #FFC1C1 
-
-        /// <summary> 000  042  077 /// </summary>
-        public static readonly Color SgiSalmon = new Color(198f / 255f, 113f / 255f, 113f / 255f, 1.0f); // #C67171 
-
-        /// <summary> 000  046  094 /// </summary>
-        public static readonly Color LightCoral = new Color(240f / 255f, 128f / 255f, 128f / 255f, 1.0f); // #F08080 
-
-        /// <summary> 000  055  080 /// </summary>
-        public static readonly Color IndianRed = new Color(205f / 255f, 92f / 255f, 92f / 255f, 1.0f); // #CD5C5C 
-
-        /// <summary> 000  058  054 /// </summary>
-        public static readonly Color IndianRed4 = new Color(139f / 255f, 58f / 255f, 58f / 255f, 1.0f); // #8B3A3A 
-
-        /// <summary> 000  058  080 /// </summary>
-        public static readonly Color IndianRed3 = new Color(205f / 255f, 85f / 255f, 85f / 255f, 1.0f); // #CD5555 
-
-        /// <summary> 000  058  093 /// </summary>
-        public static readonly Color IndianRed2 = new Color(238f / 255f, 99f / 255f, 99f / 255f, 1.0f); // #EE6363 
-
-        /// <summary> 000  058  100 /// </summary>
-        public static readonly Color IndianRed1 = new Color(255f / 255f, 106f / 255f, 106f / 255f, 1.0f); // #FF6A6A 
-
-        /// <summary> 000  074  054 /// </summary>
-        public static readonly Color Brown4 = new Color(139f / 255f, 35f / 255f, 35f / 255f, 1.0f); // #8B2323 
-
-        /// <summary> 000  074  064 /// </summary>
-        public static readonly Color Brown = new Color(165f / 255f, 42f / 255f, 42f / 255f, 1.0f); // #A52A2A 
-
-        /// <summary> 000  074  100 /// </summary>
-        public static readonly Color Brown1 = new Color(255f / 255f, 64f / 255f, 64f / 255f, 1.0f); // #FF4040 
-
-        /// <summary> 000  075  080 /// </summary>
-        public static readonly Color Brown3 = new Color(205f / 255f, 51f / 255f, 51f / 255f, 1.0f); // #CD3333 
-
-        /// <summary> 000  075  093 /// </summary>
-        public static readonly Color Brown2 = new Color(238f / 255f, 59f / 255f, 59f / 255f, 1.0f); // #EE3B3B 
-
-        /// <summary> 000  080  069 /// </summary>
-        public static readonly Color FireBrick = new Color(178f / 255f, 34f / 255f, 34f / 255f, 1.0f); // #B22222 
-
-        /// <summary> 000  081  054 /// </summary>
-        public static readonly Color FireBrick4 = new Color(139f / 255f, 26f / 255f, 26f / 255f, 1.0f); // #8B1A1A 
-
-        /// <summary> 000  081  080 /// </summary>
-        public static readonly Color FireBrick3 = new Color(205f / 255f, 38f / 255f, 38f / 255f, 1.0f); // #CD2626 
-
-        /// <summary> 000  081  093 /// </summary>
-        public static readonly Color FireBrick2 = new Color(238f / 255f, 44f / 255f, 44f / 255f, 1.0f); // #EE2C2C 
-
-        /// <summary> 000  081  100 /// </summary>
-        public static readonly Color FireBrick1 = new Color(255f / 255f, 48f / 255f, 48f / 255f, 1.0f); // #FF3030 
-
-        /// <summary> 000  100  050 /// </summary>
-        public static readonly Color Maroon = new Color(128f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #800000 
-
-        /// <summary> 000  100  054 /// </summary>
-        public static readonly Color Red4DarkRed = new Color(139f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #8B0000 
-
-        /// <summary> 000  100  080 /// </summary>
-        public static readonly Color Red3 = new Color(205f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #CD0000 
-
-        /// <summary> 000  100  093 /// </summary>
-        public static readonly Color Red2 = new Color(238f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #EE0000 
-
-        /// <summary> 000  100  100 /// </summary>
-        public static readonly Color Red1 = new Color(255f / 255f, 0f / 255f, 0f / 255f, 1.0f); // #FF0000 
-
-        /// <summary> 005  011  080 /// </summary>
-        public static readonly Color MistyRose3 = new Color(205f / 255f, 183f / 255f, 181f / 255f, 1.0f); // #CDB7B5 
-
-        /// <summary> 006  011  093 /// </summary>
-        public static readonly Color MistyRose2 = new Color(238f / 255f, 213f / 255f, 210f / 255f, 1.0f); // #EED5D2 
-
-        /// <summary> 006  011  100 /// </summary>
-        public static readonly Color MistyRose1 = new Color(255f / 255f, 228f / 255f, 225f / 255f, 1.0f); // #FFE4E1 
-
-        /// <summary> 006  054  098 /// </summary>
-        public static readonly Color Salmon = new Color(250f / 255f, 128f / 255f, 114f / 255f, 1.0f); // #FA8072 
-
-        /// <summary> 007  011  054 /// </summary>
-        public static readonly Color MistyRose4 = new Color(139f / 255f, 125f / 255f, 123f / 255f, 1.0f); // #8B7D7B 
-
-        /// <summary> 008  072  080 /// </summary>
-        public static readonly Color Tomato3 = new Color(205f / 255f, 79f / 255f, 57f / 255f, 1.0f); // #CD4F39 
-
-        /// <summary> 008  073  054 /// </summary>
-        public static readonly Color BurntUmber = new Color(138f / 255f, 51f / 255f, 36f / 255f, 1.0f); // #8A3324 
-
-        /// <summary> 009  066  054 /// </summary>
-        public static readonly Color Coral4 = new Color(139f / 255f, 62f / 255f, 47f / 255f, 1.0f); // #8B3E2F 
-
-        /// <summary> 009  066  080 /// </summary>
-        public static readonly Color Coral3 = new Color(205f / 255f, 91f / 255f, 69f / 255f, 1.0f); // #CD5B45 
-
-        /// <summary> 009  066  093 /// </summary>
-        public static readonly Color Coral2 = new Color(238f / 255f, 106f / 255f, 80f / 255f, 1.0f); // #EE6A50 
-
-        /// <summary> 009  066  100 /// </summary>
-        public static readonly Color Coral1 = new Color(255f / 255f, 114f / 255f, 86f / 255f, 1.0f); // #FF7256 
-
-        /// <summary> 009  072  054 /// </summary>
-        public static readonly Color Tomato4 = new Color(139f / 255f, 54f / 255f, 38f / 255f, 1.0f); // #8B3626 
-
-        /// <summary> 009  072  093 /// </summary>
-        public static readonly Color Tomato2 = new Color(238f / 255f, 92f / 255f, 66f / 255f, 1.0f); // #EE5C42 
-
-        /// <summary> 009  072  100 /// </summary>
-        public static readonly Color Tomato1 = new Color(255f / 255f, 99f / 255f, 71f / 255f, 1.0f); // #FF6347 
-
-        /// <summary> 013  058  054 /// </summary>
-        public static readonly Color Salmon4 = new Color(139f / 255f, 76f / 255f, 57f / 255f, 1.0f); // #8B4C39 
-
-        /// <summary> 013  058  093 /// </summary>
-        public static readonly Color Salmon2 = new Color(238f / 255f, 130f / 255f, 98f / 255f, 1.0f); // #EE8262 
-
-        /// <summary> 013  059  080 /// </summary>
-        public static readonly Color Salmon3 = new Color(205f / 255f, 112f / 255f, 84f / 255f, 1.0f); // #CD7054 
-
-        /// <summary> 014  058  100 /// </summary>
-        public static readonly Color Salmon1 = new Color(255f / 255f, 140f / 255f, 105f / 255f, 1.0f); // #FF8C69 
-
-        /// <summary> 015  047  091 /// </summary>
-        public static readonly Color DarkSalmon = new Color(233f / 255f, 150f / 255f, 122f / 255f, 1.0f); // #E9967A 
-
-        /// <summary> 015  080  036 /// </summary>
-        public static readonly Color Sepia = new Color(94f / 255f, 38f / 255f, 18f / 255f, 1.0f); // #5E2612 
-
-        /// <summary> 015  100  054 /// </summary>
-        public static readonly Color OrangeRed4 = new Color(139f / 255f, 37f / 255f, 0f / 255f, 1.0f); // #8B2500 
-
-        /// <summary> 016  052  093 /// </summary>
-        public static readonly Color LightSalmon2 = new Color(238f / 255f, 149f / 255f, 114f / 255f, 1.0f); // #EE9572 
-
-        /// <summary> 016  068  100 /// </summary>
-        public static readonly Color Coral = new Color(255f / 255f, 127f / 255f, 80f / 255f, 1.0f); // #FF7F50 
-
-        /// <summary> 016  100  080 /// </summary>
-        public static readonly Color OrangeRed3 = new Color(205f / 255f, 55f / 255f, 0f / 255f, 1.0f); // #CD3700 
-
-        /// <summary> 016  100  093 /// </summary>
-        public static readonly Color OrangeRed2 = new Color(238f / 255f, 64f / 255f, 0f / 255f, 1.0f); // #EE4000 
-
-        /// <summary> 016  100  100 /// </summary>
-        public static readonly Color OrangeRed1 = new Color(255f / 255f, 69f / 255f, 0f / 255f, 1.0f); // #FF4500 
-
-        /// <summary> 017  052  054 /// </summary>
-        public static readonly Color LightSalmon4 = new Color(139f / 255f, 87f / 255f, 66f / 255f, 1.0f); // #8B5742 
-
-        /// <summary> 017  052  080 /// </summary>
-        public static readonly Color LightSalmon3 = new Color(205f / 255f, 129f / 255f, 98f / 255f, 1.0f); // #CD8162 
-
-        /// <summary> 017  052  100 /// </summary>
-        public static readonly Color LightSalmon1 = new Color(255f / 255f, 160f / 255f, 122f / 255f, 1.0f); // #FFA07A 
-
-        /// <summary> 019  071  062 /// </summary>
-        public static readonly Color Sienna = new Color(160f / 255f, 82f / 255f, 45f / 255f, 1.0f); // #A0522D 
-
-        /// <summary> 019  072  054 /// </summary>
-        public static readonly Color Sienna4 = new Color(139f / 255f, 71f / 255f, 38f / 255f, 1.0f); // #8B4726 
-
-        /// <summary> 019  072  080 /// </summary>
-        public static readonly Color Sienna3 = new Color(205f / 255f, 104f / 255f, 57f / 255f, 1.0f); // #CD6839 
-
-        /// <summary> 019  072  093 /// </summary>
-        public static readonly Color Sienna2 = new Color(238f / 255f, 121f / 255f, 66f / 255f, 1.0f); // #EE7942 
-
-        /// <summary> 019  072  100 /// </summary>
-        public static readonly Color Sienna1 = new Color(255f / 255f, 130f / 255f, 71f / 255f, 1.0f); // #FF8247 
-
-        /// <summary> 019  074  100 /// </summary>
-        public static readonly Color Flesh = new Color(255f / 255f, 125f / 255f, 64f / 255f, 1.0f); // #FF7D40 
-
-        /// <summary> 019  089  054 /// </summary>
-        public static readonly Color BurntSienna = new Color(138f / 255f, 54f / 255f, 15f / 255f, 1.0f); // #8A360F 
-
-        /// <summary> 022  019  016 /// </summary>
-        public static readonly Color IvoryBlack = new Color(41f / 255f, 36f / 255f, 33f / 255f, 1.0f); // #292421 
-
-        /// <summary> 022  098  100 /// </summary>
-        public static readonly Color CadmiumOrange = new Color(255f / 255f, 97f / 255f, 3f / 255f, 1.0f); // #FF6103 
-
-        /// <summary> 024  006  100 /// </summary>
-        public static readonly Color Seashell1 = new Color(255f / 255f, 245f / 255f, 238f / 255f, 1.0f); // #FFF5EE 
-
-        /// <summary> 024  085  080 /// </summary>
-        public static readonly Color Chocolate3 = new Color(205f / 255f, 102f / 255f, 29f / 255f, 1.0f); // #CD661D 
-
-        /// <summary> 024  085  100 /// </summary>
-        public static readonly Color Chocolate1 = new Color(255f / 255f, 127f / 255f, 36f / 255f, 1.0f); // #FF7F24 
-
-        /// <summary> 024  086  093 /// </summary>
-        public static readonly Color Chocolate2 = new Color(238f / 255f, 118f / 255f, 33f / 255f, 1.0f); // #EE7621 
-
-        /// <summary> 025  006  080 /// </summary>
-        public static readonly Color Seashell3 = new Color(205f / 255f, 197f / 255f, 191f / 255f, 1.0f); // #CDC5BF 
-
-        /// <summary> 025  085  082 /// </summary>
-        public static readonly Color Chocolate = new Color(210f / 255f, 105f / 255f, 30f / 255f, 1.0f); // #D2691E 
-
-        /// <summary> 025  086  054 /// </summary>
-        public static readonly Color Chocolate4 = new Color(139f / 255f, 69f / 255f, 19f / 255f, 1.0f); // #8B4513 
-
-        /// <summary> 025  089  078 /// </summary>
-        public static readonly Color RawSienna = new Color(199f / 255f, 97f / 255f, 20f / 255f, 1.0f); // #C76114 
-
-        /// <summary> 026  006  054 /// </summary>
-        public static readonly Color Seashell4 = new Color(139f / 255f, 134f / 255f, 130f / 255f, 1.0f); // #8B8682 
-
-        /// <summary> 026  006  093 /// </summary>
-        public static readonly Color Seashell2 = new Color(238f / 255f, 229f / 255f, 222f / 255f, 1.0f); // #EEE5DE 
-
-        /// <summary> 027  027  080 /// </summary>
-        public static readonly Color Peachpuff3 = new Color(205f / 255f, 175f / 255f, 149f / 255f, 1.0f); // #CDAF95 
-
-        /// <summary> 027  027  093 /// </summary>
-        public static readonly Color Peachpuff2 = new Color(238f / 255f, 203f / 255f, 173f / 255f, 1.0f); // #EECBAD 
-
-        /// <summary> 027  060  095 /// </summary>
-        public static readonly Color SandyBrown = new Color(244f / 255f, 164f / 255f, 96f / 255f, 1.0f); // #F4A460 
-
-        /// <summary> 028  027  054 /// </summary>
-        public static readonly Color Peachpuff4 = new Color(139f / 255f, 119f / 255f, 101f / 255f, 1.0f); // #8B7765 
-
-        /// <summary> 028  027  100 /// </summary>
-        public static readonly Color Peachpuff1 = new Color(255f / 255f, 218f / 255f, 185f / 255f, 1.0f); // #FFDAB9 
-
-        /// <summary> 029  069  054 /// </summary>
-        public static readonly Color Tan4 = new Color(139f / 255f, 90f / 255f, 43f / 255f, 1.0f); // #8B5A2B 
-
-        /// <summary> 029  069  080 /// </summary>
-        public static readonly Color Tan3 = new Color(205f / 255f, 133f / 255f, 63f / 255f, 1.0f); // #CD853F 
-
-        /// <summary> 029  069  093 /// </summary>
-        public static readonly Color Tan2 = new Color(238f / 255f, 154f / 255f, 73f / 255f, 1.0f); // #EE9A49 
-
-        /// <summary> 029  069  100 /// </summary>
-        public static readonly Color Tan1 = new Color(255f / 255f, 165f / 255f, 79f / 255f, 1.0f); // #FFA54F 
-
-        /// <summary> 029  100  054 /// </summary>
-        public static readonly Color DarkOrange4 = new Color(139f / 255f, 69f / 255f, 0f / 255f, 1.0f); // #8B4500 
-
-        /// <summary> 029  100  080 /// </summary>
-        public static readonly Color DarkOrange3 = new Color(205f / 255f, 102f / 255f, 0f / 255f, 1.0f); // #CD6600 
-
-        /// <summary> 029  100  093 /// </summary>
-        public static readonly Color DarkOrange2 = new Color(238f / 255f, 118f / 255f, 0f / 255f, 1.0f); // #EE7600 
-
-        /// <summary> 029  100  100 /// </summary>
-        public static readonly Color DarkOrange1 = new Color(255f / 255f, 127f / 255f, 0f / 255f, 1.0f); // #FF7F00 
-
-        /// <summary> 030  007  098 /// </summary>
-        public static readonly Color Linen = new Color(250f / 255f, 240f / 255f, 230f / 255f, 1.0f); // #FAF0E6 
-
-        /// <summary> 030  053  089 /// </summary>
-        public static readonly Color Melon = new Color(227f / 255f, 168f / 255f, 105f / 255f, 1.0f); // #E3A869 
-
-        /// <summary> 030  100  100 /// </summary>
-        public static readonly Color Orange = new Color(255f / 255f, 128f / 255f, 0f / 255f, 1.0f); // #FF8000 
-
-        /// <summary> 031  022  080 /// </summary>
-        public static readonly Color Bisque3 = new Color(205f / 255f, 183f / 255f, 158f / 255f, 1.0f); // #CDB79E 
-
-        /// <summary> 032  023  093 /// </summary>
-        public static readonly Color Bisque2 = new Color(238f / 255f, 213f / 255f, 183f / 255f, 1.0f); // #EED5B7 
-
-        /// <summary> 032  023  100 /// </summary>
-        public static readonly Color Bisque1 = new Color(255f / 255f, 228f / 255f, 196f / 255f, 1.0f); // #FFE4C4 
-
-        /// <summary> 032  086  092 /// </summary>
-        public static readonly Color Carrot = new Color(237f / 255f, 145f / 255f, 33f / 255f, 1.0f); // #ED9121 
-
-        /// <summary> 032  100  100 /// </summary>
-        public static readonly Color DarkOrange = new Color(255f / 255f, 140f / 255f, 0f / 255f, 1.0f); // #FF8C00 
-
-        /// <summary> 033  014  080 /// </summary>
-        public static readonly Color AntiqueWhite3 = new Color(205f / 255f, 192f / 255f, 176f / 255f, 1.0f); // #CDC0B0 
-
-        /// <summary> 033  014  093 /// </summary>
-        public static readonly Color AntiqueWhite2 = new Color(238f / 255f, 223f / 255f, 204f / 255f, 1.0f); // #EEDFCC 
-
-        /// <summary> 033  014  100 /// </summary>
-        public static readonly Color AntiqueWhite1 = new Color(255f / 255f, 239f / 255f, 219f / 255f, 1.0f); // #FFEFDB 
-
-        /// <summary> 033  023  054 /// </summary>
-        public static readonly Color Bisque4 = new Color(139f / 255f, 125f / 255f, 107f / 255f, 1.0f); // #8B7D6B 
-
-        /// <summary> 033  038  054 /// </summary>
-        public static readonly Color Burlywood4 = new Color(139f / 255f, 115f / 255f, 85f / 255f, 1.0f); // #8B7355 
-
-        /// <summary> 033  039  080 /// </summary>
-        public static readonly Color Burlywood3 = new Color(205f / 255f, 170f / 255f, 125f / 255f, 1.0f); // #CDAA7D 
-
-        /// <summary> 033  039  087 /// </summary>
-        public static readonly Color Burlywood = new Color(222f / 255f, 184f / 255f, 135f / 255f, 1.0f); // #DEB887 
-
-        /// <summary> 033  039  093 /// </summary>
-        public static readonly Color Burlywood2 = new Color(238f / 255f, 197f / 255f, 145f / 255f, 1.0f); // #EEC591 
-
-        /// <summary> 033  039  100 /// </summary>
-        public static readonly Color Burlywood1 = new Color(255f / 255f, 211f / 255f, 155f / 255f, 1.0f); // #FFD39B 
-
-        /// <summary> 034  013  054 /// </summary>
-        public static readonly Color AntiqueWhite4 = new Color(139f / 255f, 131f / 255f, 120f / 255f, 1.0f); // #8B8378 
-
-        /// <summary> 034  013  098 /// </summary>
-        public static readonly Color AntiqueWhite = new Color(250f / 255f, 235f / 255f, 215f / 255f, 1.0f); // #FAEBD7 
-
-        /// <summary> 034  020  098 /// </summary>
-        public static readonly Color Eggshell = new Color(252f / 255f, 230f / 255f, 201f / 255f, 1.0f); // #FCE6C9 
-
-        /// <summary> 034  033  082 /// </summary>
-        public static readonly Color Tan = new Color(210f / 255f, 180f / 255f, 140f / 255f, 1.0f); // #D2B48C 
-
-        /// <summary> 034  080  061 /// </summary>
-        public static readonly Color Brick = new Color(156f / 255f, 102f / 255f, 31f / 255f, 1.0f); // #9C661F 
-
-        /// <summary> 034  092  100 /// </summary>
-        public static readonly Color CadmiumYellow = new Color(255f / 255f, 153f / 255f, 18f / 255f, 1.0f); // #FF9912 
-
-        /// <summary> 035  032  093 /// </summary>
-        public static readonly Color NavajoWhite2 = new Color(238f / 255f, 207f / 255f, 161f / 255f, 1.0f); // #EECFA1 
-
-        /// <summary> 035  032  100 /// </summary>
-        public static readonly Color NavajoWhite1 = new Color(255f / 255f, 222f / 255f, 173f / 255f, 1.0f); // #FFDEAD 
-
-        /// <summary> 036  019  100 /// </summary>
-        public static readonly Color BlanchedAlmond = new Color(255f / 255f, 235f / 255f, 205f / 255f, 1.0f); // #FFEBCD 
-
-        /// <summary> 036  032  054 /// </summary>
-        public static readonly Color NavajoWhite4 = new Color(139f / 255f, 121f / 255f, 94f / 255f, 1.0f); // #8B795E 
-
-        /// <summary> 036  032  080 /// </summary>
-        public static readonly Color NavajoWhite3 = new Color(205f / 255f, 179f / 255f, 139f / 255f, 1.0f); // #CDB38B 
-
-        /// <summary> 037  016  100 /// </summary>
-        public static readonly Color PapayaWhip = new Color(255f / 255f, 239f / 255f, 213f / 255f, 1.0f); // #FFEFD5 
-
-        /// <summary> 038  026  054 /// </summary>
-        public static readonly Color Wheat4 = new Color(139f / 255f, 126f / 255f, 102f / 255f, 1.0f); // #8B7E66 
-
-        /// <summary> 038  029  100 /// </summary>
-        public static readonly Color Moccasin = new Color(255f / 255f, 228f / 255f, 181f / 255f, 1.0f); // #FFE4B5 
-
-        /// <summary> 038  100  054 /// </summary>
-        public static readonly Color Orange4 = new Color(139f / 255f, 90f / 255f, 0f / 255f, 1.0f); // #8B5A00 
-
-        /// <summary> 038  100  080 /// </summary>
-        public static readonly Color Orange3 = new Color(205f / 255f, 133f / 255f, 0f / 255f, 1.0f); // #CD8500 
-
-        /// <summary> 038  100  093 /// </summary>
-        public static readonly Color Orange2 = new Color(238f / 255f, 154f / 255f, 0f / 255f, 1.0f); // #EE9A00 
-
-        /// <summary> 038  100  100 /// </summary>
-        public static readonly Color Orange1 = new Color(255f / 255f, 165f / 255f, 0f / 255f, 1.0f); // #FFA500 
-
-        /// <summary> 039  005  100 /// </summary>
-        public static readonly Color FloralWhite = new Color(255f / 255f, 250f / 255f, 240f / 255f, 1.0f); // #FFFAF0 
-
-        /// <summary> 039  009  099 /// </summary>
-        public static readonly Color OldLace = new Color(253f / 255f, 245f / 255f, 230f / 255f, 1.0f); // #FDF5E6 
-
-        /// <summary> 039  026  080 /// </summary>
-        public static readonly Color Wheat3 = new Color(205f / 255f, 186f / 255f, 150f / 255f, 1.0f); // #CDBA96 
-
-        /// <summary> 039  026  093 /// </summary>
-        public static readonly Color Wheat2 = new Color(238f / 255f, 216f / 255f, 174f / 255f, 1.0f); // #EED8AE 
-
-        /// <summary> 039  026  096 /// </summary>
-        public static readonly Color Wheat = new Color(245f / 255f, 222f / 255f, 179f / 255f, 1.0f); // #F5DEB3 
-
-        /// <summary> 039  027  100 /// </summary>
-        public static readonly Color Wheat1 = new Color(255f / 255f, 231f / 255f, 186f / 255f, 1.0f); // #FFE7BA 
-
-        /// <summary> 042  085  054 /// </summary>
-        public static readonly Color Goldenrod4 = new Color(139f / 255f, 105f / 255f, 20f / 255f, 1.0f); // #8B6914 
-
-        /// <summary> 042  085  080 /// </summary>
-        public static readonly Color Goldenrod3 = new Color(205f / 255f, 155f / 255f, 29f / 255f, 1.0f); // #CD9B1D 
-
-        /// <summary> 042  085  085 /// </summary>
-        public static readonly Color Goldenrod = new Color(218f / 255f, 165f / 255f, 32f / 255f, 1.0f); // #DAA520 
-
-        /// <summary> 042  085  093 /// </summary>
-        public static readonly Color Goldenrod2 = new Color(238f / 255f, 180f / 255f, 34f / 255f, 1.0f); // #EEB422 
-
-        /// <summary> 042  085  100 /// </summary>
-        public static readonly Color Goldenrod1 = new Color(255f / 255f, 193f / 255f, 37f / 255f, 1.0f); // #FFC125 
-
-        /// <summary> 042  094  054 /// </summary>
-        public static readonly Color DarkGoldenrod4 = new Color(139f / 255f, 101f / 255f, 8f / 255f, 1.0f); // #8B6508 
-
-        /// <summary> 042  094  072 /// </summary>
-        public static readonly Color DarkGoldenrod = new Color(184f / 255f, 134f / 255f, 11f / 255f, 1.0f); // #B8860B 
-
-        /// <summary> 042  094  080 /// </summary>
-        public static readonly Color DarkGoldenrod3 = new Color(205f / 255f, 149f / 255f, 12f / 255f, 1.0f); // #CD950C 
-
-        /// <summary> 042  094  093 /// </summary>
-        public static readonly Color DarkGoldenrod2 = new Color(238f / 255f, 173f / 255f, 14f / 255f, 1.0f); // #EEAD0E 
-
-        /// <summary> 042  094  100 /// </summary>
-        public static readonly Color DarkGoldenrod1 = new Color(255f / 255f, 185f / 255f, 15f / 255f, 1.0f); // #FFB90F 
-
-        /// <summary> 048  013  100 /// </summary>
-        public static readonly Color Cornsilk1 = new Color(255f / 255f, 248f / 255f, 220f / 255f, 1.0f); // #FFF8DC 
-
-        /// <summary> 049  013  080 /// </summary>
-        public static readonly Color Cornsilk3 = new Color(205f / 255f, 200f / 255f, 177f / 255f, 1.0f); // #CDC8B1 
-
-        /// <summary> 049  013  093 /// </summary>
-        public static readonly Color Cornsilk2 = new Color(238f / 255f, 232f / 255f, 205f / 255f, 1.0f); // #EEE8CD 
-
-        /// <summary> 050  013  054 /// </summary>
-        public static readonly Color Cornsilk4 = new Color(139f / 255f, 136f / 255f, 120f / 255f, 1.0f); // #8B8878 
-
-        /// <summary> 050  045  054 /// </summary>
-        public static readonly Color LightGoldenrod4 = new Color(139f / 255f, 129f / 255f, 76f / 255f, 1.0f); // #8B814C 
-
-        /// <summary> 050  045  080 /// </summary>
-        public static readonly Color LightGoldenrod3 = new Color(205f / 255f, 190f / 255f, 112f / 255f, 1.0f); // #CDBE70 
-
-        /// <summary> 050  045  093 /// </summary>
-        public static readonly Color LightGoldenrod2 = new Color(238f / 255f, 220f / 255f, 130f / 255f, 1.0f); // #EEDC82 
-
-        /// <summary> 050  045  100 /// </summary>
-        public static readonly Color LightGoldenrod1 = new Color(255f / 255f, 236f / 255f, 139f / 255f, 1.0f); // #FFEC8B 
-
-        /// <summary> 050  100  054 /// </summary>
-        public static readonly Color Gold4 = new Color(139f / 255f, 117f / 255f, 0f / 255f, 1.0f); // #8B7500 
-
-        /// <summary> 050  100  080 /// </summary>
-        public static readonly Color Gold3 = new Color(205f / 255f, 173f / 255f, 0f / 255f, 1.0f); // #CDAD00 
-
-        /// <summary> 050  100  093 /// </summary>
-        public static readonly Color Gold2 = new Color(238f / 255f, 201f / 255f, 0f / 255f, 1.0f); // #EEC900 
-
-        /// <summary> 050  100  100 /// </summary>
-        public static readonly Color Gold1 = new Color(255f / 255f, 215f / 255f, 0f / 255f, 1.0f); // #FFD700 
-
-        /// <summary> 051  013  077 /// </summary>
-        public static readonly Color SgiBrightGray = new Color(197f / 255f, 193f / 255f, 170f / 255f, 1.0f); // #C5C1AA 
-
-        /// <summary> 051  061  089 /// </summary>
-        public static readonly Color Banana = new Color(227f / 255f, 207f / 255f, 87f / 255f, 1.0f); // #E3CF57 
-
-        /// <summary> 053  019  093 /// </summary>
-        public static readonly Color LemonChiffon2 = new Color(238f / 255f, 233f / 255f, 191f / 255f, 1.0f); // #EEE9BF 
-
-        /// <summary> 054  019  080 /// </summary>
-        public static readonly Color LemonChiffon3 = new Color(205f / 255f, 201f / 255f, 165f / 255f, 1.0f); // #CDC9A5 
-
-        /// <summary> 054  019  100 /// </summary>
-        public static readonly Color LemonChiffon1 = new Color(255f / 255f, 250f / 255f, 205f / 255f, 1.0f); // #FFFACD 
-
-        /// <summary> 054  028  093 /// </summary>
-        public static readonly Color PaleGoldenrod = new Color(238f / 255f, 232f / 255f, 170f / 255f, 1.0f); // #EEE8AA 
-
-        /// <summary> 054  041  094 /// </summary>
-        public static readonly Color Khaki = new Color(240f / 255f, 230f / 255f, 140f / 255f, 1.0f); // #F0E68C 
-
-        /// <summary> 055  019  054 /// </summary>
-        public static readonly Color LemonChiffon4 = new Color(139f / 255f, 137f / 255f, 112f / 255f, 1.0f); // #8B8970 
-
-        /// <summary> 055  043  054 /// </summary>
-        public static readonly Color Khaki4 = new Color(139f / 255f, 134f / 255f, 78f / 255f, 1.0f); // #8B864E 
-
-        /// <summary> 055  043  074 /// </summary>
-        public static readonly Color DarkKhaki = new Color(189f / 255f, 183f / 255f, 107f / 255f, 1.0f); // #BDB76B 
-
-        /// <summary> 055  043  080 /// </summary>
-        public static readonly Color Khaki3 = new Color(205f / 255f, 198f / 255f, 115f / 255f, 1.0f); // #CDC673 
-
-        /// <summary> 055  043  100 /// </summary>
-        public static readonly Color Khaki1 = new Color(255f / 255f, 246f / 255f, 143f / 255f, 1.0f); // #FFF68F 
-
-        /// <summary> 055  044  093 /// </summary>
-        public static readonly Color Khaki2 = new Color(238f / 255f, 230f / 255f, 133f / 255f, 1.0f); // #EEE685 
-
-        /// <summary> 060  005  054 /// </summary>
-        public static readonly Color Ivory4 = new Color(139f / 255f, 139f / 255f, 131f / 255f, 1.0f); // #8B8B83 
-
-        /// <summary> 060  005  080 /// </summary>
-        public static readonly Color Ivory3 = new Color(205f / 255f, 205f / 255f, 193f / 255f, 1.0f); // #CDCDC1 
-
-        /// <summary> 060  005  093 /// </summary>
-        public static readonly Color Ivory2 = new Color(238f / 255f, 238f / 255f, 224f / 255f, 1.0f); // #EEEEE0 
-
-        /// <summary> 060  005  100 /// </summary>
-        public static readonly Color Ivory1 = new Color(255f / 255f, 255f / 255f, 240f / 255f, 1.0f); // #FFFFF0 
-
-        /// <summary> 060  010  096 /// </summary>
-        public static readonly Color Beige = new Color(245f / 255f, 245f / 255f, 220f / 255f, 1.0f); // #F5F5DC 
-
-        /// <summary> 060  012  054 /// </summary>
-        public static readonly Color LightYellow4 = new Color(139f / 255f, 139f / 255f, 122f / 255f, 1.0f); // #8B8B7A 
-
-        /// <summary> 060  012  080 /// </summary>
-        public static readonly Color LightYellow3 = new Color(205f / 255f, 205f / 255f, 180f / 255f, 1.0f); // #CDCDB4 
-
-        /// <summary> 060  012  093 /// </summary>
-        public static readonly Color LightYellow2 = new Color(238f / 255f, 238f / 255f, 209f / 255f, 1.0f); // #EEEED1 
-
-        /// <summary> 060  012  100 /// </summary>
-        public static readonly Color LightYellow1 = new Color(255f / 255f, 255f / 255f, 224f / 255f, 1.0f); // #FFFFE0 
-
-        /// <summary> 060  016  098 /// </summary>
-        public static readonly Color LightGoldenrodYellow = new Color(250f / 255f, 250f / 255f, 210f / 255f, 1.0f); // #FAFAD2 
-
-        /// <summary> 060  017  050 /// </summary>
-        public static readonly Color WarmGray = new Color(128f / 255f, 128f / 255f, 105f / 255f, 1.0f); // #808069 
-
-        /// <summary> 060  060  055 /// </summary>
-        public static readonly Color SgiOliveDrab = new Color(142f / 255f, 142f / 255f, 56f / 255f, 1.0f); // #8E8E38 
-
-        /// <summary> 060  100  050 /// </summary>
-        public static readonly Color Olive = new Color(128f / 255f, 128f / 255f, 0f / 255f, 1.0f); // #808000 
-
-        /// <summary> 060  100  054 /// </summary>
-        public static readonly Color Yellow4 = new Color(139f / 255f, 139f / 255f, 0f / 255f, 1.0f); // #8B8B00 
-
-        /// <summary> 060  100  080 /// </summary>
-        public static readonly Color Yellow3 = new Color(205f / 255f, 205f / 255f, 0f / 255f, 1.0f); // #CDCD00 
-
-        /// <summary> 060  100  093 /// </summary>
-        public static readonly Color Yellow2 = new Color(238f / 255f, 238f / 255f, 0f / 255f, 1.0f); // #EEEE00 
-
-        /// <summary> 060  100  100 /// </summary>
-        public static readonly Color Yellow1 = new Color(255f / 255f, 255f / 255f, 0f / 255f, 1.0f); // #FFFF00 
-
-        /// <summary> 079  075  054 /// </summary>
-        public static readonly Color OliveDrab4 = new Color(105f / 255f, 139f / 255f, 34f / 255f, 1.0f); // #698B22 
-
-        /// <summary> 079  075  055 /// </summary>
-        public static readonly Color OliveDrab = new Color(107f / 255f, 142f / 255f, 35f / 255f, 1.0f); // #6B8E23 
-
-        /// <summary> 079  075  080 /// </summary>
-        public static readonly Color OliveDrab3 = new Color(154f / 255f, 205f / 255f, 50f / 255f, 1.0f); // #9ACD32 
-
-        /// <summary> 079  075  093 /// </summary>
-        public static readonly Color OliveDrab2 = new Color(179f / 255f, 238f / 255f, 58f / 255f, 1.0f); // #B3EE3A 
-
-        /// <summary> 079  075  100 /// </summary>
-        public static readonly Color OliveDrab1 = new Color(192f / 255f, 255f / 255f, 62f / 255f, 1.0f); // #C0FF3E 
-
-        /// <summary> 082  056  041 /// </summary>
-        public static readonly Color DarkOliveGreen = new Color(85f / 255f, 107f / 255f, 47f / 255f, 1.0f); // #556B2F 
-
-        /// <summary> 082  056  054 /// </summary>
-        public static readonly Color DarkOliveGreen4 = new Color(110f / 255f, 139f / 255f, 61f / 255f, 1.0f); // #6E8B3D 
-
-        /// <summary> 082  056  080 /// </summary>
-        public static readonly Color DarkOliveGreen3 = new Color(162f / 255f, 205f / 255f, 90f / 255f, 1.0f); // #A2CD5A 
-
-        /// <summary> 082  056  093 /// </summary>
-        public static readonly Color DarkOliveGreen2 = new Color(188f / 255f, 238f / 255f, 104f / 255f, 1.0f); // #BCEE68 
-
-        /// <summary> 082  056  100 /// </summary>
-        public static readonly Color DarkOliveGreen1 = new Color(202f / 255f, 255f / 255f, 112f / 255f, 1.0f); // #CAFF70 
-
-        /// <summary> 083  081  100 /// </summary>
-        public static readonly Color GreenYellow = new Color(173f / 255f, 255f / 255f, 47f / 255f, 1.0f); // #ADFF2F 
-
-        /// <summary> 090  100  054 /// </summary>
-        public static readonly Color Chartreuse4 = new Color(69f / 255f, 139f / 255f, 0f / 255f, 1.0f); // #458B00 
-
-        /// <summary> 090  100  080 /// </summary>
-        public static readonly Color Chartreuse3 = new Color(102f / 255f, 205f / 255f, 0f / 255f, 1.0f); // #66CD00 
-
-        /// <summary> 090  100  093 /// </summary>
-        public static readonly Color Chartreuse2 = new Color(118f / 255f, 238f / 255f, 0f / 255f, 1.0f); // #76EE00 
-
-        /// <summary> 090  100  098 /// </summary>
-        public static readonly Color LawnGreen = new Color(124f / 255f, 252f / 255f, 0f / 255f, 1.0f); // #7CFC00 
-
-        /// <summary> 090  100  100 /// </summary>
-        public static readonly Color Chartreuse1 = new Color(127f / 255f, 255f / 255f, 0f / 255f, 1.0f); // #7FFF00 
-
-        /// <summary> 104  084  050 /// </summary>
-        public static readonly Color SapGreen = new Color(48f / 255f, 128f / 255f, 20f / 255f, 1.0f); // #308014 
-
-        /// <summary> 120  005  054 /// </summary>
-        public static readonly Color Honeydew4 = new Color(131f / 255f, 139f / 255f, 131f / 255f, 1.0f); // #838B83 
-
-        /// <summary> 120  005  080 /// </summary>
-        public static readonly Color Honeydew3 = new Color(193f / 255f, 205f / 255f, 193f / 255f, 1.0f); // #C1CDC1 
-
-        /// <summary> 120  005  093 /// </summary>
-        public static readonly Color Honeydew2 = new Color(224f / 255f, 238f / 255f, 224f / 255f, 1.0f); // #E0EEE0 
-
-        /// <summary> 120  005  100 /// </summary>
-        public static readonly Color Honeydew1 = new Color(240f / 255f, 255f / 255f, 240f / 255f, 1.0f); // #F0FFF0 
-
-        /// <summary> 120  023  073 /// </summary>
-        public static readonly Color DarkSeaGreen = new Color(143f / 255f, 188f / 255f, 143f / 255f, 1.0f); // #8FBC8F 
-
-        /// <summary> 120  024  054 /// </summary>
-        public static readonly Color DarkSeaGreen4 = new Color(105f / 255f, 139f / 255f, 105f / 255f, 1.0f); // #698B69 
-
-        /// <summary> 120  024  080 /// </summary>
-        public static readonly Color DarkSeaGreen3 = new Color(155f / 255f, 205f / 255f, 155f / 255f, 1.0f); // #9BCD9B 
-
-        /// <summary> 120  024  093 /// </summary>
-        public static readonly Color DarkSeaGreen2 = new Color(180f / 255f, 238f / 255f, 180f / 255f, 1.0f); // #B4EEB4 
-
-        /// <summary> 120  024  100 /// </summary>
-        public static readonly Color DarkSeaGreen1 = new Color(193f / 255f, 255f / 255f, 193f / 255f, 1.0f); // #C1FFC1 
-
-        /// <summary> 120  039  054 /// </summary>
-        public static readonly Color PaleGreen4 = new Color(84f / 255f, 139f / 255f, 84f / 255f, 1.0f); // #548B54 
-
-        /// <summary> 120  039  080 /// </summary>
-        public static readonly Color PaleGreen3 = new Color(124f / 255f, 205f / 255f, 124f / 255f, 1.0f); // #7CCD7C 
-
-        /// <summary> 120  039  093 /// </summary>
-        public static readonly Color PaleGreen2 = new Color(144f / 255f, 238f / 255f, 144f / 255f, 1.0f); // #90EE90 
-
-        /// <summary> 120  039  098 /// </summary>
-        public static readonly Color PaleGreen = new Color(152f / 255f, 251f / 255f, 152f / 255f, 1.0f); // #98FB98 
-
-        /// <summary> 120  039  100 /// </summary>
-        public static readonly Color PaleGreen1 = new Color(154f / 255f, 255f / 255f, 154f / 255f, 1.0f); // #9AFF9A 
-
-        /// <summary> 120  042  077 /// </summary>
-        public static readonly Color SgiChartreuse = new Color(113f / 255f, 198f / 255f, 113f / 255f, 1.0f); // #71C671 
-
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen = new Color(69f / 255f, 99f / 255f, 69f / 255f, 1.0f); // #456345
-
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen1 = new Color(22f / 255f, 35f / 255f, 22f / 255f, 1.0f); // #162316
-
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen2 = new Color(49f / 255f, 71f / 255f, 49f / 255f, 1.0f); // #314731
-        
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen3 = new Color(69f / 255f, 99f / 255f, 69f / 255f, 1.0f); // #456345
-
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen4 = new Color(92f / 255f, 117f / 255f, 92f / 255f, 1.0f); // #5C755C
-
-        /// <summary> 120  075  054 /// </summary>
-        public static readonly Color ForestGreen5 = new Color(124f / 255f, 158f / 255f, 124f / 255f, 1.0f); // #7C9E7C 
-
-        /// <summary> 120  075  080 /// </summary>
-        public static readonly Color LimeGreen = new Color(50f / 255f, 205f / 255f, 50f / 255f, 1.0f); // #32CD32 
-
-        /// <summary> 120  100  039 /// </summary>
-        public static readonly Color DarkGreen = new Color(0f / 255f, 100f / 255f, 0f / 255f, 1.0f); // #006400 
-
-        /// <summary> 120  100  050 /// </summary>
-        public static readonly Color Green = new Color(0f / 255f, 128f / 255f, 0f / 255f, 1.0f); // #008000 
-
-        /// <summary> 120  100  054 /// </summary>
-        public static readonly Color Green4 = new Color(0f / 255f, 139f / 255f, 0f / 255f, 1.0f); // #008B00 
-
-        /// <summary> 120  100  080 /// </summary>
-        public static readonly Color Green3 = new Color(0f / 255f, 205f / 255f, 0f / 255f, 1.0f); // #00CD00 
-
-        /// <summary> 120  100  093 /// </summary>
-        public static readonly Color Green2 = new Color(0f / 255f, 238f / 255f, 0f / 255f, 1.0f); // #00EE00 
-
-        /// <summary> 120  100  100 /// </summary>
-        public static readonly Color Green1 = new Color(0f / 255f, 255f / 255f, 0f / 255f, 1.0f); // #00FF00 
-
-        /// <summary> 122  057  056 /// </summary>
-        public static readonly Color CobaltGreen = new Color(61f / 255f, 145f / 255f, 64f / 255f, 1.0f); // #3D9140 
-
-        /// <summary> 131  025  098 /// </summary>
-        public static readonly Color Mint = new Color(189f / 255f, 252f / 255f, 201f / 255f, 1.0f); // #BDFCC9 
-
-        /// <summary> 145  100  078 /// </summary>
-        public static readonly Color EmeraldGreen = new Color(0f / 255f, 201f / 255f, 87f / 255f, 1.0f); // #00C957 
-
-        /// <summary> 146  066  054 /// </summary>
-        public static readonly Color SeaGreen4 = new Color(46f / 255f, 139f / 255f, 87f / 255f, 1.0f); // #2E8B57 
-
-        /// <summary> 146  066  070 /// </summary>
-        public static readonly Color MediumSeaGreen = new Color(60f / 255f, 179f / 255f, 113f / 255f, 1.0f); // #3CB371 
-
-        /// <summary> 146  067  080 /// </summary>
-        public static readonly Color SeaGreen3 = new Color(67f / 255f, 205f / 255f, 128f / 255f, 1.0f); // #43CD80 
-
-        /// <summary> 146  067  093 /// </summary>
-        public static readonly Color SeaGreen2 = new Color(78f / 255f, 238f / 255f, 148f / 255f, 1.0f); // #4EEE94 
-
-        /// <summary> 146  067  100 /// </summary>
-        public static readonly Color SeaGreen1 = new Color(84f / 255f, 255f / 255f, 159f / 255f, 1.0f); // #54FF9F 
-
-        /// <summary> 149  003  100 /// </summary>
-        public static readonly Color MintCream = new Color(245f / 255f, 255f / 255f, 250f / 255f, 1.0f); // #F5FFFA 
-
-        /// <summary> 149  100  054 /// </summary>
-        public static readonly Color SpringGreen3 = new Color(0f / 255f, 139f / 255f, 69f / 255f, 1.0f); // #008B45 
-
-        /// <summary> 149  100  080 /// </summary>
-        public static readonly Color SpringGreen2 = new Color(0f / 255f, 205f / 255f, 102f / 255f, 1.0f); // #00CD66 
-
-        /// <summary> 149  100  093 /// </summary>
-        public static readonly Color SpringGreen1 = new Color(0f / 255f, 238f / 255f, 118f / 255f, 1.0f); // #00EE76 
-
-        /// <summary> 149  100  100 /// </summary>
-        public static readonly Color SpringGreen = new Color(0f / 255f, 255f / 255f, 127f / 255f, 1.0f); // #00FF7F 
-
-        /// <summary> 156  100  098 /// </summary>
-        public static readonly Color MediumSpringGreen = new Color(0f / 255f, 250f / 255f, 154f / 255f, 1.0f); // #00FA9A 
-
-        /// <summary> 159  050  080 /// </summary>
-        public static readonly Color Aquamarine3 = new Color(102f / 255f, 205f / 255f, 170f / 255f, 1.0f); // #66CDAA 
-
-        /// <summary> 159  050  100 /// </summary>
-        public static readonly Color Aquamarine1 = new Color(127f / 255f, 255f / 255f, 212f / 255f, 1.0f); // #7FFFD4 
-
-        /// <summary> 160  050  054 /// </summary>
-        public static readonly Color Aquamarine4 = new Color(69f / 255f, 139f / 255f, 116f / 255f, 1.0f); // #458B74 
-
-        /// <summary> 160  050  093 /// </summary>
-        public static readonly Color Aquamarine2 = new Color(118f / 255f, 238f / 255f, 198f / 255f, 1.0f); // #76EEC6 
-
-        /// <summary> 162  007  054 /// </summary>
-        public static readonly Color ColdGray = new Color(128f / 255f, 138f / 255f, 135f / 255f, 1.0f); // #808A87 
-
-        /// <summary> 162  100  078 /// </summary>
-        public static readonly Color TurquoiseBlue = new Color(0f / 255f, 199f / 255f, 140f / 255f, 1.0f); // #00C78C 
-
-        /// <summary> 174  071  087 /// </summary>
-        public static readonly Color Turquoise = new Color(64f / 255f, 224f / 255f, 208f / 255f, 1.0f); // #40E0D0 
-
-        /// <summary> 176  082  069 /// </summary>
-        public static readonly Color LightSeaGreen = new Color(32f / 255f, 178f / 255f, 170f / 255f, 1.0f); // #20B2AA 
-
-        /// <summary> 176  098  065 /// </summary>
-        public static readonly Color ManganeseBlue = new Color(3f / 255f, 168f / 255f, 158f / 255f, 1.0f); // #03A89E 
-
-        /// <summary> 177  065  081 /// </summary>
-        public static readonly Color MediumTurquoise = new Color(72f / 255f, 209f / 255f, 204f / 255f, 1.0f); // #48D1CC 
-
-        /// <summary> 180  005  054 /// </summary>
-        public static readonly Color Azure4 = new Color(131f / 255f, 139f / 255f, 139f / 255f, 1.0f); // #838B8B 
-
-        /// <summary> 180  005  080 /// </summary>
-        public static readonly Color Azure3 = new Color(193f / 255f, 205f / 255f, 205f / 255f, 1.0f); // #C1CDCD 
-
-        /// <summary> 180  005  093 /// </summary>
-        public static readonly Color Azure2 = new Color(224f / 255f, 238f / 255f, 238f / 255f, 1.0f); // #E0EEEE 
-
-        /// <summary> 180  005  100 /// </summary>
-        public static readonly Color Azure1 = new Color(240f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #F0FFFF 
-
-        /// <summary> 180  012  054 /// </summary>
-        public static readonly Color Lightcyan4 = new Color(122f / 255f, 139f / 255f, 139f / 255f, 1.0f); // #7A8B8B 
-
-        /// <summary> 180  012  080 /// </summary>
-        public static readonly Color Lightcyan3 = new Color(180f / 255f, 205f / 255f, 205f / 255f, 1.0f); // #B4CDCD 
-
-        /// <summary> 180  012  093 /// </summary>
-        public static readonly Color Lightcyan2 = new Color(209f / 255f, 238f / 255f, 238f / 255f, 1.0f); // #D1EEEE 
-
-        /// <summary> 180  012  100 /// </summary>
-        public static readonly Color Lightcyan1 = new Color(224f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #E0FFFF 
-
-        /// <summary> 180  026  054 /// </summary>
-        public static readonly Color PaleTurquoise4 = new Color(102f / 255f, 139f / 255f, 139f / 255f, 1.0f); // #668B8B 
-
-        /// <summary> 180  026  080 /// </summary>
-        public static readonly Color PaleTurquoise3 = new Color(150f / 255f, 205f / 255f, 205f / 255f, 1.0f); // #96CDCD 
-
-        /// <summary> 180  026  093 /// </summary>
-        public static readonly Color PaleTurquoise2 = new Color(174f / 255f, 238f / 255f, 238f / 255f, 1.0f); // #AEEEEE 
-
-        /// <summary> 180  026  100 /// </summary>
-        public static readonly Color PaleTurquoise1 = new Color(187f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #BBFFFF 
-
-        /// <summary> 180  040  030 /// </summary>
-        public static readonly Color DarkSlateGray = new Color(47f / 255f, 79f / 255f, 79f / 255f, 1.0f); // #2F4F4F 
-
-        /// <summary> 180  040  080 /// </summary>
-        public static readonly Color DarkSlateGray3 = new Color(121f / 255f, 205f / 255f, 205f / 255f, 1.0f); // #79CDCD 
-
-        /// <summary> 180  040  093 /// </summary>
-        public static readonly Color DarkSlateGray2 = new Color(141f / 255f, 238f / 255f, 238f / 255f, 1.0f); // #8DEEEE 
-
-        /// <summary> 180  040  100 /// </summary>
-        public static readonly Color DarkSlateGray1 = new Color(151f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #97FFFF 
-
-        /// <summary> 180  041  054 /// </summary>
-        public static readonly Color DarkSlateGray4 = new Color(82f / 255f, 139f / 255f, 139f / 255f, 1.0f); // #528B8B 
-
-        /// <summary> 180  060  055 /// </summary>
-        public static readonly Color SgiTeal = new Color(56f / 255f, 142f / 255f, 142f / 255f, 1.0f); // #388E8E 
-
-        /// <summary> 180  100  050 /// </summary>
-        public static readonly Color Teal = new Color(0f / 255f, 128f / 255f, 128f / 255f, 1.0f); // #008080 
-
-        /// <summary> 180  100  054 /// </summary>
-        public static readonly Color Cyan4 = new Color(0f / 255f, 139f / 255f, 139f / 255f, 1.0f); // #008B8B 
-
-        /// <summary> 180  100  080 /// </summary>
-        public static readonly Color Cyan3 = new Color(0f / 255f, 205f / 255f, 205f / 255f, 1.0f); // #00CDCD 
-
-        /// <summary> 180  100  081 /// </summary>
-        public static readonly Color DarkTurquoise = new Color(0f / 255f, 206f / 255f, 209f / 255f, 1.0f); // #00CED1 
-
-        /// <summary> 180  100  093 /// </summary>
-        public static readonly Color Cyan2 = new Color(0f / 255f, 238f / 255f, 238f / 255f, 1.0f); // #00EEEE 
-
-        /// <summary> 180  100  100 /// </summary>
-        public static readonly Color Cyan = new Color(0f / 255f, 255f / 255f, 255f / 255f, 1.0f); // #00FFFF 
-
-        /// <summary> 181  040  062 /// </summary>
-        public static readonly Color CadetBlue = new Color(95f / 255f, 158f / 255f, 160f / 255f, 1.0f); // #5F9EA0 
-
-        /// <summary> 182  100  054 /// </summary>
-        public static readonly Color Turquoise4 = new Color(0f / 255f, 134f / 255f, 139f / 255f, 1.0f); // #00868B 
-
-        /// <summary> 182  100  080 /// </summary>
-        public static readonly Color Turquoise3 = new Color(0f / 255f, 197f / 255f, 205f / 255f, 1.0f); // #00C5CD 
-
-        /// <summary> 182  100  093 /// </summary>
-        public static readonly Color Turquoise2 = new Color(0f / 255f, 229f / 255f, 238f / 255f, 1.0f); // #00E5EE 
-
-        /// <summary> 182  100  100 /// </summary>
-        public static readonly Color Turquoise1 = new Color(0f / 255f, 245f / 255f, 255f / 255f, 1.0f); // #00F5FF 
-
-        /// <summary> 185  040  054 /// </summary>
-        public static readonly Color CadetBlue4 = new Color(83f / 255f, 134f / 255f, 139f / 255f, 1.0f); // #53868B 
-
-        /// <summary> 185  040  080 /// </summary>
-        public static readonly Color CadetBlue3 = new Color(122f / 255f, 197f / 255f, 205f / 255f, 1.0f); // #7AC5CD 
-
-        /// <summary> 185  040  093 /// </summary>
-        public static readonly Color CadetBlue2 = new Color(142f / 255f, 229f / 255f, 238f / 255f, 1.0f); // #8EE5EE 
-
-        /// <summary> 185  040  100 /// </summary>
-        public static readonly Color CadetBlue1 = new Color(152f / 255f, 245f / 255f, 255f / 255f, 1.0f); // #98F5FF 
-
-        /// <summary> 186  023  090 /// </summary>
-        public static readonly Color PowderBlue = new Color(176f / 255f, 224f / 255f, 230f / 255f, 1.0f); // #B0E0E6 
-
-        /// <summary> 193  025  054 /// </summary>
-        public static readonly Color LightBlue4 = new Color(104f / 255f, 131f / 255f, 139f / 255f, 1.0f); // #68838B 
-
-        /// <summary> 194  024  090 /// </summary>
-        public static readonly Color LightBlue = new Color(173f / 255f, 216f / 255f, 230f / 255f, 1.0f); // #ADD8E6 
-
-        /// <summary> 194  100  080 /// </summary>
-        public static readonly Color DeepSkyBlue3 = new Color(0f / 255f, 154f / 255f, 205f / 255f, 1.0f); // #009ACD 
-
-        /// <summary> 195  024  080 /// </summary>
-        public static readonly Color LightBlue3 = new Color(154f / 255f, 192f / 255f, 205f / 255f, 1.0f); // #9AC0CD 
-
-        /// <summary> 195  025  093 /// </summary>
-        public static readonly Color LightBlue2 = new Color(178f / 255f, 223f / 255f, 238f / 255f, 1.0f); // #B2DFEE 
-
-        /// <summary> 195  025  100 /// </summary>
-        public static readonly Color LightBlue1 = new Color(191f / 255f, 239f / 255f, 255f / 255f, 1.0f); // #BFEFFF 
-
-        /// <summary> 195  100  054 /// </summary>
-        public static readonly Color DeepSkyBlue4 = new Color(0f / 255f, 104f / 255f, 139f / 255f, 1.0f); // #00688B 
-
-        /// <summary> 195  100  093 /// </summary>
-        public static readonly Color DeepSkyBlue2 = new Color(0f / 255f, 178f / 255f, 238f / 255f, 1.0f); // #00B2EE 
-
-        /// <summary> 195  100  100 /// </summary>
-        public static readonly Color DeepSkyBlue1 = new Color(0f / 255f, 191f / 255f, 255f / 255f, 1.0f); // #00BFFF 
-
-        /// <summary> 196  074  078 /// </summary>
-        public static readonly Color Peacock = new Color(51f / 255f, 161f / 255f, 201f / 255f, 1.0f); // #33A1C9 
-
-        /// <summary> 197  042  092 /// </summary>
-        public static readonly Color SkyBlue = new Color(135f / 255f, 206f / 255f, 235f / 255f, 1.0f); // #87CEEB 
-
-        /// <summary> 201  031  080 /// </summary>
-        public static readonly Color LightSkyBlue3 = new Color(141f / 255f, 182f / 255f, 205f / 255f, 1.0f); // #8DB6CD 
-
-        /// <summary> 201  031  093 /// </summary>
-        public static readonly Color LightSkyBlue2 = new Color(164f / 255f, 211f / 255f, 238f / 255f, 1.0f); // #A4D3EE 
-
-        /// <summary> 202  030  054 /// </summary>
-        public static readonly Color LightSkyBlue4 = new Color(96f / 255f, 123f / 255f, 139f / 255f, 1.0f); // #607B8B 
-
-        /// <summary> 202  030  100 /// </summary>
-        public static readonly Color LightSkyBlue1 = new Color(176f / 255f, 226f / 255f, 255f / 255f, 1.0f); // #B0E2FF 
-
-        /// <summary> 202  046  098 /// </summary>
-        public static readonly Color LightSkyBlue = new Color(135f / 255f, 206f / 255f, 250f / 255f, 1.0f); // #87CEFA 
-
-        /// <summary> 204  046  054 /// </summary>
-        public static readonly Color SkyBlue4 = new Color(74f / 255f, 112f / 255f, 139f / 255f, 1.0f); // #4A708B 
-
-        /// <summary> 204  047  080 /// </summary>
-        public static readonly Color SkyBlue3 = new Color(108f / 255f, 166f / 255f, 205f / 255f, 1.0f); // #6CA6CD 
-
-        /// <summary> 204  047  093 /// </summary>
-        public static readonly Color SkyBlue2 = new Color(126f / 255f, 192f / 255f, 238f / 255f, 1.0f); // #7EC0EE 
-
-        /// <summary> 204  047  100 /// </summary>
-        public static readonly Color SkyBlue1 = new Color(135f / 255f, 206f / 255f, 255f / 255f, 1.0f); // #87CEFF 
-
-        /// <summary> 207  061  054 /// </summary>
-        public static readonly Color SteelBlue4 = new Color(54f / 255f, 100f / 255f, 139f / 255f, 1.0f); // #36648B 
-
-        /// <summary> 207  061  070 /// </summary>
-        public static readonly Color SteelBlue = new Color(70f / 255f, 130f / 255f, 180f / 255f, 1.0f); // #4682B4 
-
-        /// <summary> 207  061  080 /// </summary>
-        public static readonly Color SteelBlue3 = new Color(79f / 255f, 148f / 255f, 205f / 255f, 1.0f); // #4F94CD 
-
-        /// <summary> 207  061  093 /// </summary>
-        public static readonly Color SteelBlue2 = new Color(92f / 255f, 172f / 255f, 238f / 255f, 1.0f); // #5CACEE 
-
-        /// <summary> 207  061  100 /// </summary>
-        public static readonly Color SteelBlue1 = new Color(99f / 255f, 184f / 255f, 255f / 255f, 1.0f); // #63B8FF 
-
-        /// <summary> 208  005  100 /// </summary>
-        public static readonly Color AliceBlue = new Color(240f / 255f, 248f / 255f, 255f / 255f, 1.0f); // #F0F8FF 
-
-        /// <summary> 209  088  054 /// </summary>
-        public static readonly Color DodgerBlue4 = new Color(16f / 255f, 78f / 255f, 139f / 255f, 1.0f); // #104E8B 
-
-        /// <summary> 209  088  080 /// </summary>
-        public static readonly Color DodgerBlue3 = new Color(24f / 255f, 116f / 255f, 205f / 255f, 1.0f); // #1874CD 
-
-        /// <summary> 209  088  093 /// </summary>
-        public static readonly Color DodgerBlue2 = new Color(28f / 255f, 134f / 255f, 238f / 255f, 1.0f); // #1C86EE 
-
-        /// <summary> 209  088  100 /// </summary>
-        public static readonly Color DodgerBlue1 = new Color(30f / 255f, 144f / 255f, 255f / 255f, 1.0f); // #1E90FF 
-
-        /// <summary> 210  022  054 /// </summary>
-        public static readonly Color SlateGray4 = new Color(108f / 255f, 123f / 255f, 139f / 255f, 1.0f); // #6C7B8B 
-
-        /// <summary> 210  022  056 /// </summary>
-        public static readonly Color SlateGray = new Color(112f / 255f, 128f / 255f, 144f / 255f, 1.0f); // #708090 
-
-        /// <summary> 210  022  060 /// </summary>
-        public static readonly Color LightSlateGray = new Color(119f / 255f, 136f / 255f, 153f / 255f, 1.0f); // #778899 
-
-        /// <summary> 210  022  080 /// </summary>
-        public static readonly Color SlateGray3 = new Color(159f / 255f, 182f / 255f, 205f / 255f, 1.0f); // #9FB6CD 
-
-        /// <summary> 210  022  093 /// </summary>
-        public static readonly Color SlateGray2 = new Color(185f / 255f, 211f / 255f, 238f / 255f, 1.0f); // #B9D3EE 
-
-        /// <summary> 210  022  100 /// </summary>
-        public static readonly Color SlateGray1 = new Color(198f / 255f, 226f / 255f, 255f / 255f, 1.0f); // #C6E2FF 
-
-        /// <summary> 210  034  075 /// </summary>
-        public static readonly Color SgiLightBlue = new Color(125f / 255f, 158f / 255f, 192f / 255f, 1.0f); // #7D9EC0 
-
-        /// <summary> 213  020  054 /// </summary>
-        public static readonly Color LightSteelBlue4 = new Color(110f / 255f, 123f / 255f, 139f / 255f, 1.0f); // #6E7B8B 
-
-        /// <summary> 213  020  080 /// </summary>
-        public static readonly Color LightSteelBlue3 = new Color(162f / 255f, 181f / 255f, 205f / 255f, 1.0f); // #A2B5CD 
-
-        /// <summary> 213  020  087 /// </summary>
-        public static readonly Color LightSteelBlue = new Color(176f / 255f, 196f / 255f, 222f / 255f, 1.0f); // #B0C4DE 
-
-        /// <summary> 213  020  100 /// </summary>
-        public static readonly Color LightSteelBlue1 = new Color(202f / 255f, 225f / 255f, 255f / 255f, 1.0f); // #CAE1FF 
-
-        /// <summary> 213  021  093 /// </summary>
-        public static readonly Color LightSteelBlue2 = new Color(188f / 255f, 210f / 255f, 238f / 255f, 1.0f); // #BCD2EE 
-
-        /// <summary> 218  057  092 /// </summary>
-        public static readonly Color CornflowerBlue = new Color(100f / 255f, 149f / 255f, 237f / 255f, 1.0f); // #6495ED 
-
-        /// <summary> 224  064  067 /// </summary>
-        public static readonly Color Cobalt = new Color(61f / 255f, 89f / 255f, 171f / 255f, 1.0f); // #3D59AB 
-
-        /// <summary> 224  071  080 /// </summary>
-        public static readonly Color RoyalBlue3 = new Color(58f / 255f, 95f / 255f, 205f / 255f, 1.0f); // #3A5FCD 
-
-        /// <summary> 224  071  093 /// </summary>
-        public static readonly Color RoyalBlue2 = new Color(67f / 255f, 110f / 255f, 238f / 255f, 1.0f); // #436EEE 
-
-        /// <summary> 224  071  100 /// </summary>
-        public static readonly Color RoyalBlue1 = new Color(72f / 255f, 118f / 255f, 255f / 255f, 1.0f); // #4876FF 
-
-        /// <summary> 225  071  054 /// </summary>
-        public static readonly Color RoyalBlue4 = new Color(39f / 255f, 64f / 255f, 139f / 255f, 1.0f); // #27408B 
-
-        /// <summary> 225  071  088 /// </summary>
-        public static readonly Color RoyalBlue = new Color(65f / 255f, 105f / 255f, 225f / 255f, 1.0f); // #4169E1 
-
-        /// <summary> 240  002  100 /// </summary>
-        public static readonly Color GhostWhite = new Color(248f / 255f, 248f / 255f, 255f / 255f, 1.0f); // #F8F8FF 
-
-        /// <summary> 240  007  098 /// </summary>
-        public static readonly Color Lavender = new Color(230f / 255f, 230f / 255f, 250f / 255f, 1.0f); // #E6E6FA 
-
-        /// <summary> 240  042  077 /// </summary>
-        public static readonly Color SgiSlateBlue = new Color(113f / 255f, 113f / 255f, 198f / 255f, 1.0f); // #7171C6 
-
-        /// <summary> 240  077  043 /// </summary>
-        public static readonly Color MidnightBlue = new Color(25f / 255f, 25f / 255f, 112f / 255f, 1.0f); // #191970 
-
-        /// <summary> 240  100  050 /// </summary>
-        public static readonly Color Navy = new Color(0f / 255f, 0f / 255f, 128f / 255f, 1.0f); // #000080 
-
-        /// <summary> 240  100  054 /// </summary>
-        public static readonly Color Blue4 = new Color(0f / 255f, 0f / 255f, 139f / 255f, 1.0f); // #00008B 
-
-        /// <summary> 240  100  080 /// </summary>
-        public static readonly Color Blue3 = new Color(0f / 255f, 0f / 255f, 205f / 255f, 1.0f); // #0000CD 
-
-        /// <summary> 240  100  093 /// </summary>
-        public static readonly Color Blue2 = new Color(0f / 255f, 0f / 255f, 238f / 255f, 1.0f); // #0000EE 
-
-        /// <summary> 240  100  100 /// </summary>
-        public static readonly Color Blue = new Color(0f / 255f, 0f / 255f, 255f / 255f, 1.0f); // #0000FF 
-
-        /// <summary> 248  056  054 /// </summary>
-        public static readonly Color DarkSlateBlue = new Color(72f / 255f, 61f / 255f, 139f / 255f, 1.0f); // #483D8B 
-
-        /// <summary> 248  056  054 /// </summary>
-        public static readonly Color SlateBlue4 = new Color(71f / 255f, 60f / 255f, 139f / 255f, 1.0f); // #473C8B 
-
-        /// <summary> 248  056  080 /// </summary>
-        public static readonly Color SlateBlue = new Color(106f / 255f, 90f / 255f, 205f / 255f, 1.0f); // #6A5ACD 
-
-        /// <summary> 248  056  080 /// </summary>
-        public static readonly Color SlateBlue3 = new Color(105f / 255f, 89f / 255f, 205f / 255f, 1.0f); // #6959CD 
-
-        /// <summary> 248  056  093 /// </summary>
-        public static readonly Color MediumSlateBlue = new Color(123f / 255f, 104f / 255f, 238f / 255f, 1.0f); // #7B68EE 
-
-        /// <summary> 248  056  093 /// </summary>
-        public static readonly Color SlateBlue2 = new Color(122f / 255f, 103f / 255f, 238f / 255f, 1.0f); // #7A67EE 
-
-        /// <summary> 248  056  100 /// </summary>
-        public static readonly Color LightSlateBlue = new Color(132f / 255f, 112f / 255f, 255f / 255f, 1.0f); // #8470FF 
-
-        /// <summary> 248  056  100 /// </summary>
-        public static readonly Color SlateBlue1 = new Color(131f / 255f, 111f / 255f, 255f / 255f, 1.0f); // #836FFF 
-
-        /// <summary> 259  048  054 /// </summary>
-        public static readonly Color MediumPurple4 = new Color(93f / 255f, 71f / 255f, 139f / 255f, 1.0f); // #5D478B 
-
-        /// <summary> 259  048  085 /// </summary>
-        public static readonly Color MediumPurple = new Color(147f / 255f, 112f / 255f, 219f / 255f, 1.0f); // #9370DB 
-
-        /// <summary> 259  049  080 /// </summary>
-        public static readonly Color MediumPurple3 = new Color(137f / 255f, 104f / 255f, 205f / 255f, 1.0f); // #8968CD 
-
-        /// <summary> 259  049  093 /// </summary>
-        public static readonly Color MediumPurple2 = new Color(159f / 255f, 121f / 255f, 238f / 255f, 1.0f); // #9F79EE 
-
-        /// <summary> 259  049  100 /// </summary>
-        public static readonly Color MediumPurple1 = new Color(171f / 255f, 130f / 255f, 255f / 255f, 1.0f); // #AB82FF 
-
-        /// <summary> 271  080  088 /// </summary>
-        public static readonly Color BlueViolet = new Color(138f / 255f, 43f / 255f, 226f / 255f, 1.0f); // #8A2BE2 
-
-        /// <summary> 271  081  054 /// </summary>
-        public static readonly Color Purple4 = new Color(85f / 255f, 26f / 255f, 139f / 255f, 1.0f); // #551A8B 
-
-        /// <summary> 271  081  080 /// </summary>
-        public static readonly Color Purple3 = new Color(125f / 255f, 38f / 255f, 205f / 255f, 1.0f); // #7D26CD 
-
-        /// <summary> 271  081  093 /// </summary>
-        public static readonly Color Purple2 = new Color(145f / 255f, 44f / 255f, 238f / 255f, 1.0f); // #912CEE 
-
-        /// <summary> 271  081  100 /// </summary>
-        public static readonly Color Purple1 = new Color(155f / 255f, 48f / 255f, 255f / 255f, 1.0f); // #9B30FF 
-
-        /// <summary> 274  100  050 /// </summary>
-        public static readonly Color Indigo = new Color(75f / 255f, 0f / 255f, 130f / 255f, 1.0f); // #4B0082 
-
-        /// <summary> 280  075  054 /// </summary>
-        public static readonly Color DarkOrchid4 = new Color(104f / 255f, 34f / 255f, 139f / 255f, 1.0f); // #68228B 
-
-        /// <summary> 280  075  080 /// </summary>
-        public static readonly Color DarkOrchid = new Color(153f / 255f, 50f / 255f, 204f / 255f, 1.0f); // #9932CC 
-
-        /// <summary> 280  075  080 /// </summary>
-        public static readonly Color DarkOrchid3 = new Color(154f / 255f, 50f / 255f, 205f / 255f, 1.0f); // #9A32CD 
-
-        /// <summary> 280  075  093 /// </summary>
-        public static readonly Color DarkOrchid2 = new Color(178f / 255f, 58f / 255f, 238f / 255f, 1.0f); // #B23AEE 
-
-        /// <summary> 280  075  100 /// </summary>
-        public static readonly Color DarkOrchid1 = new Color(191f / 255f, 62f / 255f, 255f / 255f, 1.0f); // #BF3EFF 
-
-        /// <summary> 282  100  082 /// </summary>
-        public static readonly Color DarkViolet = new Color(148f / 255f, 0f / 255f, 211f / 255f, 1.0f); // #9400D3 
-
-        /// <summary> 287  060  054 /// </summary>
-        public static readonly Color MediumOrchid4 = new Color(122f / 255f, 55f / 255f, 139f / 255f, 1.0f); // #7A378B 
-
-        /// <summary> 287  060  080 /// </summary>
-        public static readonly Color MediumOrchid3 = new Color(180f / 255f, 82f / 255f, 205f / 255f, 1.0f); // #B452CD 
-
-        /// <summary> 287  060  093 /// </summary>
-        public static readonly Color MediumOrchid2 = new Color(209f / 255f, 95f / 255f, 238f / 255f, 1.0f); // #D15FEE 
-
-        /// <summary> 287  060  100 /// </summary>
-        public static readonly Color MediumOrchid1 = new Color(224f / 255f, 102f / 255f, 255f / 255f, 1.0f); // #E066FF 
-
-        /// <summary> 288  059  082 /// </summary>
-        public static readonly Color MediumOrchid = new Color(186f / 255f, 85f / 255f, 211f / 255f, 1.0f); // #BA55D3 
-
-        /// <summary> 300  011  054 /// </summary>
-        public static readonly Color Thistle4 = new Color(139f / 255f, 123f / 255f, 139f / 255f, 1.0f); // #8B7B8B 
-
-        /// <summary> 300  011  080 /// </summary>
-        public static readonly Color Thistle3 = new Color(205f / 255f, 181f / 255f, 205f / 255f, 1.0f); // #CDB5CD 
-
-        /// <summary> 300  011  084 /// </summary>
-        public static readonly Color Thistle = new Color(216f / 255f, 191f / 255f, 216f / 255f, 1.0f); // #D8BFD8 
-
-        /// <summary> 300  011  093 /// </summary>
-        public static readonly Color Thistle2 = new Color(238f / 255f, 210f / 255f, 238f / 255f, 1.0f); // #EED2EE 
-
-        /// <summary> 300  011  100 /// </summary>
-        public static readonly Color Thistle1 = new Color(255f / 255f, 225f / 255f, 255f / 255f, 1.0f); // #FFE1FF 
-
-        /// <summary> 300  026  054 /// </summary>
-        public static readonly Color Plum4 = new Color(139f / 255f, 102f / 255f, 139f / 255f, 1.0f); // #8B668B 
-
-        /// <summary> 300  026  080 /// </summary>
-        public static readonly Color Plum3 = new Color(205f / 255f, 150f / 255f, 205f / 255f, 1.0f); // #CD96CD 
-
-        /// <summary> 300  026  093 /// </summary>
-        public static readonly Color Plum2 = new Color(238f / 255f, 174f / 255f, 238f / 255f, 1.0f); // #EEAEEE 
-
-        /// <summary> 300  026  100 /// </summary>
-        public static readonly Color Plum1 = new Color(255f / 255f, 187f / 255f, 255f / 255f, 1.0f); // #FFBBFF 
-
-        /// <summary> 300  027  086 /// </summary>
-        public static readonly Color Plum = new Color(221f / 255f, 160f / 255f, 221f / 255f, 1.0f); // #DDA0DD 
-
-        /// <summary> 300  045  093 /// </summary>
-        public static readonly Color Violet = new Color(238f / 255f, 130f / 255f, 238f / 255f, 1.0f); // #EE82EE 
-
-        /// <summary> 300  060  055 /// </summary>
-        public static readonly Color SgiBeet = new Color(142f / 255f, 56f / 255f, 142f / 255f, 1.0f); // #8E388E 
-
-        /// <summary> 300  100  050 /// </summary>
-        public static readonly Color Purple = new Color(128f / 255f, 0f / 255f, 128f / 255f, 1.0f); // #800080 
-
-        /// <summary> 300  100  054 /// </summary>
-        public static readonly Color Magenta4 = new Color(139f / 255f, 0f / 255f, 139f / 255f, 1.0f); // #8B008B 
-
-        /// <summary> 300  100  080 /// </summary>
-        public static readonly Color Magenta3 = new Color(205f / 255f, 0f / 255f, 205f / 255f, 1.0f); // #CD00CD 
-
-        /// <summary> 300  100  093 /// </summary>
-        public static readonly Color Magenta2 = new Color(238f / 255f, 0f / 255f, 238f / 255f, 1.0f); // #EE00EE 
-
-        /// <summary> 300  100  100 /// </summary>
-        public static readonly Color Magenta = new Color(255f / 255f, 0f / 255f, 255f / 255f, 1.0f); // #FF00FF 
-
-        /// <summary> 301  048  054 /// </summary>
-        public static readonly Color Orchid4 = new Color(139f / 255f, 71f / 255f, 137f / 255f, 1.0f); // #8B4789 
-
-        /// <summary> 302  048  080 /// </summary>
-        public static readonly Color Orchid3 = new Color(205f / 255f, 105f / 255f, 201f / 255f, 1.0f); // #CD69C9 
-
-        /// <summary> 302  048  085 /// </summary>
-        public static readonly Color Orchid = new Color(218f / 255f, 112f / 255f, 214f / 255f, 1.0f); // #DA70D6 
-
-        /// <summary> 302  048  093 /// </summary>
-        public static readonly Color Orchid2 = new Color(238f / 255f, 122f / 255f, 233f / 255f, 1.0f); // #EE7AE9 
-
-        /// <summary> 302  048  100 /// </summary>
-        public static readonly Color Orchid1 = new Color(255f / 255f, 131f / 255f, 250f / 255f, 1.0f); // #FF83FA 
-
-        /// <summary> 321  084  081 /// </summary>
-        public static readonly Color VioletRed = new Color(208f / 255f, 32f / 255f, 144f / 255f, 1.0f); // #D02090 
-
-        /// <summary> 322  079  054 /// </summary>
-        public static readonly Color Maroon4 = new Color(139f / 255f, 28f / 255f, 98f / 255f, 1.0f); // #8B1C62 
-
-        /// <summary> 322  079  093 /// </summary>
-        public static readonly Color Maroon2 = new Color(238f / 255f, 48f / 255f, 167f / 255f, 1.0f); // #EE30A7 
-
-        /// <summary> 322  079  100 /// </summary>
-        public static readonly Color Maroon1 = new Color(255f / 255f, 52f / 255f, 179f / 255f, 1.0f); // #FF34B3 
-
-        /// <summary> 322  080  080 /// </summary>
-        public static readonly Color Maroon3 = new Color(205f / 255f, 41f / 255f, 144f / 255f, 1.0f); // #CD2990 
-
-        /// <summary> 322  089  078 /// </summary>
-        public static readonly Color MediumVioletRed = new Color(199f / 255f, 21f / 255f, 133f / 255f, 1.0f); // #C71585 
-
-        /// <summary> 327  092  054 /// </summary>
-        public static readonly Color DeepPink4 = new Color(139f / 255f, 10f / 255f, 80f / 255f, 1.0f); // #8B0A50 
-
-        /// <summary> 327  092  080 /// </summary>
-        public static readonly Color DeepPink3 = new Color(205f / 255f, 16f / 255f, 118f / 255f, 1.0f); // #CD1076 
-
-        /// <summary> 327  092  093 /// </summary>
-        public static readonly Color DeepPink2 = new Color(238f / 255f, 18f / 255f, 137f / 255f, 1.0f); // #EE1289 
-
-        /// <summary> 327  092  100 /// </summary>
-        public static readonly Color DeepPink1 = new Color(255f / 255f, 20f / 255f, 147f / 255f, 1.0f); // #FF1493 
-
-        /// <summary> 329  071  052 /// </summary>
-        public static readonly Color Raspberry = new Color(135f / 255f, 38f / 255f, 87f / 255f, 1.0f); // #872657 
-
-        /// <summary> 330  058  054 /// </summary>
-        public static readonly Color HotPink4 = new Color(139f / 255f, 58f / 255f, 98f / 255f, 1.0f); // #8B3A62 
-
-        /// <summary> 330  058  100 /// </summary>
-        public static readonly Color HotPink = new Color(255f / 255f, 105f / 255f, 180f / 255f, 1.0f); // #FF69B4 
-
-        /// <summary> 331  056  100 /// </summary>
-        public static readonly Color HotPink1 = new Color(255f / 255f, 110f / 255f, 180f / 255f, 1.0f); // #FF6EB4 
-
-        /// <summary> 332  055  093 /// </summary>
-        public static readonly Color HotPink2 = new Color(238f / 255f, 106f / 255f, 167f / 255f, 1.0f); // #EE6AA7 
-
-        /// <summary> 332  075  054 /// </summary>
-        public static readonly Color VioletRed4 = new Color(139f / 255f, 34f / 255f, 82f / 255f, 1.0f); // #8B2252 
-
-        /// <summary> 332  075  080 /// </summary>
-        public static readonly Color VioletRed3 = new Color(205f / 255f, 50f / 255f, 120f / 255f, 1.0f); // #CD3278 
-
-        /// <summary> 332  075  093 /// </summary>
-        public static readonly Color VioletRed2 = new Color(238f / 255f, 58f / 255f, 140f / 255f, 1.0f); // #EE3A8C 
-
-        /// <summary> 332  075  100 /// </summary>
-        public static readonly Color VioletRed1 = new Color(255f / 255f, 62f / 255f, 150f / 255f, 1.0f); // #FF3E96 
-
-        /// <summary> 333  053  080 /// </summary>
-        public static readonly Color HotPink3 = new Color(205f / 255f, 96f / 255f, 144f / 255f, 1.0f); // #CD6090 
-
-        /// <summary> 337  005  054 /// </summary>
-        public static readonly Color LavenderBlush4 = new Color(139f / 255f, 131f / 255f, 134f / 255f, 1.0f); // #8B8386 
-
-        /// <summary> 338  005  093 /// </summary>
-        public static readonly Color LavenderBlush2 = new Color(238f / 255f, 224f / 255f, 229f / 255f, 1.0f); // #EEE0E5 
-
-        /// <summary> 339  005  080 /// </summary>
-        public static readonly Color LavenderBlush3 = new Color(205f / 255f, 193f / 255f, 197f / 255f, 1.0f); // #CDC1C5 
-
-        /// <summary> 339  005  100 /// </summary>
-        public static readonly Color LavenderBlush1 = new Color(255f / 255f, 240f / 255f, 245f / 255f, 1.0f); // #FFF0F5 
-
-        /// <summary> 340  048  054 /// </summary>
-        public static readonly Color PaleVioletRed4 = new Color(139f / 255f, 71f / 255f, 93f / 255f, 1.0f); // #8B475D 
-
-        /// <summary> 340  048  085 /// </summary>
-        public static readonly Color PaleVioletRed = new Color(219f / 255f, 112f / 255f, 147f / 255f, 1.0f); // #DB7093 
-
-        /// <summary> 340  049  080 /// </summary>
-        public static readonly Color PaleVioletRed3 = new Color(205f / 255f, 104f / 255f, 137f / 255f, 1.0f); // #CD6889 
-
-        /// <summary> 340  049  093 /// </summary>
-        public static readonly Color PaleVioletRed2 = new Color(238f / 255f, 121f / 255f, 159f / 255f, 1.0f); // #EE799F 
-
-        /// <summary> 340  049  100 /// </summary>
-        public static readonly Color PaleVioletRed1 = new Color(255f / 255f, 130f / 255f, 171f / 255f, 1.0f); // #FF82AB 
-
-        /// <summary> 346  028  054 /// </summary>
-        public static readonly Color Pink4 = new Color(139f / 255f, 99f / 255f, 108f / 255f, 1.0f); // #8B636C 
-
-        /// <summary> 346  028  093 /// </summary>
-        public static readonly Color Pink2 = new Color(238f / 255f, 169f / 255f, 184f / 255f, 1.0f); // #EEA9B8 
-
-        /// <summary> 347  029  080 /// </summary>
-        public static readonly Color Pink3 = new Color(205f / 255f, 145f / 255f, 158f / 255f, 1.0f); // #CD919E 
-
-        /// <summary> 347  029  100 /// </summary>
-        public static readonly Color Pink1 = new Color(255f / 255f, 181f / 255f, 197f / 255f, 1.0f); // #FFB5C5 
-
-        /// <summary> 348  090  086 /// </summary>
-        public static readonly Color Crimson = new Color(220f / 255f, 20f / 255f, 60f / 255f, 1.0f); // #DC143C 
-
-        /// <summary> 349  024  100 /// </summary>
-        public static readonly Color Pink = new Color(255f / 255f, 192f / 255f, 203f / 255f, 1.0f); // #FFC0CB 
-
-        /// <summary> 350  028  100 /// </summary>
-        public static readonly Color LightPink = new Color(255f / 255f, 182f / 255f, 193f / 255f, 1.0f); // #FFB6C1
-
+        /// <summary>
+        ///     [HEX] #000000 <br />
+        ///     [HSV] 000 000 000 <br />
+        ///     [RGB] 000 000 000 <br />
+        /// </summary>
+        public static Color Black => new Color(000f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #030303 <br />
+        ///     [HSV] 000 000 001 <br />
+        ///     [RGB] 003 003 003 <br />
+        /// </summary>
+        public static Color Gray01 => new Color(003f / 255f, 003f / 255f, 003f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #050505 <br />
+        ///     [HSV] 000 000 001 <br />
+        ///     [RGB] 005 005 005 <br />
+        /// </summary>
+        public static Color Gray02 => new Color(005f / 255f, 005f / 255f, 005f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #080808 <br />
+        ///     [HSV] 000 000 003 <br />
+        ///     [RGB] 008 008 008 <br />
+        /// </summary>
+        public static Color Gray03 => new Color(008f / 255f, 008f / 255f, 008f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0A0A0A <br />
+        ///     [HSV] 000 000 003 <br />
+        ///     [RGB] 010 010 010 <br />
+        /// </summary>
+        public static Color Gray04 => new Color(010f / 255f, 010f / 255f, 010f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0D0D0D <br />
+        ///     [HSV] 000 000 005 <br />
+        ///     [RGB] 013 013 013 <br />
+        /// </summary>
+        public static Color Gray05 => new Color(013f / 255f, 013f / 255f, 013f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0F0F0F <br />
+        ///     [HSV] 000 000 005 <br />
+        ///     [RGB] 015 015 015 <br />
+        /// </summary>
+        public static Color Gray06 => new Color(015f / 255f, 015f / 255f, 015f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #121212 <br />
+        ///     [HSV] 000 000 007 <br />
+        ///     [RGB] 018 018 018 <br />
+        /// </summary>
+        public static Color Gray07 => new Color(018f / 255f, 018f / 255f, 018f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #141414 <br />
+        ///     [HSV] 000 000 007 <br />
+        ///     [RGB] 020 020 020 <br />
+        /// </summary>
+        public static Color Gray08 => new Color(020f / 255f, 020f / 255f, 020f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #171717 <br />
+        ///     [HSV] 000 000 009 <br />
+        ///     [RGB] 023 023 023 <br />
+        /// </summary>
+        public static Color Gray09 => new Color(023f / 255f, 023f / 255f, 023f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1A1A1A <br />
+        ///     [HSV] 000 000 010 <br />
+        ///     [RGB] 026 026 026 <br />
+        /// </summary>
+        public static Color Gray10 => new Color(026f / 255f, 026f / 255f, 026f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1C1C1C <br />
+        ///     [HSV] 000 000 010 <br />
+        ///     [RGB] 028 028 028 <br />
+        /// </summary>
+        public static Color Gray11 => new Color(028f / 255f, 028f / 255f, 028f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1E1E1E <br />
+        ///     [HSV] 000 000 011 <br />
+        ///     [RGB] 030 030 030 <br />
+        /// </summary>
+        public static Color SgiGray12 => new Color(030f / 255f, 030f / 255f, 030f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1F1F1F <br />
+        ///     [HSV] 000 000 012 <br />
+        ///     [RGB] 031 031 031 <br />
+        /// </summary>
+        public static Color Gray12 => new Color(031f / 255f, 031f / 255f, 031f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #212121 <br />
+        ///     [HSV] 000 000 012 <br />
+        ///     [RGB] 033 033 033 <br />
+        /// </summary>
+        public static Color Gray13 => new Color(033f / 255f, 033f / 255f, 033f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #242424 <br />
+        ///     [HSV] 000 000 014 <br />
+        ///     [RGB] 036 036 036 <br />
+        /// </summary>
+        public static Color Gray14 => new Color(036f / 255f, 036f / 255f, 036f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #262626 <br />
+        ///     [HSV] 000 000 014 <br />
+        ///     [RGB] 038 038 038 <br />
+        /// </summary>
+        public static Color Gray15 => new Color(038f / 255f, 038f / 255f, 038f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #282828 <br />
+        ///     [HSV] 000 000 015 <br />
+        ///     [RGB] 040 040 040 <br />
+        /// </summary>
+        public static Color SgiGray16 => new Color(040f / 255f, 040f / 255f, 040f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #292929 <br />
+        ///     [HSV] 000 000 016 <br />
+        ///     [RGB] 041 041 041 <br />
+        /// </summary>
+        public static Color Gray16 => new Color(041f / 255f, 041f / 255f, 041f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #2B2B2B <br />
+        ///     [HSV] 000 000 016 <br />
+        ///     [RGB] 043 043 043 <br />
+        /// </summary>
+        public static Color Gray17 => new Color(043f / 255f, 043f / 255f, 043f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #2E2E2E <br />
+        ///     [HSV] 000 000 018 <br />
+        ///     [RGB] 046 046 046 <br />
+        /// </summary>
+        public static Color Gray18 => new Color(046f / 255f, 046f / 255f, 046f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #303030 <br />
+        ///     [HSV] 000 000 018 <br />
+        ///     [RGB] 048 048 048 <br />
+        /// </summary>
+        public static Color Gray19 => new Color(048f / 255f, 048f / 255f, 048f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #333333 <br />
+        ///     [HSV] 000 000 020 <br />
+        ///     [RGB] 051 051 051 <br />
+        /// </summary>
+        public static Color Gray20 => new Color(051f / 255f, 051f / 255f, 051f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #363636 <br />
+        ///     [HSV] 000 000 021 <br />
+        ///     [RGB] 054 054 054 <br />
+        /// </summary>
+        public static Color Gray21 => new Color(054f / 255f, 054f / 255f, 054f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #383838 <br />
+        ///     [HSV] 000 000 021 <br />
+        ///     [RGB] 056 056 056 <br />
+        /// </summary>
+        public static Color Gray22 => new Color(056f / 255f, 056f / 255f, 056f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3B3B3B <br />
+        ///     [HSV] 000 000 023 <br />
+        ///     [RGB] 059 059 059 <br />
+        /// </summary>
+        public static Color Gray23 => new Color(059f / 255f, 059f / 255f, 059f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3D3D3D <br />
+        ///     [HSV] 000 000 023 <br />
+        ///     [RGB] 061 061 061 <br />
+        /// </summary>
+        public static Color Gray24 => new Color(061f / 255f, 061f / 255f, 061f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #404040 <br />
+        ///     [HSV] 000 000 025 <br />
+        ///     [RGB] 064 064 064 <br />
+        /// </summary>
+        public static Color Gray25 => new Color(064f / 255f, 064f / 255f, 064f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #424242 <br />
+        ///     [HSV] 000 000 025 <br />
+        ///     [RGB] 066 066 066 <br />
+        /// </summary>
+        public static Color Gray26 => new Color(066f / 255f, 066f / 255f, 066f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #454545 <br />
+        ///     [HSV] 000 000 027 <br />
+        ///     [RGB] 069 069 069 <br />
+        /// </summary>
+        public static Color Gray27 => new Color(069f / 255f, 069f / 255f, 069f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #474747 <br />
+        ///     [HSV] 000 000 027 <br />
+        ///     [RGB] 071 071 071 <br />
+        /// </summary>
+        public static Color Gray28 => new Color(071f / 255f, 071f / 255f, 071f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4A4A4A <br />
+        ///     [HSV] 000 000 029 <br />
+        ///     [RGB] 074 074 074 <br />
+        /// </summary>
+        public static Color Gray29 => new Color(074f / 255f, 074f / 255f, 074f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4D4D4D <br />
+        ///     [HSV] 000 000 030 <br />
+        ///     [RGB] 077 077 077 <br />
+        /// </summary>
+        public static Color Gray30 => new Color(077f / 255f, 077f / 255f, 077f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4F4F4F <br />
+        ///     [HSV] 000 000 030 <br />
+        ///     [RGB] 079 079 079 <br />
+        /// </summary>
+        public static Color Gray31 => new Color(079f / 255f, 079f / 255f, 079f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #515151 <br />
+        ///     [HSV] 000 000 031 <br />
+        ///     [RGB] 081 081 081 <br />
+        /// </summary>
+        public static Color SgiGray32 => new Color(081f / 255f, 081f / 255f, 081f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #525252 <br />
+        ///     [HSV] 000 000 032 <br />
+        ///     [RGB] 082 082 082 <br />
+        /// </summary>
+        public static Color Gray32 => new Color(082f / 255f, 082f / 255f, 082f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #545454 <br />
+        ///     [HSV] 000 000 032 <br />
+        ///     [RGB] 084 084 084 <br />
+        /// </summary>
+        public static Color Gray33 => new Color(084f / 255f, 084f / 255f, 084f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #555555 <br />
+        ///     [HSV] 000 000 033 <br />
+        ///     [RGB] 085 085 085 <br />
+        /// </summary>
+        public static Color SgiDarkGray => new Color(085f / 255f, 085f / 255f, 085f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #575757 <br />
+        ///     [HSV] 000 000 034 <br />
+        ///     [RGB] 087 087 087 <br />
+        /// </summary>
+        public static Color Gray34 => new Color(087f / 255f, 087f / 255f, 087f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #595959 <br />
+        ///     [HSV] 000 000 034 <br />
+        ///     [RGB] 089 089 089 <br />
+        /// </summary>
+        public static Color Gray35 => new Color(089f / 255f, 089f / 255f, 089f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5B5B5B <br />
+        ///     [HSV] 000 000 035 <br />
+        ///     [RGB] 091 091 091 <br />
+        /// </summary>
+        public static Color SgiGray36 => new Color(091f / 255f, 091f / 255f, 091f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5C5C5C <br />
+        ///     [HSV] 000 000 036 <br />
+        ///     [RGB] 092 092 092 <br />
+        /// </summary>
+        public static Color Gray36 => new Color(092f / 255f, 092f / 255f, 092f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5E5E5E <br />
+        ///     [HSV] 000 000 036 <br />
+        ///     [RGB] 094 094 094 <br />
+        /// </summary>
+        public static Color Gray37 => new Color(094f / 255f, 094f / 255f, 094f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #616161 <br />
+        ///     [HSV] 000 000 038 <br />
+        ///     [RGB] 097 097 097 <br />
+        /// </summary>
+        public static Color Gray38 => new Color(097f / 255f, 097f / 255f, 097f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #636363 <br />
+        ///     [HSV] 000 000 038 <br />
+        ///     [RGB] 099 099 099 <br />
+        /// </summary>
+        public static Color Gray39 => new Color(099f / 255f, 099f / 255f, 099f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #666666 <br />
+        ///     [HSV] 000 000 040 <br />
+        ///     [RGB] 102 102 102 <br />
+        /// </summary>
+        public static Color Gray40 => new Color(102f / 255f, 102f / 255f, 102f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #696969 <br />
+        ///     [HSV] 000 000 041 <br />
+        ///     [RGB] 105 105 105 <br />
+        /// </summary>
+        public static Color DimGrayGray42 => new Color(105f / 255f, 105f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6B6B6B <br />
+        ///     [HSV] 000 000 041 <br />
+        ///     [RGB] 107 107 107 <br />
+        /// </summary>
+        public static Color Gray42 => new Color(107f / 255f, 107f / 255f, 107f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6E6E6E <br />
+        ///     [HSV] 000 000 043 <br />
+        ///     [RGB] 110 110 110 <br />
+        /// </summary>
+        public static Color Gray43 => new Color(110f / 255f, 110f / 255f, 110f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #707070 <br />
+        ///     [HSV] 000 000 043 <br />
+        ///     [RGB] 112 112 112 <br />
+        /// </summary>
+        public static Color Gray44 => new Color(112f / 255f, 112f / 255f, 112f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #737373 <br />
+        ///     [HSV] 000 000 045 <br />
+        ///     [RGB] 115 115 115 <br />
+        /// </summary>
+        public static Color Gray45 => new Color(115f / 255f, 115f / 255f, 115f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #757575 <br />
+        ///     [HSV] 000 000 045 <br />
+        ///     [RGB] 117 117 117 <br />
+        /// </summary>
+        public static Color Gray46 => new Color(117f / 255f, 117f / 255f, 117f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #787878 <br />
+        ///     [HSV] 000 000 047 <br />
+        ///     [RGB] 120 120 120 <br />
+        /// </summary>
+        public static Color Gray47 => new Color(120f / 255f, 120f / 255f, 120f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7A7A7A <br />
+        ///     [HSV] 000 000 047 <br />
+        ///     [RGB] 122 122 122 <br />
+        /// </summary>
+        public static Color Gray48 => new Color(122f / 255f, 122f / 255f, 122f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7D7D7D <br />
+        ///     [HSV] 000 000 049 <br />
+        ///     [RGB] 125 125 125 <br />
+        /// </summary>
+        public static Color Gray49 => new Color(125f / 255f, 125f / 255f, 125f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7F7F7F <br />
+        ///     [HSV] 000 000 049 <br />
+        ///     [RGB] 127 127 127 <br />
+        /// </summary>
+        public static Color Gray50 => new Color(127f / 255f, 127f / 255f, 127f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #808080 <br />
+        ///     [HSV] 000 000 050 <br />
+        ///     [RGB] 128 128 128 <br />
+        /// </summary>
+        public static Color Gray => new Color(128f / 255f, 128f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #828282 <br />
+        ///     [HSV] 000 000 050 <br />
+        ///     [RGB] 130 130 130 <br />
+        /// </summary>
+        public static Color Gray51 => new Color(130f / 255f, 130f / 255f, 130f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #848484 <br />
+        ///     [HSV] 000 000 051 <br />
+        ///     [RGB] 132 132 132 <br />
+        /// </summary>
+        public static Color SgiGray52 => new Color(132f / 255f, 132f / 255f, 132f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #858585 <br />
+        ///     [HSV] 000 000 052 <br />
+        ///     [RGB] 133 133 133 <br />
+        /// </summary>
+        public static Color Gray52 => new Color(133f / 255f, 133f / 255f, 133f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #878787 <br />
+        ///     [HSV] 000 000 052 <br />
+        ///     [RGB] 135 135 135 <br />
+        /// </summary>
+        public static Color Gray53 => new Color(135f / 255f, 135f / 255f, 135f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8A8A8A <br />
+        ///     [HSV] 000 000 054 <br />
+        ///     [RGB] 138 138 138 <br />
+        /// </summary>
+        public static Color Gray54 => new Color(138f / 255f, 138f / 255f, 138f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8C8C8C <br />
+        ///     [HSV] 000 000 054 <br />
+        ///     [RGB] 140 140 140 <br />
+        /// </summary>
+        public static Color Gray55 => new Color(140f / 255f, 140f / 255f, 140f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8E8E8E <br />
+        ///     [HSV] 000 000 055 <br />
+        ///     [RGB] 142 142 142 <br />
+        /// </summary>
+        public static Color SgiGray56 => new Color(142f / 255f, 142f / 255f, 142f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8F8F8F <br />
+        ///     [HSV] 000 000 056 <br />
+        ///     [RGB] 143 143 143 <br />
+        /// </summary>
+        public static Color Gray56 => new Color(143f / 255f, 143f / 255f, 143f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #919191 <br />
+        ///     [HSV] 000 000 056 <br />
+        ///     [RGB] 145 145 145 <br />
+        /// </summary>
+        public static Color Gray57 => new Color(145f / 255f, 145f / 255f, 145f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #949494 <br />
+        ///     [HSV] 000 000 058 <br />
+        ///     [RGB] 148 148 148 <br />
+        /// </summary>
+        public static Color Gray58 => new Color(148f / 255f, 148f / 255f, 148f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #969696 <br />
+        ///     [HSV] 000 000 058 <br />
+        ///     [RGB] 150 150 150 <br />
+        /// </summary>
+        public static Color Gray59 => new Color(150f / 255f, 150f / 255f, 150f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #999999 <br />
+        ///     [HSV] 000 000 060 <br />
+        ///     [RGB] 153 153 153 <br />
+        /// </summary>
+        public static Color Gray60 => new Color(153f / 255f, 153f / 255f, 153f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9C9C9C <br />
+        ///     [HSV] 000 000 061 <br />
+        ///     [RGB] 156 156 156 <br />
+        /// </summary>
+        public static Color Gray61 => new Color(156f / 255f, 156f / 255f, 156f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9E9E9E <br />
+        ///     [HSV] 000 000 061 <br />
+        ///     [RGB] 158 158 158 <br />
+        /// </summary>
+        public static Color Gray62 => new Color(158f / 255f, 158f / 255f, 158f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A1A1A1 <br />
+        ///     [HSV] 000 000 063 <br />
+        ///     [RGB] 161 161 161 <br />
+        /// </summary>
+        public static Color Gray63 => new Color(161f / 255f, 161f / 255f, 161f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A3A3A3 <br />
+        ///     [HSV] 000 000 063 <br />
+        ///     [RGB] 163 163 163 <br />
+        /// </summary>
+        public static Color Gray64 => new Color(163f / 255f, 163f / 255f, 163f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A6A6A6 <br />
+        ///     [HSV] 000 000 065 <br />
+        ///     [RGB] 166 166 166 <br />
+        /// </summary>
+        public static Color Gray65 => new Color(166f / 255f, 166f / 255f, 166f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A8A8A8 <br />
+        ///     [HSV] 000 000 065 <br />
+        ///     [RGB] 168 168 168 <br />
+        /// </summary>
+        public static Color Gray66 => new Color(168f / 255f, 168f / 255f, 168f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A9A9A9 <br />
+        ///     [HSV] 000 000 066 <br />
+        ///     [RGB] 169 169 169 <br />
+        /// </summary>
+        public static Color DarkGray => new Color(169f / 255f, 169f / 255f, 169f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #AAAAAA <br />
+        ///     [HSV] 000 000 066 <br />
+        ///     [RGB] 170 170 170 <br />
+        /// </summary>
+        public static Color SgiLightGray => new Color(170f / 255f, 170f / 255f, 170f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #ABABAB <br />
+        ///     [HSV] 000 000 067 <br />
+        ///     [RGB] 171 171 171 <br />
+        /// </summary>
+        public static Color Gray67 => new Color(171f / 255f, 171f / 255f, 171f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #ADADAD <br />
+        ///     [HSV] 000 000 067 <br />
+        ///     [RGB] 173 173 173 <br />
+        /// </summary>
+        public static Color Gray68 => new Color(173f / 255f, 173f / 255f, 173f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B0B0B0 <br />
+        ///     [HSV] 000 000 069 <br />
+        ///     [RGB] 176 176 176 <br />
+        /// </summary>
+        public static Color Gray69 => new Color(176f / 255f, 176f / 255f, 176f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B3B3B3 <br />
+        ///     [HSV] 000 000 070 <br />
+        ///     [RGB] 179 179 179 <br />
+        /// </summary>
+        public static Color Gray70 => new Color(179f / 255f, 179f / 255f, 179f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B5B5B5 <br />
+        ///     [HSV] 000 000 070 <br />
+        ///     [RGB] 181 181 181 <br />
+        /// </summary>
+        public static Color Gray71 => new Color(181f / 255f, 181f / 255f, 181f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B7B7B7 <br />
+        ///     [HSV] 000 000 071 <br />
+        ///     [RGB] 183 183 183 <br />
+        /// </summary>
+        public static Color SgiGray72 => new Color(183f / 255f, 183f / 255f, 183f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B8B8B8 <br />
+        ///     [HSV] 000 000 072 <br />
+        ///     [RGB] 184 184 184 <br />
+        /// </summary>
+        public static Color Gray72 => new Color(184f / 255f, 184f / 255f, 184f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BABABA <br />
+        ///     [HSV] 000 000 072 <br />
+        ///     [RGB] 186 186 186 <br />
+        /// </summary>
+        public static Color Gray73 => new Color(186f / 255f, 186f / 255f, 186f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BDBDBD <br />
+        ///     [HSV] 000 000 074 <br />
+        ///     [RGB] 189 189 189 <br />
+        /// </summary>
+        public static Color Gray74 => new Color(189f / 255f, 189f / 255f, 189f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BFBFBF <br />
+        ///     [HSV] 000 000 074 <br />
+        ///     [RGB] 191 191 191 <br />
+        /// </summary>
+        public static Color Gray75 => new Color(191f / 255f, 191f / 255f, 191f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C1C1C1 <br />
+        ///     [HSV] 000 000 075 <br />
+        ///     [RGB] 193 193 193 <br />
+        /// </summary>
+        public static Color SgiGray76 => new Color(193f / 255f, 193f / 255f, 193f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C0C0C0 <br />
+        ///     [HSV] 000 000 075 <br />
+        ///     [RGB] 192 192 192 <br />
+        /// </summary>
+        public static Color Silver => new Color(192f / 255f, 192f / 255f, 192f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C2C2C2 <br />
+        ///     [HSV] 000 000 076 <br />
+        ///     [RGB] 194 194 194 <br />
+        /// </summary>
+        public static Color Gray76 => new Color(194f / 255f, 194f / 255f, 194f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C4C4C4 <br />
+        ///     [HSV] 000 000 076 <br />
+        ///     [RGB] 196 196 196 <br />
+        /// </summary>
+        public static Color Gray77 => new Color(196f / 255f, 196f / 255f, 196f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C7C7C7 <br />
+        ///     [HSV] 000 000 078 <br />
+        ///     [RGB] 199 199 199 <br />
+        /// </summary>
+        public static Color Gray78 => new Color(199f / 255f, 199f / 255f, 199f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C9C9C9 <br />
+        ///     [HSV] 000 000 078 <br />
+        ///     [RGB] 201 201 201 <br />
+        /// </summary>
+        public static Color Gray79 => new Color(201f / 255f, 201f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CCCCCC <br />
+        ///     [HSV] 000 000 080 <br />
+        ///     [RGB] 204 204 204 <br />
+        /// </summary>
+        public static Color Gray80 => new Color(204f / 255f, 204f / 255f, 204f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CFCFCF <br />
+        ///     [HSV] 000 000 081 <br />
+        ///     [RGB] 207 207 207 <br />
+        /// </summary>
+        public static Color Gray81 => new Color(207f / 255f, 207f / 255f, 207f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D1D1D1 <br />
+        ///     [HSV] 000 000 081 <br />
+        ///     [RGB] 209 209 209 <br />
+        /// </summary>
+        public static Color Gray82 => new Color(209f / 255f, 209f / 255f, 209f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D3D3D3 <br />
+        ///     [HSV] 000 000 082 <br />
+        ///     [RGB] 211 211 211 <br />
+        /// </summary>
+        public static Color LightGray => new Color(211f / 255f, 211f / 255f, 211f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D4D4D4 <br />
+        ///     [HSV] 000 000 083 <br />
+        ///     [RGB] 212 212 212 <br />
+        /// </summary>
+        public static Color Gray83 => new Color(212f / 255f, 212f / 255f, 212f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D6D6D6 <br />
+        ///     [HSV] 000 000 083 <br />
+        ///     [RGB] 214 214 214 <br />
+        /// </summary>
+        public static Color Gray84 => new Color(214f / 255f, 214f / 255f, 214f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D9D9D9 <br />
+        ///     [HSV] 000 000 085 <br />
+        ///     [RGB] 217 217 217 <br />
+        /// </summary>
+        public static Color Gray85 => new Color(217f / 255f, 217f / 255f, 217f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DBDBDB <br />
+        ///     [HSV] 000 000 085 <br />
+        ///     [RGB] 219 219 219 <br />
+        /// </summary>
+        public static Color Gray86 => new Color(219f / 255f, 219f / 255f, 219f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DCDCDC <br />
+        ///     [HSV] 000 000 086 <br />
+        ///     [RGB] 220 220 220 <br />
+        /// </summary>
+        public static Color Gainsboro => new Color(220f / 255f, 220f / 255f, 220f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DEDEDE <br />
+        ///     [HSV] 000 000 087 <br />
+        ///     [RGB] 222 222 222 <br />
+        /// </summary>
+        public static Color Gray87 => new Color(222f / 255f, 222f / 255f, 222f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E0E0E0 <br />
+        ///     [HSV] 000 000 087 <br />
+        ///     [RGB] 224 224 224 <br />
+        /// </summary>
+        public static Color Gray88 => new Color(224f / 255f, 224f / 255f, 224f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E3E3E3 <br />
+        ///     [HSV] 000 000 089 <br />
+        ///     [RGB] 227 227 227 <br />
+        /// </summary>
+        public static Color Gray89 => new Color(227f / 255f, 227f / 255f, 227f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E5E5E5 <br />
+        ///     [HSV] 000 000 089 <br />
+        ///     [RGB] 229 229 229 <br />
+        /// </summary>
+        public static Color Gray90 => new Color(229f / 255f, 229f / 255f, 229f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E8E8E8 <br />
+        ///     [HSV] 000 000 090 <br />
+        ///     [RGB] 232 232 232 <br />
+        /// </summary>
+        public static Color Gray91 => new Color(232f / 255f, 232f / 255f, 232f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EAEAEA <br />
+        ///     [HSV] 000 000 091 <br />
+        ///     [RGB] 234 234 234 <br />
+        /// </summary>
+        public static Color SgiGray92 => new Color(234f / 255f, 234f / 255f, 234f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EBEBEB <br />
+        ///     [HSV] 000 000 092 <br />
+        ///     [RGB] 235 235 235 <br />
+        /// </summary>
+        public static Color Gray92 => new Color(235f / 255f, 235f / 255f, 235f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EDEDED <br />
+        ///     [HSV] 000 000 092 <br />
+        ///     [RGB] 237 237 237 <br />
+        /// </summary>
+        public static Color Gray93 => new Color(237f / 255f, 237f / 255f, 237f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F0F0F0 <br />
+        ///     [HSV] 000 000 094 <br />
+        ///     [RGB] 240 240 240 <br />
+        /// </summary>
+        public static Color Gray94 => new Color(240f / 255f, 240f / 255f, 240f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F2F2F2 <br />
+        ///     [HSV] 000 000 094 <br />
+        ///     [RGB] 242 242 242 <br />
+        /// </summary>
+        public static Color Gray95 => new Color(242f / 255f, 242f / 255f, 242f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F4F4F4 <br />
+        ///     [HSV] 000 000 095 <br />
+        ///     [RGB] 244 244 244 <br />
+        /// </summary>
+        public static Color SgiGray96 => new Color(244f / 255f, 244f / 255f, 244f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F7F7F7 <br />
+        ///     [HSV] 000 000 096 <br />
+        ///     [RGB] 247 247 247 <br />
+        /// </summary>
+        public static Color Gray97 => new Color(247f / 255f, 247f / 255f, 247f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F5F5F5 <br />
+        ///     [HSV] 000 000 096 <br />
+        ///     [RGB] 245 245 245 <br />
+        /// </summary>
+        public static Color WhiteSmokeGray96 => new Color(245f / 255f, 245f / 255f, 245f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FAFAFA <br />
+        ///     [HSV] 000 000 098 <br />
+        ///     [RGB] 250 250 250 <br />
+        /// </summary>
+        public static Color Gray98 => new Color(250f / 255f, 250f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FCFCFC <br />
+        ///     [HSV] 000 000 098 <br />
+        ///     [RGB] 252 252 252 <br />
+        /// </summary>
+        public static Color Gray99 => new Color(252f / 255f, 252f / 255f, 252f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFFFF <br />
+        ///     [HSV] 000 000 100 <br />
+        ///     [RGB] 255 255 255 <br />
+        /// </summary>
+        public static Color White => new Color(255f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8989 <br />
+        ///     [HSV] 000 001 054 <br />
+        ///     [RGB] 139 137 137 <br />
+        /// </summary>
+        public static Color Snow4 => new Color(139f / 255f, 137f / 255f, 137f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC9C9 <br />
+        ///     [HSV] 000 001 080 <br />
+        ///     [RGB] 205 201 201 <br />
+        /// </summary>
+        public static Color Snow3 => new Color(205f / 255f, 201f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFAFA <br />
+        ///     [HSV] 000 001 100 <br />
+        ///     [RGB] 255 250 250 <br />
+        /// </summary>
+        public static Color Snow1 => new Color(255f / 255f, 250f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE9E9 <br />
+        ///     [HSV] 000 002 093 <br />
+        ///     [RGB] 238 233 233 <br />
+        /// </summary>
+        public static Color Snow2 => new Color(238f / 255f, 233f / 255f, 233f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BC8F8F <br />
+        ///     [HSV] 000 023 073 <br />
+        ///     [RGB] 188 143 143 <br />
+        /// </summary>
+        public static Color RosyBrown => new Color(188f / 255f, 143f / 255f, 143f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B6969 <br />
+        ///     [HSV] 000 024 054 <br />
+        ///     [RGB] 139 105 105 <br />
+        /// </summary>
+        public static Color RosyBrown4 => new Color(139f / 255f, 105f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD9B9B <br />
+        ///     [HSV] 000 024 080 <br />
+        ///     [RGB] 205 155 155 <br />
+        /// </summary>
+        public static Color RosyBrown3 => new Color(205f / 255f, 155f / 255f, 155f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEB4B4 <br />
+        ///     [HSV] 000 024 093 <br />
+        ///     [RGB] 238 180 180 <br />
+        /// </summary>
+        public static Color RosyBrown2 => new Color(238f / 255f, 180f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFC1C1 <br />
+        ///     [HSV] 000 024 100 <br />
+        ///     [RGB] 255 193 193 <br />
+        /// </summary>
+        public static Color RosyBrown1 => new Color(255f / 255f, 193f / 255f, 193f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C67171 <br />
+        ///     [HSV] 000 042 077 <br />
+        ///     [RGB] 198 113 113 <br />
+        /// </summary>
+        public static Color SgiSalmon => new Color(198f / 255f, 113f / 255f, 113f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F08080 <br />
+        ///     [HSV] 000 046 094 <br />
+        ///     [RGB] 240 128 128 <br />
+        /// </summary>
+        public static Color LightCoral => new Color(240f / 255f, 128f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD5C5C <br />
+        ///     [HSV] 000 055 080 <br />
+        ///     [RGB] 205 092 092 <br />
+        /// </summary>
+        public static Color IndianRed => new Color(205f / 255f, 092f / 255f, 092f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B3A3A <br />
+        ///     [HSV] 000 058 054 <br />
+        ///     [RGB] 139 058 058 <br />
+        /// </summary>
+        public static Color IndianRed4 => new Color(139f / 255f, 058f / 255f, 058f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD5555 <br />
+        ///     [HSV] 000 058 080 <br />
+        ///     [RGB] 205 085 085 <br />
+        /// </summary>
+        public static Color IndianRed3 => new Color(205f / 255f, 085f / 255f, 085f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE6363 <br />
+        ///     [HSV] 000 058 093 <br />
+        ///     [RGB] 238 099 099 <br />
+        /// </summary>
+        public static Color IndianRed2 => new Color(238f / 255f, 099f / 255f, 099f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF6A6A <br />
+        ///     [HSV] 000 058 100 <br />
+        ///     [RGB] 255 106 106 <br />
+        /// </summary>
+        public static Color IndianRed1 => new Color(255f / 255f, 106f / 255f, 106f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B2323 <br />
+        ///     [HSV] 000 074 054 <br />
+        ///     [RGB] 139 035 035 <br />
+        /// </summary>
+        public static Color Brown4 => new Color(139f / 255f, 035f / 255f, 035f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A52A2A <br />
+        ///     [HSV] 000 074 064 <br />
+        ///     [RGB] 165 042 042 <br />
+        /// </summary>
+        public static Color Brown => new Color(165f / 255f, 042f / 255f, 042f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF4040 <br />
+        ///     [HSV] 000 074 100 <br />
+        ///     [RGB] 255 064 064 <br />
+        /// </summary>
+        public static Color Brown1 => new Color(255f / 255f, 064f / 255f, 064f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD3333 <br />
+        ///     [HSV] 000 075 080 <br />
+        ///     [RGB] 205 051 051 <br />
+        /// </summary>
+        public static Color Brown3 => new Color(205f / 255f, 051f / 255f, 051f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE3B3B <br />
+        ///     [HSV] 000 075 093 <br />
+        ///     [RGB] 238 059 059 <br />
+        /// </summary>
+        public static Color Brown2 => new Color(238f / 255f, 059f / 255f, 059f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B22222 <br />
+        ///     [HSV] 000 080 069 <br />
+        ///     [RGB] 178 034 034 <br />
+        /// </summary>
+        public static Color FireBrick => new Color(178f / 255f, 034f / 255f, 034f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B1A1A <br />
+        ///     [HSV] 000 081 054 <br />
+        ///     [RGB] 139 026 026 <br />
+        /// </summary>
+        public static Color FireBrick4 => new Color(139f / 255f, 026f / 255f, 026f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD2626 <br />
+        ///     [HSV] 000 081 080 <br />
+        ///     [RGB] 205 038 038 <br />
+        /// </summary>
+        public static Color FireBrick3 => new Color(205f / 255f, 038f / 255f, 038f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE2C2C <br />
+        ///     [HSV] 000 081 093 <br />
+        ///     [RGB] 238 044 044 <br />
+        /// </summary>
+        public static Color FireBrick2 => new Color(238f / 255f, 044f / 255f, 044f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF3030 <br />
+        ///     [HSV] 000 081 100 <br />
+        ///     [RGB] 255 048 048 <br />
+        /// </summary>
+        public static Color FireBrick1 => new Color(255f / 255f, 048f / 255f, 048f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #800000 <br />
+        ///     [HSV] 000 100 050 <br />
+        ///     [RGB] 128 000 000 <br />
+        /// </summary>
+        public static Color Maroon => new Color(128f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B0000 <br />
+        ///     [HSV] 000 100 054 <br />
+        ///     [RGB] 139 000 000 <br />
+        /// </summary>
+        public static Color Red4DarkRed => new Color(139f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD0000 <br />
+        ///     [HSV] 000 100 080 <br />
+        ///     [RGB] 205 000 000 <br />
+        /// </summary>
+        public static Color Red3 => new Color(205f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE0000 <br />
+        ///     [HSV] 000 100 093 <br />
+        ///     [RGB] 238 000 000 <br />
+        /// </summary>
+        public static Color Red2 => new Color(238f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF0000 <br />
+        ///     [HSV] 000 100 100 <br />
+        ///     [RGB] 255 000 000 <br />
+        /// </summary>
+        public static Color Red1 => new Color(255f / 255f, 000f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDB7B5 <br />
+        ///     [HSV] 005 011 080 <br />
+        ///     [RGB] 205 183 181 <br />
+        /// </summary>
+        public static Color MistyRose3 => new Color(205f / 255f, 183f / 255f, 181f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EED5D2 <br />
+        ///     [HSV] 006 011 093 <br />
+        ///     [RGB] 238 213 210 <br />
+        /// </summary>
+        public static Color MistyRose2 => new Color(238f / 255f, 213f / 255f, 210f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFE4E1 <br />
+        ///     [HSV] 006 011 100 <br />
+        ///     [RGB] 255 228 225 <br />
+        /// </summary>
+        public static Color MistyRose1 => new Color(255f / 255f, 228f / 255f, 225f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FA8072 <br />
+        ///     [HSV] 006 054 098 <br />
+        ///     [RGB] 250 128 114 <br />
+        /// </summary>
+        public static Color Salmon => new Color(250f / 255f, 128f / 255f, 114f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7D7B <br />
+        ///     [HSV] 007 011 054 <br />
+        ///     [RGB] 139 125 123 <br />
+        /// </summary>
+        public static Color MistyRose4 => new Color(139f / 255f, 125f / 255f, 123f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD4F39 <br />
+        ///     [HSV] 008 072 080 <br />
+        ///     [RGB] 205 079 057 <br />
+        /// </summary>
+        public static Color Tomato3 => new Color(205f / 255f, 079f / 255f, 057f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8A3324 <br />
+        ///     [HSV] 008 073 054 <br />
+        ///     [RGB] 138 051 036 <br />
+        /// </summary>
+        public static Color BurntUmber => new Color(138f / 255f, 051f / 255f, 036f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B3E2F <br />
+        ///     [HSV] 009 066 054 <br />
+        ///     [RGB] 139 062 047 <br />
+        /// </summary>
+        public static Color Coral4 => new Color(139f / 255f, 062f / 255f, 047f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD5B45 <br />
+        ///     [HSV] 009 066 080 <br />
+        ///     [RGB] 205 091 069 <br />
+        /// </summary>
+        public static Color Coral3 => new Color(205f / 255f, 091f / 255f, 069f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE6A50 <br />
+        ///     [HSV] 009 066 093 <br />
+        ///     [RGB] 238 106 080 <br />
+        /// </summary>
+        public static Color Coral2 => new Color(238f / 255f, 106f / 255f, 080f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF7256 <br />
+        ///     [HSV] 009 066 100 <br />
+        ///     [RGB] 255 114 086 <br />
+        /// </summary>
+        public static Color Coral1 => new Color(255f / 255f, 114f / 255f, 086f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B3626 <br />
+        ///     [HSV] 009 072 054 <br />
+        ///     [RGB] 139 054 038 <br />
+        /// </summary>
+        public static Color Tomato4 => new Color(139f / 255f, 054f / 255f, 038f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE5C42 <br />
+        ///     [HSV] 009 072 093 <br />
+        ///     [RGB] 238 092 066 <br />
+        /// </summary>
+        public static Color Tomato2 => new Color(238f / 255f, 092f / 255f, 066f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF6347 <br />
+        ///     [HSV] 009 072 100 <br />
+        ///     [RGB] 255 099 071 <br />
+        /// </summary>
+        public static Color Tomato1 => new Color(255f / 255f, 099f / 255f, 071f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B4C39 <br />
+        ///     [HSV] 013 058 054 <br />
+        ///     [RGB] 139 076 057 <br />
+        /// </summary>
+        public static Color Salmon4 => new Color(139f / 255f, 076f / 255f, 057f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE8262 <br />
+        ///     [HSV] 013 058 093 <br />
+        ///     [RGB] 238 130 098 <br />
+        /// </summary>
+        public static Color Salmon2 => new Color(238f / 255f, 130f / 255f, 098f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD7054 <br />
+        ///     [HSV] 013 059 080 <br />
+        ///     [RGB] 205 112 084 <br />
+        /// </summary>
+        public static Color Salmon3 => new Color(205f / 255f, 112f / 255f, 084f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF8C69 <br />
+        ///     [HSV] 014 058 100 <br />
+        ///     [RGB] 255 140 105 <br />
+        /// </summary>
+        public static Color Salmon1 => new Color(255f / 255f, 140f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E9967A <br />
+        ///     [HSV] 015 047 091 <br />
+        ///     [RGB] 233 150 122 <br />
+        /// </summary>
+        public static Color DarkSalmon => new Color(233f / 255f, 150f / 255f, 122f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5E2612 <br />
+        ///     [HSV] 015 080 036 <br />
+        ///     [RGB] 094 038 018 <br />
+        /// </summary>
+        public static Color Sepia => new Color(094f / 255f, 038f / 255f, 018f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B2500 <br />
+        ///     [HSV] 015 100 054 <br />
+        ///     [RGB] 139 037 000 <br />
+        /// </summary>
+        public static Color OrangeRed4 => new Color(139f / 255f, 037f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE9572 <br />
+        ///     [HSV] 016 052 093 <br />
+        ///     [RGB] 238 149 114 <br />
+        /// </summary>
+        public static Color LightSalmon2 => new Color(238f / 255f, 149f / 255f, 114f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF7F50 <br />
+        ///     [HSV] 016 068 100 <br />
+        ///     [RGB] 255 127 080 <br />
+        /// </summary>
+        public static Color Coral => new Color(255f / 255f, 127f / 255f, 080f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD3700 <br />
+        ///     [HSV] 016 100 080 <br />
+        ///     [RGB] 205 055 000 <br />
+        /// </summary>
+        public static Color OrangeRed3 => new Color(205f / 255f, 055f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE4000 <br />
+        ///     [HSV] 016 100 093 <br />
+        ///     [RGB] 238 064 000 <br />
+        /// </summary>
+        public static Color OrangeRed2 => new Color(238f / 255f, 064f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF4500 <br />
+        ///     [HSV] 016 100 100 <br />
+        ///     [RGB] 255 069 000 <br />
+        /// </summary>
+        public static Color OrangeRed1 => new Color(255f / 255f, 069f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B5742 <br />
+        ///     [HSV] 017 052 054 <br />
+        ///     [RGB] 139 087 066 <br />
+        /// </summary>
+        public static Color LightSalmon4 => new Color(139f / 255f, 087f / 255f, 066f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD8162 <br />
+        ///     [HSV] 017 052 080 <br />
+        ///     [RGB] 205 129 098 <br />
+        /// </summary>
+        public static Color LightSalmon3 => new Color(205f / 255f, 129f / 255f, 098f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFA07A <br />
+        ///     [HSV] 017 052 100 <br />
+        ///     [RGB] 255 160 122 <br />
+        /// </summary>
+        public static Color LightSalmon1 => new Color(255f / 255f, 160f / 255f, 122f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A0522D <br />
+        ///     [HSV] 019 071 062 <br />
+        ///     [RGB] 160 082 045 <br />
+        /// </summary>
+        public static Color Sienna => new Color(160f / 255f, 082f / 255f, 045f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B4726 <br />
+        ///     [HSV] 019 072 054 <br />
+        ///     [RGB] 139 071 038 <br />
+        /// </summary>
+        public static Color Sienna4 => new Color(139f / 255f, 071f / 255f, 038f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD6839 <br />
+        ///     [HSV] 019 072 080 <br />
+        ///     [RGB] 205 104 057 <br />
+        /// </summary>
+        public static Color Sienna3 => new Color(205f / 255f, 104f / 255f, 057f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE7942 <br />
+        ///     [HSV] 019 072 093 <br />
+        ///     [RGB] 238 121 066 <br />
+        /// </summary>
+        public static Color Sienna2 => new Color(238f / 255f, 121f / 255f, 066f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF8247 <br />
+        ///     [HSV] 019 072 100 <br />
+        ///     [RGB] 255 130 071 <br />
+        /// </summary>
+        public static Color Sienna1 => new Color(255f / 255f, 130f / 255f, 071f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF7D40 <br />
+        ///     [HSV] 019 074 100 <br />
+        ///     [RGB] 255 125 064 <br />
+        /// </summary>
+        public static Color Flesh => new Color(255f / 255f, 125f / 255f, 064f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8A360F <br />
+        ///     [HSV] 019 089 054 <br />
+        ///     [RGB] 138 054 015 <br />
+        /// </summary>
+        public static Color BurntSienna => new Color(138f / 255f, 054f / 255f, 015f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #292421 <br />
+        ///     [HSV] 022 019 016 <br />
+        ///     [RGB] 041 036 033 <br />
+        /// </summary>
+        public static Color IvoryBlack => new Color(041f / 255f, 036f / 255f, 033f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF6103 <br />
+        ///     [HSV] 022 098 100 <br />
+        ///     [RGB] 255 097 003 <br />
+        /// </summary>
+        public static Color CadmiumOrange => new Color(255f / 255f, 097f / 255f, 003f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFF5EE <br />
+        ///     [HSV] 024 006 100 <br />
+        ///     [RGB] 255 245 238 <br />
+        /// </summary>
+        public static Color Seashell1 => new Color(255f / 255f, 245f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD661D <br />
+        ///     [HSV] 024 085 080 <br />
+        ///     [RGB] 205 102 029 <br />
+        /// </summary>
+        public static Color Chocolate3 => new Color(205f / 255f, 102f / 255f, 029f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF7F24 <br />
+        ///     [HSV] 024 085 100 <br />
+        ///     [RGB] 255 127 036 <br />
+        /// </summary>
+        public static Color Chocolate1 => new Color(255f / 255f, 127f / 255f, 036f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE7621 <br />
+        ///     [HSV] 024 086 093 <br />
+        ///     [RGB] 238 118 033 <br />
+        /// </summary>
+        public static Color Chocolate2 => new Color(238f / 255f, 118f / 255f, 033f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC5BF <br />
+        ///     [HSV] 025 006 080 <br />
+        ///     [RGB] 205 197 191 <br />
+        /// </summary>
+        public static Color Seashell3 => new Color(205f / 255f, 197f / 255f, 191f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D2691E <br />
+        ///     [HSV] 025 085 082 <br />
+        ///     [RGB] 210 105 030 <br />
+        /// </summary>
+        public static Color Chocolate => new Color(210f / 255f, 105f / 255f, 030f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B4513 <br />
+        ///     [HSV] 025 086 054 <br />
+        ///     [RGB] 139 069 019 <br />
+        /// </summary>
+        public static Color Chocolate4 => new Color(139f / 255f, 069f / 255f, 019f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C76114 <br />
+        ///     [HSV] 025 089 078 <br />
+        ///     [RGB] 199 097 020 <br />
+        /// </summary>
+        public static Color RawSienna => new Color(199f / 255f, 097f / 255f, 020f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8682 <br />
+        ///     [HSV] 026 006 054 <br />
+        ///     [RGB] 139 134 130 <br />
+        /// </summary>
+        public static Color Seashell4 => new Color(139f / 255f, 134f / 255f, 130f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE5DE <br />
+        ///     [HSV] 026 006 093 <br />
+        ///     [RGB] 238 229 222 <br />
+        /// </summary>
+        public static Color Seashell2 => new Color(238f / 255f, 229f / 255f, 222f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDAF95 <br />
+        ///     [HSV] 027 027 080 <br />
+        ///     [RGB] 205 175 149 <br />
+        /// </summary>
+        public static Color Peachpuff3 => new Color(205f / 255f, 175f / 255f, 149f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EECBAD <br />
+        ///     [HSV] 027 027 093 <br />
+        ///     [RGB] 238 203 173 <br />
+        /// </summary>
+        public static Color Peachpuff2 => new Color(238f / 255f, 203f / 255f, 173f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F4A460 <br />
+        ///     [HSV] 027 060 095 <br />
+        ///     [RGB] 244 164 096 <br />
+        /// </summary>
+        public static Color SandyBrown => new Color(244f / 255f, 164f / 255f, 096f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7765 <br />
+        ///     [HSV] 028 027 054 <br />
+        ///     [RGB] 139 119 101 <br />
+        /// </summary>
+        public static Color Peachpuff4 => new Color(139f / 255f, 119f / 255f, 101f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFDAB9 <br />
+        ///     [HSV] 028 027 100 <br />
+        ///     [RGB] 255 218 185 <br />
+        /// </summary>
+        public static Color Peachpuff1 => new Color(255f / 255f, 218f / 255f, 185f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B5A2B <br />
+        ///     [HSV] 029 069 054 <br />
+        ///     [RGB] 139 090 043 <br />
+        /// </summary>
+        public static Color Tan4 => new Color(139f / 255f, 090f / 255f, 043f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD853F <br />
+        ///     [HSV] 029 069 080 <br />
+        ///     [RGB] 205 133 063 <br />
+        /// </summary>
+        public static Color Tan3 => new Color(205f / 255f, 133f / 255f, 063f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE9A49 <br />
+        ///     [HSV] 029 069 093 <br />
+        ///     [RGB] 238 154 073 <br />
+        /// </summary>
+        public static Color Tan2 => new Color(238f / 255f, 154f / 255f, 073f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFA54F <br />
+        ///     [HSV] 029 069 100 <br />
+        ///     [RGB] 255 165 079 <br />
+        /// </summary>
+        public static Color Tan1 => new Color(255f / 255f, 165f / 255f, 079f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B4500 <br />
+        ///     [HSV] 029 100 054 <br />
+        ///     [RGB] 139 069 000 <br />
+        /// </summary>
+        public static Color DarkOrange4 => new Color(139f / 255f, 069f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD6600 <br />
+        ///     [HSV] 029 100 080 <br />
+        ///     [RGB] 205 102 000 <br />
+        /// </summary>
+        public static Color DarkOrange3 => new Color(205f / 255f, 102f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE7600 <br />
+        ///     [HSV] 029 100 093 <br />
+        ///     [RGB] 238 118 000 <br />
+        /// </summary>
+        public static Color DarkOrange2 => new Color(238f / 255f, 118f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF7F00 <br />
+        ///     [HSV] 029 100 100 <br />
+        ///     [RGB] 255 127 000 <br />
+        /// </summary>
+        public static Color DarkOrange1 => new Color(255f / 255f, 127f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FAF0E6 <br />
+        ///     [HSV] 030 007 098 <br />
+        ///     [RGB] 250 240 230 <br />
+        /// </summary>
+        public static Color Linen => new Color(250f / 255f, 240f / 255f, 230f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E3A869 <br />
+        ///     [HSV] 030 053 089 <br />
+        ///     [RGB] 227 168 105 <br />
+        /// </summary>
+        public static Color Melon => new Color(227f / 255f, 168f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF8000 <br />
+        ///     [HSV] 030 100 100 <br />
+        ///     [RGB] 255 128 000 <br />
+        /// </summary>
+        public static Color Orange => new Color(255f / 255f, 128f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDB79E <br />
+        ///     [HSV] 031 022 080 <br />
+        ///     [RGB] 205 183 158 <br />
+        /// </summary>
+        public static Color Bisque3 => new Color(205f / 255f, 183f / 255f, 158f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EED5B7 <br />
+        ///     [HSV] 032 023 093 <br />
+        ///     [RGB] 238 213 183 <br />
+        /// </summary>
+        public static Color Bisque2 => new Color(238f / 255f, 213f / 255f, 183f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFE4C4 <br />
+        ///     [HSV] 032 023 100 <br />
+        ///     [RGB] 255 228 196 <br />
+        /// </summary>
+        public static Color Bisque1 => new Color(255f / 255f, 228f / 255f, 196f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #ED9121 <br />
+        ///     [HSV] 032 086 092 <br />
+        ///     [RGB] 237 145 033 <br />
+        /// </summary>
+        public static Color Carrot => new Color(237f / 255f, 145f / 255f, 033f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF8C00 <br />
+        ///     [HSV] 032 100 100 <br />
+        ///     [RGB] 255 140 000 <br />
+        /// </summary>
+        public static Color DarkOrange => new Color(255f / 255f, 140f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC0B0 <br />
+        ///     [HSV] 033 014 080 <br />
+        ///     [RGB] 205 192 176 <br />
+        /// </summary>
+        public static Color AntiqueWhite3 => new Color(205f / 255f, 192f / 255f, 176f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEDFCC <br />
+        ///     [HSV] 033 014 093 <br />
+        ///     [RGB] 238 223 204 <br />
+        /// </summary>
+        public static Color AntiqueWhite2 => new Color(238f / 255f, 223f / 255f, 204f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFEFDB <br />
+        ///     [HSV] 033 014 100 <br />
+        ///     [RGB] 255 239 219 <br />
+        /// </summary>
+        public static Color AntiqueWhite1 => new Color(255f / 255f, 239f / 255f, 219f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7D6B <br />
+        ///     [HSV] 033 023 054 <br />
+        ///     [RGB] 139 125 107 <br />
+        /// </summary>
+        public static Color Bisque4 => new Color(139f / 255f, 125f / 255f, 107f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7355 <br />
+        ///     [HSV] 033 038 054 <br />
+        ///     [RGB] 139 115 085 <br />
+        /// </summary>
+        public static Color Burlywood4 => new Color(139f / 255f, 115f / 255f, 085f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDAA7D <br />
+        ///     [HSV] 033 039 080 <br />
+        ///     [RGB] 205 170 125 <br />
+        /// </summary>
+        public static Color Burlywood3 => new Color(205f / 255f, 170f / 255f, 125f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DEB887 <br />
+        ///     [HSV] 033 039 087 <br />
+        ///     [RGB] 222 184 135 <br />
+        /// </summary>
+        public static Color Burlywood => new Color(222f / 255f, 184f / 255f, 135f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEC591 <br />
+        ///     [HSV] 033 039 093 <br />
+        ///     [RGB] 238 197 145 <br />
+        /// </summary>
+        public static Color Burlywood2 => new Color(238f / 255f, 197f / 255f, 145f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFD39B <br />
+        ///     [HSV] 033 039 100 <br />
+        ///     [RGB] 255 211 155 <br />
+        /// </summary>
+        public static Color Burlywood1 => new Color(255f / 255f, 211f / 255f, 155f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8378 <br />
+        ///     [HSV] 034 013 054 <br />
+        ///     [RGB] 139 131 120 <br />
+        /// </summary>
+        public static Color AntiqueWhite4 => new Color(139f / 255f, 131f / 255f, 120f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FAEBD7 <br />
+        ///     [HSV] 034 013 098 <br />
+        ///     [RGB] 250 235 215 <br />
+        /// </summary>
+        public static Color AntiqueWhite => new Color(250f / 255f, 235f / 255f, 215f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FCE6C9 <br />
+        ///     [HSV] 034 020 098 <br />
+        ///     [RGB] 252 230 201 <br />
+        /// </summary>
+        public static Color Eggshell => new Color(252f / 255f, 230f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D2B48C <br />
+        ///     [HSV] 034 033 082 <br />
+        ///     [RGB] 210 180 140 <br />
+        /// </summary>
+        public static Color Tan => new Color(210f / 255f, 180f / 255f, 140f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9C661F <br />
+        ///     [HSV] 034 080 061 <br />
+        ///     [RGB] 156 102 031 <br />
+        /// </summary>
+        public static Color Brick => new Color(156f / 255f, 102f / 255f, 031f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF9912 <br />
+        ///     [HSV] 034 092 100 <br />
+        ///     [RGB] 255 153 018 <br />
+        /// </summary>
+        public static Color CadmiumYellow => new Color(255f / 255f, 153f / 255f, 018f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EECFA1 <br />
+        ///     [HSV] 035 032 093 <br />
+        ///     [RGB] 238 207 161 <br />
+        /// </summary>
+        public static Color NavajoWhite2 => new Color(238f / 255f, 207f / 255f, 161f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFDEAD <br />
+        ///     [HSV] 035 032 100 <br />
+        ///     [RGB] 255 222 173 <br />
+        /// </summary>
+        public static Color NavajoWhite1 => new Color(255f / 255f, 222f / 255f, 173f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFEBCD <br />
+        ///     [HSV] 036 019 100 <br />
+        ///     [RGB] 255 235 205 <br />
+        /// </summary>
+        public static Color BlanchedAlmond => new Color(255f / 255f, 235f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B795E <br />
+        ///     [HSV] 036 032 054 <br />
+        ///     [RGB] 139 121 094 <br />
+        /// </summary>
+        public static Color NavajoWhite4 => new Color(139f / 255f, 121f / 255f, 094f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDB38B <br />
+        ///     [HSV] 036 032 080 <br />
+        ///     [RGB] 205 179 139 <br />
+        /// </summary>
+        public static Color NavajoWhite3 => new Color(205f / 255f, 179f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFEFD5 <br />
+        ///     [HSV] 037 016 100 <br />
+        ///     [RGB] 255 239 213 <br />
+        /// </summary>
+        public static Color PapayaWhip => new Color(255f / 255f, 239f / 255f, 213f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7E66 <br />
+        ///     [HSV] 038 026 054 <br />
+        ///     [RGB] 139 126 102 <br />
+        /// </summary>
+        public static Color Wheat4 => new Color(139f / 255f, 126f / 255f, 102f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFE4B5 <br />
+        ///     [HSV] 038 029 100 <br />
+        ///     [RGB] 255 228 181 <br />
+        /// </summary>
+        public static Color Moccasin => new Color(255f / 255f, 228f / 255f, 181f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B5A00 <br />
+        ///     [HSV] 038 100 054 <br />
+        ///     [RGB] 139 090 000 <br />
+        /// </summary>
+        public static Color Orange4 => new Color(139f / 255f, 090f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD8500 <br />
+        ///     [HSV] 038 100 080 <br />
+        ///     [RGB] 205 133 000 <br />
+        /// </summary>
+        public static Color Orange3 => new Color(205f / 255f, 133f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE9A00 <br />
+        ///     [HSV] 038 100 093 <br />
+        ///     [RGB] 238 154 000 <br />
+        /// </summary>
+        public static Color Orange2 => new Color(238f / 255f, 154f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFA500 <br />
+        ///     [HSV] 038 100 100 <br />
+        ///     [RGB] 255 165 000 <br />
+        /// </summary>
+        public static Color Orange1 => new Color(255f / 255f, 165f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFAF0 <br />
+        ///     [HSV] 039 005 100 <br />
+        ///     [RGB] 255 250 240 <br />
+        /// </summary>
+        public static Color FloralWhite => new Color(255f / 255f, 250f / 255f, 240f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FDF5E6 <br />
+        ///     [HSV] 039 009 099 <br />
+        ///     [RGB] 253 245 230 <br />
+        /// </summary>
+        public static Color OldLace => new Color(253f / 255f, 245f / 255f, 230f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDBA96 <br />
+        ///     [HSV] 039 026 080 <br />
+        ///     [RGB] 205 186 150 <br />
+        /// </summary>
+        public static Color Wheat3 => new Color(205f / 255f, 186f / 255f, 150f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EED8AE <br />
+        ///     [HSV] 039 026 093 <br />
+        ///     [RGB] 238 216 174 <br />
+        /// </summary>
+        public static Color Wheat2 => new Color(238f / 255f, 216f / 255f, 174f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F5DEB3 <br />
+        ///     [HSV] 039 026 096 <br />
+        ///     [RGB] 245 222 179 <br />
+        /// </summary>
+        public static Color Wheat => new Color(245f / 255f, 222f / 255f, 179f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFE7BA <br />
+        ///     [HSV] 039 027 100 <br />
+        ///     [RGB] 255 231 186 <br />
+        /// </summary>
+        public static Color Wheat1 => new Color(255f / 255f, 231f / 255f, 186f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B6914 <br />
+        ///     [HSV] 042 085 054 <br />
+        ///     [RGB] 139 105 020 <br />
+        /// </summary>
+        public static Color Goldenrod4 => new Color(139f / 255f, 105f / 255f, 020f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD9B1D <br />
+        ///     [HSV] 042 085 080 <br />
+        ///     [RGB] 205 155 029 <br />
+        /// </summary>
+        public static Color Goldenrod3 => new Color(205f / 255f, 155f / 255f, 029f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DAA520 <br />
+        ///     [HSV] 042 085 085 <br />
+        ///     [RGB] 218 165 032 <br />
+        /// </summary>
+        public static Color Goldenrod => new Color(218f / 255f, 165f / 255f, 032f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEB422 <br />
+        ///     [HSV] 042 085 093 <br />
+        ///     [RGB] 238 180 034 <br />
+        /// </summary>
+        public static Color Goldenrod2 => new Color(238f / 255f, 180f / 255f, 034f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFC125 <br />
+        ///     [HSV] 042 085 100 <br />
+        ///     [RGB] 255 193 037 <br />
+        /// </summary>
+        public static Color Goldenrod1 => new Color(255f / 255f, 193f / 255f, 037f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B6508 <br />
+        ///     [HSV] 042 094 054 <br />
+        ///     [RGB] 139 101 008 <br />
+        /// </summary>
+        public static Color DarkGoldenrod4 => new Color(139f / 255f, 101f / 255f, 008f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B8860B <br />
+        ///     [HSV] 042 094 072 <br />
+        ///     [RGB] 184 134 011 <br />
+        /// </summary>
+        public static Color DarkGoldenrod => new Color(184f / 255f, 134f / 255f, 011f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD950C <br />
+        ///     [HSV] 042 094 080 <br />
+        ///     [RGB] 205 149 012 <br />
+        /// </summary>
+        public static Color DarkGoldenrod3 => new Color(205f / 255f, 149f / 255f, 012f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEAD0E <br />
+        ///     [HSV] 042 094 093 <br />
+        ///     [RGB] 238 173 014 <br />
+        /// </summary>
+        public static Color DarkGoldenrod2 => new Color(238f / 255f, 173f / 255f, 014f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFB90F <br />
+        ///     [HSV] 042 094 100 <br />
+        ///     [RGB] 255 185 015 <br />
+        /// </summary>
+        public static Color DarkGoldenrod1 => new Color(255f / 255f, 185f / 255f, 015f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFF8DC <br />
+        ///     [HSV] 048 013 100 <br />
+        ///     [RGB] 255 248 220 <br />
+        /// </summary>
+        public static Color Cornsilk1 => new Color(255f / 255f, 248f / 255f, 220f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC8B1 <br />
+        ///     [HSV] 049 013 080 <br />
+        ///     [RGB] 205 200 177 <br />
+        /// </summary>
+        public static Color Cornsilk3 => new Color(205f / 255f, 200f / 255f, 177f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE8CD <br />
+        ///     [HSV] 049 013 093 <br />
+        ///     [RGB] 238 232 205 <br />
+        /// </summary>
+        public static Color Cornsilk2 => new Color(238f / 255f, 232f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8878 <br />
+        ///     [HSV] 050 013 054 <br />
+        ///     [RGB] 139 136 120 <br />
+        /// </summary>
+        public static Color Cornsilk4 => new Color(139f / 255f, 136f / 255f, 120f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B814C <br />
+        ///     [HSV] 050 045 054 <br />
+        ///     [RGB] 139 129 076 <br />
+        /// </summary>
+        public static Color LightGoldenrod4 => new Color(139f / 255f, 129f / 255f, 076f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDBE70 <br />
+        ///     [HSV] 050 045 080 <br />
+        ///     [RGB] 205 190 112 <br />
+        /// </summary>
+        public static Color LightGoldenrod3 => new Color(205f / 255f, 190f / 255f, 112f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEDC82 <br />
+        ///     [HSV] 050 045 093 <br />
+        ///     [RGB] 238 220 130 <br />
+        /// </summary>
+        public static Color LightGoldenrod2 => new Color(238f / 255f, 220f / 255f, 130f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFEC8B <br />
+        ///     [HSV] 050 045 100 <br />
+        ///     [RGB] 255 236 139 <br />
+        /// </summary>
+        public static Color LightGoldenrod1 => new Color(255f / 255f, 236f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7500 <br />
+        ///     [HSV] 050 100 054 <br />
+        ///     [RGB] 139 117 000 <br />
+        /// </summary>
+        public static Color Gold4 => new Color(139f / 255f, 117f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDAD00 <br />
+        ///     [HSV] 050 100 080 <br />
+        ///     [RGB] 205 173 000 <br />
+        /// </summary>
+        public static Color Gold3 => new Color(205f / 255f, 173f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEC900 <br />
+        ///     [HSV] 050 100 093 <br />
+        ///     [RGB] 238 201 000 <br />
+        /// </summary>
+        public static Color Gold2 => new Color(238f / 255f, 201f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFD700 <br />
+        ///     [HSV] 050 100 100 <br />
+        ///     [RGB] 255 215 000 <br />
+        /// </summary>
+        public static Color Gold1 => new Color(255f / 255f, 215f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C5C1AA <br />
+        ///     [HSV] 051 013 077 <br />
+        ///     [RGB] 197 193 170 <br />
+        /// </summary>
+        public static Color SgiBrightGray => new Color(197f / 255f, 193f / 255f, 170f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E3CF57 <br />
+        ///     [HSV] 051 061 089 <br />
+        ///     [RGB] 227 207 087 <br />
+        /// </summary>
+        public static Color Banana => new Color(227f / 255f, 207f / 255f, 087f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE9BF <br />
+        ///     [HSV] 053 019 093 <br />
+        ///     [RGB] 238 233 191 <br />
+        /// </summary>
+        public static Color LemonChiffon2 => new Color(238f / 255f, 233f / 255f, 191f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC9A5 <br />
+        ///     [HSV] 054 019 080 <br />
+        ///     [RGB] 205 201 165 <br />
+        /// </summary>
+        public static Color LemonChiffon3 => new Color(205f / 255f, 201f / 255f, 165f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFACD <br />
+        ///     [HSV] 054 019 100 <br />
+        ///     [RGB] 255 250 205 <br />
+        /// </summary>
+        public static Color LemonChiffon1 => new Color(255f / 255f, 250f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE8AA <br />
+        ///     [HSV] 054 028 093 <br />
+        ///     [RGB] 238 232 170 <br />
+        /// </summary>
+        public static Color PaleGoldenrod => new Color(238f / 255f, 232f / 255f, 170f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F0E68C <br />
+        ///     [HSV] 054 041 094 <br />
+        ///     [RGB] 240 230 140 <br />
+        /// </summary>
+        public static Color Khaki => new Color(240f / 255f, 230f / 255f, 140f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8970 <br />
+        ///     [HSV] 055 019 054 <br />
+        ///     [RGB] 139 137 112 <br />
+        /// </summary>
+        public static Color LemonChiffon4 => new Color(139f / 255f, 137f / 255f, 112f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B864E <br />
+        ///     [HSV] 055 043 054 <br />
+        ///     [RGB] 139 134 078 <br />
+        /// </summary>
+        public static Color Khaki4 => new Color(139f / 255f, 134f / 255f, 078f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BDB76B <br />
+        ///     [HSV] 055 043 074 <br />
+        ///     [RGB] 189 183 107 <br />
+        /// </summary>
+        public static Color DarkKhaki => new Color(189f / 255f, 183f / 255f, 107f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC673 <br />
+        ///     [HSV] 055 043 080 <br />
+        ///     [RGB] 205 198 115 <br />
+        /// </summary>
+        public static Color Khaki3 => new Color(205f / 255f, 198f / 255f, 115f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFF68F <br />
+        ///     [HSV] 055 043 100 <br />
+        ///     [RGB] 255 246 143 <br />
+        /// </summary>
+        public static Color Khaki1 => new Color(255f / 255f, 246f / 255f, 143f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE685 <br />
+        ///     [HSV] 055 044 093 <br />
+        ///     [RGB] 238 230 133 <br />
+        /// </summary>
+        public static Color Khaki2 => new Color(238f / 255f, 230f / 255f, 133f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8B83 <br />
+        ///     [HSV] 060 005 054 <br />
+        ///     [RGB] 139 139 131 <br />
+        /// </summary>
+        public static Color Ivory4 => new Color(139f / 255f, 139f / 255f, 131f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDCDC1 <br />
+        ///     [HSV] 060 005 080 <br />
+        ///     [RGB] 205 205 193 <br />
+        /// </summary>
+        public static Color Ivory3 => new Color(205f / 255f, 205f / 255f, 193f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEEEE0 <br />
+        ///     [HSV] 060 005 093 <br />
+        ///     [RGB] 238 238 224 <br />
+        /// </summary>
+        public static Color Ivory2 => new Color(238f / 255f, 238f / 255f, 224f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFFF0 <br />
+        ///     [HSV] 060 005 100 <br />
+        ///     [RGB] 255 255 240 <br />
+        /// </summary>
+        public static Color Ivory1 => new Color(255f / 255f, 255f / 255f, 240f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F5F5DC <br />
+        ///     [HSV] 060 010 096 <br />
+        ///     [RGB] 245 245 220 <br />
+        /// </summary>
+        public static Color Beige => new Color(245f / 255f, 245f / 255f, 220f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8B7A <br />
+        ///     [HSV] 060 012 054 <br />
+        ///     [RGB] 139 139 122 <br />
+        /// </summary>
+        public static Color LightYellow4 => new Color(139f / 255f, 139f / 255f, 122f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDCDB4 <br />
+        ///     [HSV] 060 012 080 <br />
+        ///     [RGB] 205 205 180 <br />
+        /// </summary>
+        public static Color LightYellow3 => new Color(205f / 255f, 205f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEEED1 <br />
+        ///     [HSV] 060 012 093 <br />
+        ///     [RGB] 238 238 209 <br />
+        /// </summary>
+        public static Color LightYellow2 => new Color(238f / 255f, 238f / 255f, 209f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFFE0 <br />
+        ///     [HSV] 060 012 100 <br />
+        ///     [RGB] 255 255 224 <br />
+        /// </summary>
+        public static Color LightYellow1 => new Color(255f / 255f, 255f / 255f, 224f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FAFAD2 <br />
+        ///     [HSV] 060 016 098 <br />
+        ///     [RGB] 250 250 210 <br />
+        /// </summary>
+        public static Color LightGoldenrodYellow => new Color(250f / 255f, 250f / 255f, 210f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #808069 <br />
+        ///     [HSV] 060 017 050 <br />
+        ///     [RGB] 128 128 105 <br />
+        /// </summary>
+        public static Color WarmGray => new Color(128f / 255f, 128f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8E8E38 <br />
+        ///     [HSV] 060 060 055 <br />
+        ///     [RGB] 142 142 056 <br />
+        /// </summary>
+        public static Color SgiOliveDrab => new Color(142f / 255f, 142f / 255f, 056f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #808000 <br />
+        ///     [HSV] 060 100 050 <br />
+        ///     [RGB] 128 128 000 <br />
+        /// </summary>
+        public static Color Olive => new Color(128f / 255f, 128f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8B00 <br />
+        ///     [HSV] 060 100 054 <br />
+        ///     [RGB] 139 139 000 <br />
+        /// </summary>
+        public static Color Yellow4 => new Color(139f / 255f, 139f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDCD00 <br />
+        ///     [HSV] 060 100 080 <br />
+        ///     [RGB] 205 205 000 <br />
+        /// </summary>
+        public static Color Yellow3 => new Color(205f / 255f, 205f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEEE00 <br />
+        ///     [HSV] 060 100 093 <br />
+        ///     [RGB] 238 238 000 <br />
+        /// </summary>
+        public static Color Yellow2 => new Color(238f / 255f, 238f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFFF00 <br />
+        ///     [HSV] 060 100 100 <br />
+        ///     [RGB] 255 255 000 <br />
+        /// </summary>
+        public static Color Yellow1 => new Color(255f / 255f, 255f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #698B22 <br />
+        ///     [HSV] 079 075 054 <br />
+        ///     [RGB] 105 139 034 <br />
+        /// </summary>
+        public static Color OliveDrab4 => new Color(105f / 255f, 139f / 255f, 034f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6B8E23 <br />
+        ///     [HSV] 079 075 055 <br />
+        ///     [RGB] 107 142 035 <br />
+        /// </summary>
+        public static Color OliveDrab => new Color(107f / 255f, 142f / 255f, 035f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9ACD32 <br />
+        ///     [HSV] 079 075 080 <br />
+        ///     [RGB] 154 205 050 <br />
+        /// </summary>
+        public static Color OliveDrab3 => new Color(154f / 255f, 205f / 255f, 050f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B3EE3A <br />
+        ///     [HSV] 079 075 093 <br />
+        ///     [RGB] 179 238 058 <br />
+        /// </summary>
+        public static Color OliveDrab2 => new Color(179f / 255f, 238f / 255f, 058f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C0FF3E <br />
+        ///     [HSV] 079 075 100 <br />
+        ///     [RGB] 192 255 062 <br />
+        /// </summary>
+        public static Color OliveDrab1 => new Color(192f / 255f, 255f / 255f, 062f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #556B2F <br />
+        ///     [HSV] 082 056 041 <br />
+        ///     [RGB] 085 107 047 <br />
+        /// </summary>
+        public static Color DarkOliveGreen => new Color(085f / 255f, 107f / 255f, 047f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6E8B3D <br />
+        ///     [HSV] 082 056 054 <br />
+        ///     [RGB] 110 139 061 <br />
+        /// </summary>
+        public static Color DarkOliveGreen4 => new Color(110f / 255f, 139f / 255f, 061f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A2CD5A <br />
+        ///     [HSV] 082 056 080 <br />
+        ///     [RGB] 162 205 090 <br />
+        /// </summary>
+        public static Color DarkOliveGreen3 => new Color(162f / 255f, 205f / 255f, 090f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BCEE68 <br />
+        ///     [HSV] 082 056 093 <br />
+        ///     [RGB] 188 238 104 <br />
+        /// </summary>
+        public static Color DarkOliveGreen2 => new Color(188f / 255f, 238f / 255f, 104f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CAFF70 <br />
+        ///     [HSV] 082 056 100 <br />
+        ///     [RGB] 202 255 112 <br />
+        /// </summary>
+        public static Color DarkOliveGreen1 => new Color(202f / 255f, 255f / 255f, 112f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #ADFF2F <br />
+        ///     [HSV] 083 081 100 <br />
+        ///     [RGB] 173 255 047 <br />
+        /// </summary>
+        public static Color GreenYellow => new Color(173f / 255f, 255f / 255f, 047f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #458B00 <br />
+        ///     [HSV] 090 100 054 <br />
+        ///     [RGB] 069 139 000 <br />
+        /// </summary>
+        public static Color Chartreuse4 => new Color(069f / 255f, 139f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #66CD00 <br />
+        ///     [HSV] 090 100 080 <br />
+        ///     [RGB] 102 205 000 <br />
+        /// </summary>
+        public static Color Chartreuse3 => new Color(102f / 255f, 205f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #76EE00 <br />
+        ///     [HSV] 090 100 093 <br />
+        ///     [RGB] 118 238 000 <br />
+        /// </summary>
+        public static Color Chartreuse2 => new Color(118f / 255f, 238f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7CFC00 <br />
+        ///     [HSV] 090 100 098 <br />
+        ///     [RGB] 124 252 000 <br />
+        /// </summary>
+        public static Color LawnGreen => new Color(124f / 255f, 252f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7FFF00 <br />
+        ///     [HSV] 090 100 100 <br />
+        ///     [RGB] 127 255 000 <br />
+        /// </summary>
+        public static Color Chartreuse1 => new Color(127f / 255f, 255f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #308014 <br />
+        ///     [HSV] 104 084 050 <br />
+        ///     [RGB] 048 128 020 <br />
+        /// </summary>
+        public static Color SapGreen => new Color(048f / 255f, 128f / 255f, 020f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #838B83 <br />
+        ///     [HSV] 120 005 054 <br />
+        ///     [RGB] 131 139 131 <br />
+        /// </summary>
+        public static Color Honeydew4 => new Color(131f / 255f, 139f / 255f, 131f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C1CDC1 <br />
+        ///     [HSV] 120 005 080 <br />
+        ///     [RGB] 193 205 193 <br />
+        /// </summary>
+        public static Color Honeydew3 => new Color(193f / 255f, 205f / 255f, 193f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E0EEE0 <br />
+        ///     [HSV] 120 005 093 <br />
+        ///     [RGB] 224 238 224 <br />
+        /// </summary>
+        public static Color Honeydew2 => new Color(224f / 255f, 238f / 255f, 224f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F0FFF0 <br />
+        ///     [HSV] 120 005 100 <br />
+        ///     [RGB] 240 255 240 <br />
+        /// </summary>
+        public static Color Honeydew1 => new Color(240f / 255f, 255f / 255f, 240f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8FBC8F <br />
+        ///     [HSV] 120 023 073 <br />
+        ///     [RGB] 143 188 143 <br />
+        /// </summary>
+        public static Color DarkSeaGreen => new Color(143f / 255f, 188f / 255f, 143f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #698B69 <br />
+        ///     [HSV] 120 024 054 <br />
+        ///     [RGB] 105 139 105 <br />
+        /// </summary>
+        public static Color DarkSeaGreen4 => new Color(105f / 255f, 139f / 255f, 105f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9BCD9B <br />
+        ///     [HSV] 120 024 080 <br />
+        ///     [RGB] 155 205 155 <br />
+        /// </summary>
+        public static Color DarkSeaGreen3 => new Color(155f / 255f, 205f / 255f, 155f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B4EEB4 <br />
+        ///     [HSV] 120 024 093 <br />
+        ///     [RGB] 180 238 180 <br />
+        /// </summary>
+        public static Color DarkSeaGreen2 => new Color(180f / 255f, 238f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C1FFC1 <br />
+        ///     [HSV] 120 024 100 <br />
+        ///     [RGB] 193 255 193 <br />
+        /// </summary>
+        public static Color DarkSeaGreen1 => new Color(193f / 255f, 255f / 255f, 193f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #548B54 <br />
+        ///     [HSV] 120 039 054 <br />
+        ///     [RGB] 084 139 084 <br />
+        /// </summary>
+        public static Color PaleGreen4 => new Color(084f / 255f, 139f / 255f, 084f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7CCD7C <br />
+        ///     [HSV] 120 039 080 <br />
+        ///     [RGB] 124 205 124 <br />
+        /// </summary>
+        public static Color PaleGreen3 => new Color(124f / 255f, 205f / 255f, 124f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #90EE90 <br />
+        ///     [HSV] 120 039 093 <br />
+        ///     [RGB] 144 238 144 <br />
+        /// </summary>
+        public static Color PaleGreen2 => new Color(144f / 255f, 238f / 255f, 144f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #98FB98 <br />
+        ///     [HSV] 120 039 098 <br />
+        ///     [RGB] 152 251 152 <br />
+        /// </summary>
+        public static Color PaleGreen => new Color(152f / 255f, 251f / 255f, 152f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9AFF9A <br />
+        ///     [HSV] 120 039 100 <br />
+        ///     [RGB] 154 255 154 <br />
+        /// </summary>
+        public static Color PaleGreen1 => new Color(154f / 255f, 255f / 255f, 154f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #71C671 <br />
+        ///     [HSV] 120 042 077 <br />
+        ///     [RGB] 113 198 113 <br />
+        /// </summary>
+        public static Color SgiChartreuse => new Color(113f / 255f, 198f / 255f, 113f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #228B22 <br />
+        ///     [HSV] 120 075 054 <br />
+        ///     [RGB] 034 139 034 <br />
+        /// </summary>
+        public static Color ForestGreen => new Color(034f / 255f, 139f / 255f, 034f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #32CD32 <br />
+        ///     [HSV] 120 075 080 <br />
+        ///     [RGB] 050 205 050 <br />
+        /// </summary>
+        public static Color LimeGreen => new Color(050f / 255f, 205f / 255f, 050f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #006400 <br />
+        ///     [HSV] 120 100 039 <br />
+        ///     [RGB] 000 100 000 <br />
+        /// </summary>
+        public static Color DarkGreen => new Color(000f / 255f, 100f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #008000 <br />
+        ///     [HSV] 120 100 050 <br />
+        ///     [RGB] 000 128 000 <br />
+        /// </summary>
+        public static Color Green => new Color(000f / 255f, 128f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #008B00 <br />
+        ///     [HSV] 120 100 054 <br />
+        ///     [RGB] 000 139 000 <br />
+        /// </summary>
+        public static Color Green4 => new Color(000f / 255f, 139f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00CD00 <br />
+        ///     [HSV] 120 100 080 <br />
+        ///     [RGB] 000 205 000 <br />
+        /// </summary>
+        public static Color Green3 => new Color(000f / 255f, 205f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00EE00 <br />
+        ///     [HSV] 120 100 093 <br />
+        ///     [RGB] 000 238 000 <br />
+        /// </summary>
+        public static Color Green2 => new Color(000f / 255f, 238f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00FF00 <br />
+        ///     [HSV] 120 100 100 <br />
+        ///     [RGB] 000 255 000 <br />
+        /// </summary>
+        public static Color Green1 => new Color(000f / 255f, 255f / 255f, 000f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3D9140 <br />
+        ///     [HSV] 122 057 056 <br />
+        ///     [RGB] 061 145 064 <br />
+        /// </summary>
+        public static Color CobaltGreen => new Color(061f / 255f, 145f / 255f, 064f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BDFCC9 <br />
+        ///     [HSV] 131 025 098 <br />
+        ///     [RGB] 189 252 201 <br />
+        /// </summary>
+        public static Color Mint => new Color(189f / 255f, 252f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00C957 <br />
+        ///     [HSV] 145 100 078 <br />
+        ///     [RGB] 000 201 087 <br />
+        /// </summary>
+        public static Color EmeraldGreen => new Color(000f / 255f, 201f / 255f, 087f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #2E8B57 <br />
+        ///     [HSV] 146 066 054 <br />
+        ///     [RGB] 046 139 087 <br />
+        /// </summary>
+        public static Color SeaGreen4 => new Color(046f / 255f, 139f / 255f, 087f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3CB371 <br />
+        ///     [HSV] 146 066 070 <br />
+        ///     [RGB] 060 179 113 <br />
+        /// </summary>
+        public static Color MediumSeaGreen => new Color(060f / 255f, 179f / 255f, 113f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #43CD80 <br />
+        ///     [HSV] 146 067 080 <br />
+        ///     [RGB] 067 205 128 <br />
+        /// </summary>
+        public static Color SeaGreen3 => new Color(067f / 255f, 205f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4EEE94 <br />
+        ///     [HSV] 146 067 093 <br />
+        ///     [RGB] 078 238 148 <br />
+        /// </summary>
+        public static Color SeaGreen2 => new Color(078f / 255f, 238f / 255f, 148f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #54FF9F <br />
+        ///     [HSV] 146 067 100 <br />
+        ///     [RGB] 084 255 159 <br />
+        /// </summary>
+        public static Color SeaGreen1 => new Color(084f / 255f, 255f / 255f, 159f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F5FFFA <br />
+        ///     [HSV] 149 003 100 <br />
+        ///     [RGB] 245 255 250 <br />
+        /// </summary>
+        public static Color MintCream => new Color(245f / 255f, 255f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #008B45 <br />
+        ///     [HSV] 149 100 054 <br />
+        ///     [RGB] 000 139 069 <br />
+        /// </summary>
+        public static Color SpringGreen3 => new Color(000f / 255f, 139f / 255f, 069f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00CD66 <br />
+        ///     [HSV] 149 100 080 <br />
+        ///     [RGB] 000 205 102 <br />
+        /// </summary>
+        public static Color SpringGreen2 => new Color(000f / 255f, 205f / 255f, 102f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00EE76 <br />
+        ///     [HSV] 149 100 093 <br />
+        ///     [RGB] 000 238 118 <br />
+        /// </summary>
+        public static Color SpringGreen1 => new Color(000f / 255f, 238f / 255f, 118f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00FF7F <br />
+        ///     [HSV] 149 100 100 <br />
+        ///     [RGB] 000 255 127 <br />
+        /// </summary>
+        public static Color SpringGreen => new Color(000f / 255f, 255f / 255f, 127f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00FA9A <br />
+        ///     [HSV] 156 100 098 <br />
+        ///     [RGB] 000 250 154 <br />
+        /// </summary>
+        public static Color MediumSpringGreen => new Color(000f / 255f, 250f / 255f, 154f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #66CDAA <br />
+        ///     [HSV] 159 050 080 <br />
+        ///     [RGB] 102 205 170 <br />
+        /// </summary>
+        public static Color Aquamarine3 => new Color(102f / 255f, 205f / 255f, 170f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7FFFD4 <br />
+        ///     [HSV] 159 050 100 <br />
+        ///     [RGB] 127 255 212 <br />
+        /// </summary>
+        public static Color Aquamarine1 => new Color(127f / 255f, 255f / 255f, 212f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #458B74 <br />
+        ///     [HSV] 160 050 054 <br />
+        ///     [RGB] 069 139 116 <br />
+        /// </summary>
+        public static Color Aquamarine4 => new Color(069f / 255f, 139f / 255f, 116f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #76EEC6 <br />
+        ///     [HSV] 160 050 093 <br />
+        ///     [RGB] 118 238 198 <br />
+        /// </summary>
+        public static Color Aquamarine2 => new Color(118f / 255f, 238f / 255f, 198f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #808A87 <br />
+        ///     [HSV] 162 007 054 <br />
+        ///     [RGB] 128 138 135 <br />
+        /// </summary>
+        public static Color ColdGray => new Color(128f / 255f, 138f / 255f, 135f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00C78C <br />
+        ///     [HSV] 162 100 078 <br />
+        ///     [RGB] 000 199 140 <br />
+        /// </summary>
+        public static Color TurquoiseBlue => new Color(000f / 255f, 199f / 255f, 140f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #40E0D0 <br />
+        ///     [HSV] 174 071 087 <br />
+        ///     [RGB] 064 224 208 <br />
+        /// </summary>
+        public static Color Turquoise => new Color(064f / 255f, 224f / 255f, 208f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #20B2AA <br />
+        ///     [HSV] 176 082 069 <br />
+        ///     [RGB] 032 178 170 <br />
+        /// </summary>
+        public static Color LightSeaGreen => new Color(032f / 255f, 178f / 255f, 170f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #03A89E <br />
+        ///     [HSV] 176 098 065 <br />
+        ///     [RGB] 003 168 158 <br />
+        /// </summary>
+        public static Color ManganeseBlue => new Color(003f / 255f, 168f / 255f, 158f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #48D1CC <br />
+        ///     [HSV] 177 065 081 <br />
+        ///     [RGB] 072 209 204 <br />
+        /// </summary>
+        public static Color MediumTurquoise => new Color(072f / 255f, 209f / 255f, 204f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #838B8B <br />
+        ///     [HSV] 180 005 054 <br />
+        ///     [RGB] 131 139 139 <br />
+        /// </summary>
+        public static Color Azure4 => new Color(131f / 255f, 139f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C1CDCD <br />
+        ///     [HSV] 180 005 080 <br />
+        ///     [RGB] 193 205 205 <br />
+        /// </summary>
+        public static Color Azure3 => new Color(193f / 255f, 205f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E0EEEE <br />
+        ///     [HSV] 180 005 093 <br />
+        ///     [RGB] 224 238 238 <br />
+        /// </summary>
+        public static Color Azure2 => new Color(224f / 255f, 238f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F0FFFF <br />
+        ///     [HSV] 180 005 100 <br />
+        ///     [RGB] 240 255 255 <br />
+        /// </summary>
+        public static Color Azure1 => new Color(240f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7A8B8B <br />
+        ///     [HSV] 180 012 054 <br />
+        ///     [RGB] 122 139 139 <br />
+        /// </summary>
+        public static Color LightCyan4 => new Color(122f / 255f, 139f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B4CDCD <br />
+        ///     [HSV] 180 012 080 <br />
+        ///     [RGB] 180 205 205 <br />
+        /// </summary>
+        public static Color LightCyan3 => new Color(180f / 255f, 205f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D1EEEE <br />
+        ///     [HSV] 180 012 093 <br />
+        ///     [RGB] 209 238 238 <br />
+        /// </summary>
+        public static Color LightCyan2 => new Color(209f / 255f, 238f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E0FFFF <br />
+        ///     [HSV] 180 012 100 <br />
+        ///     [RGB] 224 255 255 <br />
+        /// </summary>
+        public static Color LightCyan1 => new Color(224f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #668B8B <br />
+        ///     [HSV] 180 026 054 <br />
+        ///     [RGB] 102 139 139 <br />
+        /// </summary>
+        public static Color PaleTurquoise4 => new Color(102f / 255f, 139f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #96CDCD <br />
+        ///     [HSV] 180 026 080 <br />
+        ///     [RGB] 150 205 205 <br />
+        /// </summary>
+        public static Color PaleTurquoise3 => new Color(150f / 255f, 205f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #AEEEEE <br />
+        ///     [HSV] 180 026 093 <br />
+        ///     [RGB] 174 238 238 <br />
+        /// </summary>
+        public static Color PaleTurquoise2 => new Color(174f / 255f, 238f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BBFFFF <br />
+        ///     [HSV] 180 026 100 <br />
+        ///     [RGB] 187 255 255 <br />
+        /// </summary>
+        public static Color PaleTurquoise1 => new Color(187f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #2F4F4F <br />
+        ///     [HSV] 180 040 030 <br />
+        ///     [RGB] 047 079 079 <br />
+        /// </summary>
+        public static Color DarkSlateGray => new Color(047f / 255f, 079f / 255f, 079f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #79CDCD <br />
+        ///     [HSV] 180 040 080 <br />
+        ///     [RGB] 121 205 205 <br />
+        /// </summary>
+        public static Color DarkSlateGray3 => new Color(121f / 255f, 205f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8DEEEE <br />
+        ///     [HSV] 180 040 093 <br />
+        ///     [RGB] 141 238 238 <br />
+        /// </summary>
+        public static Color DarkSlateGray2 => new Color(141f / 255f, 238f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #97FFFF <br />
+        ///     [HSV] 180 040 100 <br />
+        ///     [RGB] 151 255 255 <br />
+        /// </summary>
+        public static Color DarkSlateGray1 => new Color(151f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #528B8B <br />
+        ///     [HSV] 180 041 054 <br />
+        ///     [RGB] 082 139 139 <br />
+        /// </summary>
+        public static Color DarkSlateGray4 => new Color(082f / 255f, 139f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #388E8E <br />
+        ///     [HSV] 180 060 055 <br />
+        ///     [RGB] 056 142 142 <br />
+        /// </summary>
+        public static Color SgiTeal => new Color(056f / 255f, 142f / 255f, 142f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #008080 <br />
+        ///     [HSV] 180 100 050 <br />
+        ///     [RGB] 000 128 128 <br />
+        /// </summary>
+        public static Color Teal => new Color(000f / 255f, 128f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #008B8B <br />
+        ///     [HSV] 180 100 054 <br />
+        ///     [RGB] 000 139 139 <br />
+        /// </summary>
+        public static Color Cyan4 => new Color(000f / 255f, 139f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00CDCD <br />
+        ///     [HSV] 180 100 080 <br />
+        ///     [RGB] 000 205 205 <br />
+        /// </summary>
+        public static Color Cyan3 => new Color(000f / 255f, 205f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00CED1 <br />
+        ///     [HSV] 180 100 081 <br />
+        ///     [RGB] 000 206 209 <br />
+        /// </summary>
+        public static Color DarkTurquoise => new Color(000f / 255f, 206f / 255f, 209f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00EEEE <br />
+        ///     [HSV] 180 100 093 <br />
+        ///     [RGB] 000 238 238 <br />
+        /// </summary>
+        public static Color Cyan2 => new Color(000f / 255f, 238f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00FFFF <br />
+        ///     [HSV] 180 100 100 <br />
+        ///     [RGB] 000 255 255 <br />
+        /// </summary>
+        public static Color Cyan => new Color(000f / 255f, 255f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5F9EA0 <br />
+        ///     [HSV] 181 040 062 <br />
+        ///     [RGB] 095 158 160 <br />
+        /// </summary>
+        public static Color CadetBlue => new Color(095f / 255f, 158f / 255f, 160f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00868B <br />
+        ///     [HSV] 182 100 054 <br />
+        ///     [RGB] 000 134 139 <br />
+        /// </summary>
+        public static Color Turquoise4 => new Color(000f / 255f, 134f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00C5CD <br />
+        ///     [HSV] 182 100 080 <br />
+        ///     [RGB] 000 197 205 <br />
+        /// </summary>
+        public static Color Turquoise3 => new Color(000f / 255f, 197f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00E5EE <br />
+        ///     [HSV] 182 100 093 <br />
+        ///     [RGB] 000 229 238 <br />
+        /// </summary>
+        public static Color Turquoise2 => new Color(000f / 255f, 229f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00F5FF <br />
+        ///     [HSV] 182 100 100 <br />
+        ///     [RGB] 000 245 255 <br />
+        /// </summary>
+        public static Color Turquoise1 => new Color(000f / 255f, 245f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #53868B <br />
+        ///     [HSV] 185 040 054 <br />
+        ///     [RGB] 083 134 139 <br />
+        /// </summary>
+        public static Color CadetBlue4 => new Color(083f / 255f, 134f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7AC5CD <br />
+        ///     [HSV] 185 040 080 <br />
+        ///     [RGB] 122 197 205 <br />
+        /// </summary>
+        public static Color CadetBlue3 => new Color(122f / 255f, 197f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8EE5EE <br />
+        ///     [HSV] 185 040 093 <br />
+        ///     [RGB] 142 229 238 <br />
+        /// </summary>
+        public static Color CadetBlue2 => new Color(142f / 255f, 229f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #98F5FF <br />
+        ///     [HSV] 185 040 100 <br />
+        ///     [RGB] 152 245 255 <br />
+        /// </summary>
+        public static Color CadetBlue1 => new Color(152f / 255f, 245f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B0E0E6 <br />
+        ///     [HSV] 186 023 090 <br />
+        ///     [RGB] 176 224 230 <br />
+        /// </summary>
+        public static Color PowderBlue => new Color(176f / 255f, 224f / 255f, 230f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #68838B <br />
+        ///     [HSV] 193 025 054 <br />
+        ///     [RGB] 104 131 139 <br />
+        /// </summary>
+        public static Color LightBlue4 => new Color(104f / 255f, 131f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #ADD8E6 <br />
+        ///     [HSV] 194 024 090 <br />
+        ///     [RGB] 173 216 230 <br />
+        /// </summary>
+        public static Color LightBlue => new Color(173f / 255f, 216f / 255f, 230f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #009ACD <br />
+        ///     [HSV] 194 100 080 <br />
+        ///     [RGB] 000 154 205 <br />
+        /// </summary>
+        public static Color DeepSkyBlue3 => new Color(000f / 255f, 154f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9AC0CD <br />
+        ///     [HSV] 195 024 080 <br />
+        ///     [RGB] 154 192 205 <br />
+        /// </summary>
+        public static Color LightBlue3 => new Color(154f / 255f, 192f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B2DFEE <br />
+        ///     [HSV] 195 025 093 <br />
+        ///     [RGB] 178 223 238 <br />
+        /// </summary>
+        public static Color LightBlue2 => new Color(178f / 255f, 223f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BFEFFF <br />
+        ///     [HSV] 195 025 100 <br />
+        ///     [RGB] 191 239 255 <br />
+        /// </summary>
+        public static Color LightBlue1 => new Color(191f / 255f, 239f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00688B <br />
+        ///     [HSV] 195 100 054 <br />
+        ///     [RGB] 000 104 139 <br />
+        /// </summary>
+        public static Color DeepSkyBlue4 => new Color(000f / 255f, 104f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00B2EE <br />
+        ///     [HSV] 195 100 093 <br />
+        ///     [RGB] 000 178 238 <br />
+        /// </summary>
+        public static Color DeepSkyBlue2 => new Color(000f / 255f, 178f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00BFFF <br />
+        ///     [HSV] 195 100 100 <br />
+        ///     [RGB] 000 191 255 <br />
+        /// </summary>
+        public static Color DeepSkyBlue1 => new Color(000f / 255f, 191f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #33A1C9 <br />
+        ///     [HSV] 196 074 078 <br />
+        ///     [RGB] 051 161 201 <br />
+        /// </summary>
+        public static Color Peacock => new Color(051f / 255f, 161f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #87CEEB <br />
+        ///     [HSV] 197 042 092 <br />
+        ///     [RGB] 135 206 235 <br />
+        /// </summary>
+        public static Color SkyBlue => new Color(135f / 255f, 206f / 255f, 235f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8DB6CD <br />
+        ///     [HSV] 201 031 080 <br />
+        ///     [RGB] 141 182 205 <br />
+        /// </summary>
+        public static Color LightSkyBlue3 => new Color(141f / 255f, 182f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A4D3EE <br />
+        ///     [HSV] 201 031 093 <br />
+        ///     [RGB] 164 211 238 <br />
+        /// </summary>
+        public static Color LightSkyBlue2 => new Color(164f / 255f, 211f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #607B8B <br />
+        ///     [HSV] 202 030 054 <br />
+        ///     [RGB] 096 123 139 <br />
+        /// </summary>
+        public static Color LightSkyBlue4 => new Color(096f / 255f, 123f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B0E2FF <br />
+        ///     [HSV] 202 030 100 <br />
+        ///     [RGB] 176 226 255 <br />
+        /// </summary>
+        public static Color LightSkyBlue1 => new Color(176f / 255f, 226f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #87CEFA <br />
+        ///     [HSV] 202 046 098 <br />
+        ///     [RGB] 135 206 250 <br />
+        /// </summary>
+        public static Color LightSkyBlue => new Color(135f / 255f, 206f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4A708B <br />
+        ///     [HSV] 204 046 054 <br />
+        ///     [RGB] 074 112 139 <br />
+        /// </summary>
+        public static Color SkyBlue4 => new Color(074f / 255f, 112f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6CA6CD <br />
+        ///     [HSV] 204 047 080 <br />
+        ///     [RGB] 108 166 205 <br />
+        /// </summary>
+        public static Color SkyBlue3 => new Color(108f / 255f, 166f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7EC0EE <br />
+        ///     [HSV] 204 047 093 <br />
+        ///     [RGB] 126 192 238 <br />
+        /// </summary>
+        public static Color SkyBlue2 => new Color(126f / 255f, 192f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #87CEFF <br />
+        ///     [HSV] 204 047 100 <br />
+        ///     [RGB] 135 206 255 <br />
+        /// </summary>
+        public static Color SkyBlue1 => new Color(135f / 255f, 206f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #36648B <br />
+        ///     [HSV] 207 061 054 <br />
+        ///     [RGB] 054 100 139 <br />
+        /// </summary>
+        public static Color SteelBlue4 => new Color(054f / 255f, 100f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4682B4 <br />
+        ///     [HSV] 207 061 070 <br />
+        ///     [RGB] 070 130 180 <br />
+        /// </summary>
+        public static Color SteelBlue => new Color(070f / 255f, 130f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4F94CD <br />
+        ///     [HSV] 207 061 080 <br />
+        ///     [RGB] 079 148 205 <br />
+        /// </summary>
+        public static Color SteelBlue3 => new Color(079f / 255f, 148f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5CACEE <br />
+        ///     [HSV] 207 061 093 <br />
+        ///     [RGB] 092 172 238 <br />
+        /// </summary>
+        public static Color SteelBlue2 => new Color(092f / 255f, 172f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #63B8FF <br />
+        ///     [HSV] 207 061 100 <br />
+        ///     [RGB] 099 184 255 <br />
+        /// </summary>
+        public static Color SteelBlue1 => new Color(099f / 255f, 184f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F0F8FF <br />
+        ///     [HSV] 208 005 100 <br />
+        ///     [RGB] 240 248 255 <br />
+        /// </summary>
+        public static Color AliceBlue => new Color(240f / 255f, 248f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #104E8B <br />
+        ///     [HSV] 209 088 054 <br />
+        ///     [RGB] 016 078 139 <br />
+        /// </summary>
+        public static Color DodgerBlue4 => new Color(016f / 255f, 078f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1874CD <br />
+        ///     [HSV] 209 088 080 <br />
+        ///     [RGB] 024 116 205 <br />
+        /// </summary>
+        public static Color DodgerBlue3 => new Color(024f / 255f, 116f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1C86EE <br />
+        ///     [HSV] 209 088 093 <br />
+        ///     [RGB] 028 134 238 <br />
+        /// </summary>
+        public static Color DodgerBlue2 => new Color(028f / 255f, 134f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #1E90FF <br />
+        ///     [HSV] 209 088 100 <br />
+        ///     [RGB] 030 144 255 <br />
+        /// </summary>
+        public static Color DodgerBlue1 => new Color(030f / 255f, 144f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6C7B8B <br />
+        ///     [HSV] 210 022 054 <br />
+        ///     [RGB] 108 123 139 <br />
+        /// </summary>
+        public static Color SlateGray4 => new Color(108f / 255f, 123f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #708090 <br />
+        ///     [HSV] 210 022 056 <br />
+        ///     [RGB] 112 128 144 <br />
+        /// </summary>
+        public static Color SlateGray => new Color(112f / 255f, 128f / 255f, 144f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #778899 <br />
+        ///     [HSV] 210 022 060 <br />
+        ///     [RGB] 119 136 153 <br />
+        /// </summary>
+        public static Color LightSlateGray => new Color(119f / 255f, 136f / 255f, 153f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9FB6CD <br />
+        ///     [HSV] 210 022 080 <br />
+        ///     [RGB] 159 182 205 <br />
+        /// </summary>
+        public static Color SlateGray3 => new Color(159f / 255f, 182f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B9D3EE <br />
+        ///     [HSV] 210 022 093 <br />
+        ///     [RGB] 185 211 238 <br />
+        /// </summary>
+        public static Color SlateGray2 => new Color(185f / 255f, 211f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C6E2FF <br />
+        ///     [HSV] 210 022 100 <br />
+        ///     [RGB] 198 226 255 <br />
+        /// </summary>
+        public static Color SlateGray1 => new Color(198f / 255f, 226f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7D9EC0 <br />
+        ///     [HSV] 210 034 075 <br />
+        ///     [RGB] 125 158 192 <br />
+        /// </summary>
+        public static Color SgiLightBlue => new Color(125f / 255f, 158f / 255f, 192f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6E7B8B <br />
+        ///     [HSV] 213 020 054 <br />
+        ///     [RGB] 110 123 139 <br />
+        /// </summary>
+        public static Color LightSteelBlue4 => new Color(110f / 255f, 123f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #A2B5CD <br />
+        ///     [HSV] 213 020 080 <br />
+        ///     [RGB] 162 181 205 <br />
+        /// </summary>
+        public static Color LightSteelBlue3 => new Color(162f / 255f, 181f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B0C4DE <br />
+        ///     [HSV] 213 020 087 <br />
+        ///     [RGB] 176 196 222 <br />
+        /// </summary>
+        public static Color LightSteelBlue => new Color(176f / 255f, 196f / 255f, 222f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CAE1FF <br />
+        ///     [HSV] 213 020 100 <br />
+        ///     [RGB] 202 225 255 <br />
+        /// </summary>
+        public static Color LightSteelBlue1 => new Color(202f / 255f, 225f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BCD2EE <br />
+        ///     [HSV] 213 021 093 <br />
+        ///     [RGB] 188 210 238 <br />
+        /// </summary>
+        public static Color LightSteelBlue2 => new Color(188f / 255f, 210f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6495ED <br />
+        ///     [HSV] 218 057 092 <br />
+        ///     [RGB] 100 149 237 <br />
+        /// </summary>
+        public static Color CornflowerBlue => new Color(100f / 255f, 149f / 255f, 237f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3D59AB <br />
+        ///     [HSV] 224 064 067 <br />
+        ///     [RGB] 061 089 171 <br />
+        /// </summary>
+        public static Color Cobalt => new Color(061f / 255f, 089f / 255f, 171f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #3A5FCD <br />
+        ///     [HSV] 224 071 080 <br />
+        ///     [RGB] 058 095 205 <br />
+        /// </summary>
+        public static Color RoyalBlue3 => new Color(058f / 255f, 095f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #436EEE <br />
+        ///     [HSV] 224 071 093 <br />
+        ///     [RGB] 067 110 238 <br />
+        /// </summary>
+        public static Color RoyalBlue2 => new Color(067f / 255f, 110f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4876FF <br />
+        ///     [HSV] 224 071 100 <br />
+        ///     [RGB] 072 118 255 <br />
+        /// </summary>
+        public static Color RoyalBlue1 => new Color(072f / 255f, 118f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #27408B <br />
+        ///     [HSV] 225 071 054 <br />
+        ///     [RGB] 039 064 139 <br />
+        /// </summary>
+        public static Color RoyalBlue4 => new Color(039f / 255f, 064f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4169E1 <br />
+        ///     [HSV] 225 071 088 <br />
+        ///     [RGB] 065 105 225 <br />
+        /// </summary>
+        public static Color RoyalBlue => new Color(065f / 255f, 105f / 255f, 225f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #F8F8FF <br />
+        ///     [HSV] 240 002 100 <br />
+        ///     [RGB] 248 248 255 <br />
+        /// </summary>
+        public static Color GhostWhite => new Color(248f / 255f, 248f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E6E6FA <br />
+        ///     [HSV] 240 007 098 <br />
+        ///     [RGB] 230 230 250 <br />
+        /// </summary>
+        public static Color Lavender => new Color(230f / 255f, 230f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7171C6 <br />
+        ///     [HSV] 240 042 077 <br />
+        ///     [RGB] 113 113 198 <br />
+        /// </summary>
+        public static Color SgiSlateBlue => new Color(113f / 255f, 113f / 255f, 198f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #191970 <br />
+        ///     [HSV] 240 077 043 <br />
+        ///     [RGB] 025 025 112 <br />
+        /// </summary>
+        public static Color MidnightBlue => new Color(025f / 255f, 025f / 255f, 112f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #000080 <br />
+        ///     [HSV] 240 100 050 <br />
+        ///     [RGB] 000 000 128 <br />
+        /// </summary>
+        public static Color Navy => new Color(000f / 255f, 000f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #00008B <br />
+        ///     [HSV] 240 100 054 <br />
+        ///     [RGB] 000 000 139 <br />
+        /// </summary>
+        public static Color Blue4 => new Color(000f / 255f, 000f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0000CD <br />
+        ///     [HSV] 240 100 080 <br />
+        ///     [RGB] 000 000 205 <br />
+        /// </summary>
+        public static Color Blue3 => new Color(000f / 255f, 000f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0000EE <br />
+        ///     [HSV] 240 100 093 <br />
+        ///     [RGB] 000 000 238 <br />
+        /// </summary>
+        public static Color Blue2 => new Color(000f / 255f, 000f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #0000FF <br />
+        ///     [HSV] 240 100 100 <br />
+        ///     [RGB] 000 000 255 <br />
+        /// </summary>
+        public static Color Blue => new Color(000f / 255f, 000f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #483D8B <br />
+        ///     [HSV] 248 056 054 <br />
+        ///     [RGB] 072 061 139 <br />
+        /// </summary>
+        public static Color DarkSlateBlue => new Color(072f / 255f, 061f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #473C8B <br />
+        ///     [HSV] 248 056 054 <br />
+        ///     [RGB] 071 060 139 <br />
+        /// </summary>
+        public static Color SlateBlue4 => new Color(071f / 255f, 060f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6A5ACD <br />
+        ///     [HSV] 248 056 080 <br />
+        ///     [RGB] 106 090 205 <br />
+        /// </summary>
+        public static Color SlateBlue => new Color(106f / 255f, 090f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #6959CD <br />
+        ///     [HSV] 248 056 080 <br />
+        ///     [RGB] 105 089 205 <br />
+        /// </summary>
+        public static Color SlateBlue3 => new Color(105f / 255f, 089f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7B68EE <br />
+        ///     [HSV] 248 056 093 <br />
+        ///     [RGB] 123 104 238 <br />
+        /// </summary>
+        public static Color MediumSlateBlue => new Color(123f / 255f, 104f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7A67EE <br />
+        ///     [HSV] 248 056 093 <br />
+        ///     [RGB] 122 103 238 <br />
+        /// </summary>
+        public static Color SlateBlue2 => new Color(122f / 255f, 103f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8470FF <br />
+        ///     [HSV] 248 056 100 <br />
+        ///     [RGB] 132 112 255 <br />
+        /// </summary>
+        public static Color LightSlateBlue => new Color(132f / 255f, 112f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #836FFF <br />
+        ///     [HSV] 248 056 100 <br />
+        ///     [RGB] 131 111 255 <br />
+        /// </summary>
+        public static Color SlateBlue1 => new Color(131f / 255f, 111f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #5D478B <br />
+        ///     [HSV] 259 048 054 <br />
+        ///     [RGB] 093 071 139 <br />
+        /// </summary>
+        public static Color MediumPurple4 => new Color(093f / 255f, 071f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9370DB <br />
+        ///     [HSV] 259 048 085 <br />
+        ///     [RGB] 147 112 219 <br />
+        /// </summary>
+        public static Color MediumPurple => new Color(147f / 255f, 112f / 255f, 219f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8968CD <br />
+        ///     [HSV] 259 049 080 <br />
+        ///     [RGB] 137 104 205 <br />
+        /// </summary>
+        public static Color MediumPurple3 => new Color(137f / 255f, 104f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9F79EE <br />
+        ///     [HSV] 259 049 093 <br />
+        ///     [RGB] 159 121 238 <br />
+        /// </summary>
+        public static Color MediumPurple2 => new Color(159f / 255f, 121f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #AB82FF <br />
+        ///     [HSV] 259 049 100 <br />
+        ///     [RGB] 171 130 255 <br />
+        /// </summary>
+        public static Color MediumPurple1 => new Color(171f / 255f, 130f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8A2BE2 <br />
+        ///     [HSV] 271 080 088 <br />
+        ///     [RGB] 138 043 226 <br />
+        /// </summary>
+        public static Color BlueViolet => new Color(138f / 255f, 043f / 255f, 226f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #551A8B <br />
+        ///     [HSV] 271 081 054 <br />
+        ///     [RGB] 085 026 139 <br />
+        /// </summary>
+        public static Color Purple4 => new Color(085f / 255f, 026f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7D26CD <br />
+        ///     [HSV] 271 081 080 <br />
+        ///     [RGB] 125 038 205 <br />
+        /// </summary>
+        public static Color Purple3 => new Color(125f / 255f, 038f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #912CEE <br />
+        ///     [HSV] 271 081 093 <br />
+        ///     [RGB] 145 044 238 <br />
+        /// </summary>
+        public static Color Purple2 => new Color(145f / 255f, 044f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9B30FF <br />
+        ///     [HSV] 271 081 100 <br />
+        ///     [RGB] 155 048 255 <br />
+        /// </summary>
+        public static Color Purple1 => new Color(155f / 255f, 048f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #4B0082 <br />
+        ///     [HSV] 274 100 050 <br />
+        ///     [RGB] 075 000 130 <br />
+        /// </summary>
+        public static Color Indigo => new Color(075f / 255f, 000f / 255f, 130f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #68228B <br />
+        ///     [HSV] 280 075 054 <br />
+        ///     [RGB] 104 034 139 <br />
+        /// </summary>
+        public static Color DarkOrchid4 => new Color(104f / 255f, 034f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9932CC <br />
+        ///     [HSV] 280 075 080 <br />
+        ///     [RGB] 153 050 204 <br />
+        /// </summary>
+        public static Color DarkOrchid => new Color(153f / 255f, 050f / 255f, 204f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9A32CD <br />
+        ///     [HSV] 280 075 080 <br />
+        ///     [RGB] 154 050 205 <br />
+        /// </summary>
+        public static Color DarkOrchid3 => new Color(154f / 255f, 050f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B23AEE <br />
+        ///     [HSV] 280 075 093 <br />
+        ///     [RGB] 178 058 238 <br />
+        /// </summary>
+        public static Color DarkOrchid2 => new Color(178f / 255f, 058f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BF3EFF <br />
+        ///     [HSV] 280 075 100 <br />
+        ///     [RGB] 191 062 255 <br />
+        /// </summary>
+        public static Color DarkOrchid1 => new Color(191f / 255f, 062f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #9400D3 <br />
+        ///     [HSV] 282 100 082 <br />
+        ///     [RGB] 148 000 211 <br />
+        /// </summary>
+        public static Color DarkViolet => new Color(148f / 255f, 000f / 255f, 211f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #7A378B <br />
+        ///     [HSV] 287 060 054 <br />
+        ///     [RGB] 122 055 139 <br />
+        /// </summary>
+        public static Color MediumOrchid4 => new Color(122f / 255f, 055f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #B452CD <br />
+        ///     [HSV] 287 060 080 <br />
+        ///     [RGB] 180 082 205 <br />
+        /// </summary>
+        public static Color MediumOrchid3 => new Color(180f / 255f, 082f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D15FEE <br />
+        ///     [HSV] 287 060 093 <br />
+        ///     [RGB] 209 095 238 <br />
+        /// </summary>
+        public static Color MediumOrchid2 => new Color(209f / 255f, 095f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #E066FF <br />
+        ///     [HSV] 287 060 100 <br />
+        ///     [RGB] 224 102 255 <br />
+        /// </summary>
+        public static Color MediumOrchid1 => new Color(224f / 255f, 102f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #BA55D3 <br />
+        ///     [HSV] 288 059 082 <br />
+        ///     [RGB] 186 085 211 <br />
+        /// </summary>
+        public static Color MediumOrchid => new Color(186f / 255f, 085f / 255f, 211f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B7B8B <br />
+        ///     [HSV] 300 011 054 <br />
+        ///     [RGB] 139 123 139 <br />
+        /// </summary>
+        public static Color Thistle4 => new Color(139f / 255f, 123f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDB5CD <br />
+        ///     [HSV] 300 011 080 <br />
+        ///     [RGB] 205 181 205 <br />
+        /// </summary>
+        public static Color Thistle3 => new Color(205f / 255f, 181f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D8BFD8 <br />
+        ///     [HSV] 300 011 084 <br />
+        ///     [RGB] 216 191 216 <br />
+        /// </summary>
+        public static Color Thistle => new Color(216f / 255f, 191f / 255f, 216f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EED2EE <br />
+        ///     [HSV] 300 011 093 <br />
+        ///     [RGB] 238 210 238 <br />
+        /// </summary>
+        public static Color Thistle2 => new Color(238f / 255f, 210f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFE1FF <br />
+        ///     [HSV] 300 011 100 <br />
+        ///     [RGB] 255 225 255 <br />
+        /// </summary>
+        public static Color Thistle1 => new Color(255f / 255f, 225f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B668B <br />
+        ///     [HSV] 300 026 054 <br />
+        ///     [RGB] 139 102 139 <br />
+        /// </summary>
+        public static Color Plum4 => new Color(139f / 255f, 102f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD96CD <br />
+        ///     [HSV] 300 026 080 <br />
+        ///     [RGB] 205 150 205 <br />
+        /// </summary>
+        public static Color Plum3 => new Color(205f / 255f, 150f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEAEEE <br />
+        ///     [HSV] 300 026 093 <br />
+        ///     [RGB] 238 174 238 <br />
+        /// </summary>
+        public static Color Plum2 => new Color(238f / 255f, 174f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFBBFF <br />
+        ///     [HSV] 300 026 100 <br />
+        ///     [RGB] 255 187 255 <br />
+        /// </summary>
+        public static Color Plum1 => new Color(255f / 255f, 187f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DDA0DD <br />
+        ///     [HSV] 300 027 086 <br />
+        ///     [RGB] 221 160 221 <br />
+        /// </summary>
+        public static Color Plum => new Color(221f / 255f, 160f / 255f, 221f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE82EE <br />
+        ///     [HSV] 300 045 093 <br />
+        ///     [RGB] 238 130 238 <br />
+        /// </summary>
+        public static Color Violet => new Color(238f / 255f, 130f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8E388E <br />
+        ///     [HSV] 300 060 055 <br />
+        ///     [RGB] 142 056 142 <br />
+        /// </summary>
+        public static Color SgiBeet => new Color(142f / 255f, 056f / 255f, 142f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #800080 <br />
+        ///     [HSV] 300 100 050 <br />
+        ///     [RGB] 128 000 128 <br />
+        /// </summary>
+        public static Color Purple => new Color(128f / 255f, 000f / 255f, 128f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B008B <br />
+        ///     [HSV] 300 100 054 <br />
+        ///     [RGB] 139 000 139 <br />
+        /// </summary>
+        public static Color Magenta4 => new Color(139f / 255f, 000f / 255f, 139f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD00CD <br />
+        ///     [HSV] 300 100 080 <br />
+        ///     [RGB] 205 000 205 <br />
+        /// </summary>
+        public static Color Magenta3 => new Color(205f / 255f, 000f / 255f, 205f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE00EE <br />
+        ///     [HSV] 300 100 093 <br />
+        ///     [RGB] 238 000 238 <br />
+        /// </summary>
+        public static Color Magenta2 => new Color(238f / 255f, 000f / 255f, 238f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF00FF <br />
+        ///     [HSV] 300 100 100 <br />
+        ///     [RGB] 255 000 255 <br />
+        /// </summary>
+        public static Color Magenta => new Color(255f / 255f, 000f / 255f, 255f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B4789 <br />
+        ///     [HSV] 301 048 054 <br />
+        ///     [RGB] 139 071 137 <br />
+        /// </summary>
+        public static Color Orchid4 => new Color(139f / 255f, 071f / 255f, 137f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD69C9 <br />
+        ///     [HSV] 302 048 080 <br />
+        ///     [RGB] 205 105 201 <br />
+        /// </summary>
+        public static Color Orchid3 => new Color(205f / 255f, 105f / 255f, 201f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DA70D6 <br />
+        ///     [HSV] 302 048 085 <br />
+        ///     [RGB] 218 112 214 <br />
+        /// </summary>
+        public static Color Orchid => new Color(218f / 255f, 112f / 255f, 214f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE7AE9 <br />
+        ///     [HSV] 302 048 093 <br />
+        ///     [RGB] 238 122 233 <br />
+        /// </summary>
+        public static Color Orchid2 => new Color(238f / 255f, 122f / 255f, 233f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF83FA <br />
+        ///     [HSV] 302 048 100 <br />
+        ///     [RGB] 255 131 250 <br />
+        /// </summary>
+        public static Color Orchid1 => new Color(255f / 255f, 131f / 255f, 250f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #D02090 <br />
+        ///     [HSV] 321 084 081 <br />
+        ///     [RGB] 208 032 144 <br />
+        /// </summary>
+        public static Color VioletRed => new Color(208f / 255f, 032f / 255f, 144f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B1C62 <br />
+        ///     [HSV] 322 079 054 <br />
+        ///     [RGB] 139 028 098 <br />
+        /// </summary>
+        public static Color Maroon4 => new Color(139f / 255f, 028f / 255f, 098f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE30A7 <br />
+        ///     [HSV] 322 079 093 <br />
+        ///     [RGB] 238 048 167 <br />
+        /// </summary>
+        public static Color Maroon2 => new Color(238f / 255f, 048f / 255f, 167f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF34B3 <br />
+        ///     [HSV] 322 079 100 <br />
+        ///     [RGB] 255 052 179 <br />
+        /// </summary>
+        public static Color Maroon1 => new Color(255f / 255f, 052f / 255f, 179f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD2990 <br />
+        ///     [HSV] 322 080 080 <br />
+        ///     [RGB] 205 041 144 <br />
+        /// </summary>
+        public static Color Maroon3 => new Color(205f / 255f, 041f / 255f, 144f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #C71585 <br />
+        ///     [HSV] 322 089 078 <br />
+        ///     [RGB] 199 021 133 <br />
+        /// </summary>
+        public static Color MediumVioletRed => new Color(199f / 255f, 021f / 255f, 133f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B0A50 <br />
+        ///     [HSV] 327 092 054 <br />
+        ///     [RGB] 139 010 080 <br />
+        /// </summary>
+        public static Color DeepPink4 => new Color(139f / 255f, 010f / 255f, 080f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD1076 <br />
+        ///     [HSV] 327 092 080 <br />
+        ///     [RGB] 205 016 118 <br />
+        /// </summary>
+        public static Color DeepPink3 => new Color(205f / 255f, 016f / 255f, 118f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE1289 <br />
+        ///     [HSV] 327 092 093 <br />
+        ///     [RGB] 238 018 137 <br />
+        /// </summary>
+        public static Color DeepPink2 => new Color(238f / 255f, 018f / 255f, 137f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF1493 <br />
+        ///     [HSV] 327 092 100 <br />
+        ///     [RGB] 255 020 147 <br />
+        /// </summary>
+        public static Color DeepPink1 => new Color(255f / 255f, 020f / 255f, 147f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #872657 <br />
+        ///     [HSV] 329 071 052 <br />
+        ///     [RGB] 135 038 087 <br />
+        /// </summary>
+        public static Color Raspberry => new Color(135f / 255f, 038f / 255f, 087f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B3A62 <br />
+        ///     [HSV] 330 058 054 <br />
+        ///     [RGB] 139 058 098 <br />
+        /// </summary>
+        public static Color HotPink4 => new Color(139f / 255f, 058f / 255f, 098f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF69B4 <br />
+        ///     [HSV] 330 058 100 <br />
+        ///     [RGB] 255 105 180 <br />
+        /// </summary>
+        public static Color HotPink => new Color(255f / 255f, 105f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF6EB4 <br />
+        ///     [HSV] 331 056 100 <br />
+        ///     [RGB] 255 110 180 <br />
+        /// </summary>
+        public static Color HotPink1 => new Color(255f / 255f, 110f / 255f, 180f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE6AA7 <br />
+        ///     [HSV] 332 055 093 <br />
+        ///     [RGB] 238 106 167 <br />
+        /// </summary>
+        public static Color HotPink2 => new Color(238f / 255f, 106f / 255f, 167f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B2252 <br />
+        ///     [HSV] 332 075 054 <br />
+        ///     [RGB] 139 034 082 <br />
+        /// </summary>
+        public static Color VioletRed4 => new Color(139f / 255f, 034f / 255f, 082f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD3278 <br />
+        ///     [HSV] 332 075 080 <br />
+        ///     [RGB] 205 050 120 <br />
+        /// </summary>
+        public static Color VioletRed3 => new Color(205f / 255f, 050f / 255f, 120f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE3A8C <br />
+        ///     [HSV] 332 075 093 <br />
+        ///     [RGB] 238 058 140 <br />
+        /// </summary>
+        public static Color VioletRed2 => new Color(238f / 255f, 058f / 255f, 140f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF3E96 <br />
+        ///     [HSV] 332 075 100 <br />
+        ///     [RGB] 255 062 150 <br />
+        /// </summary>
+        public static Color VioletRed1 => new Color(255f / 255f, 062f / 255f, 150f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD6090 <br />
+        ///     [HSV] 333 053 080 <br />
+        ///     [RGB] 205 096 144 <br />
+        /// </summary>
+        public static Color HotPink3 => new Color(205f / 255f, 096f / 255f, 144f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B8386 <br />
+        ///     [HSV] 337 005 054 <br />
+        ///     [RGB] 139 131 134 <br />
+        /// </summary>
+        public static Color LavenderBlush4 => new Color(139f / 255f, 131f / 255f, 134f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEE0E5 <br />
+        ///     [HSV] 338 005 093 <br />
+        ///     [RGB] 238 224 229 <br />
+        /// </summary>
+        public static Color LavenderBlush2 => new Color(238f / 255f, 224f / 255f, 229f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CDC1C5 <br />
+        ///     [HSV] 339 005 080 <br />
+        ///     [RGB] 205 193 197 <br />
+        /// </summary>
+        public static Color LavenderBlush3 => new Color(205f / 255f, 193f / 255f, 197f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFF0F5 <br />
+        ///     [HSV] 339 005 100 <br />
+        ///     [RGB] 255 240 245 <br />
+        /// </summary>
+        public static Color LavenderBlush1 => new Color(255f / 255f, 240f / 255f, 245f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B475D <br />
+        ///     [HSV] 340 048 054 <br />
+        ///     [RGB] 139 071 093 <br />
+        /// </summary>
+        public static Color PaleVioletRed4 => new Color(139f / 255f, 071f / 255f, 093f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DB7093 <br />
+        ///     [HSV] 340 048 085 <br />
+        ///     [RGB] 219 112 147 <br />
+        /// </summary>
+        public static Color PaleVioletRed => new Color(219f / 255f, 112f / 255f, 147f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD6889 <br />
+        ///     [HSV] 340 049 080 <br />
+        ///     [RGB] 205 104 137 <br />
+        /// </summary>
+        public static Color PaleVioletRed3 => new Color(205f / 255f, 104f / 255f, 137f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EE799F <br />
+        ///     [HSV] 340 049 093 <br />
+        ///     [RGB] 238 121 159 <br />
+        /// </summary>
+        public static Color PaleVioletRed2 => new Color(238f / 255f, 121f / 255f, 159f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FF82AB <br />
+        ///     [HSV] 340 049 100 <br />
+        ///     [RGB] 255 130 171 <br />
+        /// </summary>
+        public static Color PaleVioletRed1 => new Color(255f / 255f, 130f / 255f, 171f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #8B636C <br />
+        ///     [HSV] 346 028 054 <br />
+        ///     [RGB] 139 099 108 <br />
+        /// </summary>
+        public static Color Pink4 => new Color(139f / 255f, 099f / 255f, 108f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #EEA9B8 <br />
+        ///     [HSV] 346 028 093 <br />
+        ///     [RGB] 238 169 184 <br />
+        /// </summary>
+        public static Color Pink2 => new Color(238f / 255f, 169f / 255f, 184f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #CD919E <br />
+        ///     [HSV] 347 029 080 <br />
+        ///     [RGB] 205 145 158 <br />
+        /// </summary>
+        public static Color Pink3 => new Color(205f / 255f, 145f / 255f, 158f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFB5C5 <br />
+        ///     [HSV] 347 029 100 <br />
+        ///     [RGB] 255 181 197 <br />
+        /// </summary>
+        public static Color Pink1 => new Color(255f / 255f, 181f / 255f, 197f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #DC143C <br />
+        ///     [HSV] 348 090 086 <br />
+        ///     [RGB] 220 020 060 <br />
+        /// </summary>
+        public static Color Crimson => new Color(220f / 255f, 020f / 255f, 060f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFC0CB <br />
+        ///     [HSV] 349 024 100 <br />
+        ///     [RGB] 255 192 203 <br />
+        /// </summary>
+        public static Color Pink => new Color(255f / 255f, 192f / 255f, 203f / 255f, 1.0f);
+
+        /// <summary>
+        ///     [HEX] #FFB6C1 <br />
+        ///     [HSV] 350 028 100 <br />
+        ///     [RGB] 255 182 193 <br />
+        /// </summary>
+        public static Color LightPink => new Color(255f / 255f, 182f / 255f, 193f / 255f, 1.0f);
     }
 }
