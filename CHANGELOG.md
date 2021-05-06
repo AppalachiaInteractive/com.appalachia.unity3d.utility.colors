@@ -9,7 +9,7 @@ Something went wrong...
 ## Releasing
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
-| ee173a2 | 2021-05-06 | Chris Schubert | Adding missing meta files |
+\n\n ## Tag: v0.1.2\n| Hash | Date | Author | Changes |\n|------|------|--------|---------|\n| ee173a2 | 2021-05-06 | Chris Schubert | Adding missing meta files |
 \n\n ## Tag: v0.1.1\n| Hash | Date | Author | Changes |\n|------|------|--------|---------|\n| 519a2e7 | 2021-05-04 | Chris Schubert | Adding tests and additional APIs |
 | de1b4a2 | 2021-05-04 | Chris Schubert | Update README.md |
 | d73fdb8 | 2021-05-03 | Chris Schubert | Fixing icon import size |
