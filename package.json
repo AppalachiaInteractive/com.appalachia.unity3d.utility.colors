@@ -4,6 +4,9 @@
   "version": "0.1.3",
   "unity": "2020.3",
   "description": "The color API that you deserve.  For Unity3D.",
+    "library": "!!library!!",
+  "csrootnamespace": "!!csrootnamespace!!",
+  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
     "Tool"
@@ -19,7 +22,7 @@
     "type": "git"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://34.138.227.71:4873/"
   },
   "scripts": {
     "preversion": "bash ~/com.appalachia/appa/appa package unity3d preversion",
