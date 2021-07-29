@@ -12,6 +12,12 @@
 ## Releasing
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
+| cecf86148f31a90fe8465c313d9fdeb693758c94 | 2021-07-29 | Chris Schubert | Updates |
+
+
+ ## Tag: `v0.1.4`
+| Hash | Date | Author | Changes |
+|------|------|--------|---------|
 | 52f954240eb66904bc6138bad466d577f0b58235 | 2021-07-28 | Chris Schubert | updates |
 
 
