@@ -1,7 +1,5 @@
 #region
 
-using System;
-using JetBrains.Annotations;
 using UnityEngine;
 
 #endregion
