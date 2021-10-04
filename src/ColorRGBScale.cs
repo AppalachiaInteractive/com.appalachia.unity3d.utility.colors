@@ -26,22 +26,22 @@ namespace Appalachia.Utility.Colors
 
         public static Color ScaleRed(this Color color, float factor)
         {
-            return new Color(color.r * factor, color.g, color.b, color.a);
+            return new(color.r * factor, color.g, color.b, color.a);
         }
 
         public static Color ScaleGreen(this Color color, float factor)
         {
-            return new Color(color.r, color.g * factor, color.b, color.a);
+            return new(color.r, color.g * factor, color.b, color.a);
         }
 
         public static Color ScaleBlue(this Color color, float factor)
         {
-            return new Color(color.r, color.g, color.b * factor, color.a);
+            return new(color.r, color.g, color.b * factor, color.a);
         }
 
         public static Color ScaleAlpha(this Color color, float factor)
         {
-            return new Color(color.r, color.g, color.b, color.a * factor);
+            return new(color.r, color.g, color.b, color.a * factor);
         }
     }
 }

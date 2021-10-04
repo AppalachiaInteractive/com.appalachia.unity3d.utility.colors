@@ -4,21 +4,27 @@ using UnityEngine;
 namespace Appalachia.Utility.Colors
 {
     /// <summary>
-    /// Reference typed wrapper for <see cref="UnityEngine.Color"/>.
+    ///     Reference typed wrapper for <see cref="UnityEngine.Color" />.
     /// </summary>
     [Serializable]
     public class ColorRef
     {
+        public Color color;
+
         public ColorRef(Color c)
         {
             color = c;
         }
 
-        public Color color;
+        public static implicit operator Color(ColorRef c)
+        {
+            return c.color;
+        }
 
-
-        public static implicit operator Color(ColorRef c) => c.color;
-        public static implicit operator ColorRef(Color c) => new ColorRef(c);
+        public static implicit operator ColorRef(Color c)
+        {
+            return new(c);
+        }
 
         public void ToHSV(out float h, out float s, out float v)
         {
@@ -34,7 +40,7 @@ namespace Appalachia.Utility.Colors
         {
             color = color.BlendRGB(other);
         }
-        
+
         public void BlendRGBA(Color other)
         {
             color = color.BlendRGBA(other);

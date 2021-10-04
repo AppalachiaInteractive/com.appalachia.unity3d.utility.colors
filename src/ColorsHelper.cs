@@ -8,7 +8,6 @@ namespace Appalachia.Utility.Colors
 {
     public static partial class Colors
     {
-        
         public static ColorRef ToRef(this Color c)
         {
             return c;

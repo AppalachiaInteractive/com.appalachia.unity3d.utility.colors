@@ -299,7 +299,10 @@ namespace Appalachia.Utility
             new object[] {Colors.Colors.Enum.LightYellow3, Colors.Colors.LightYellow3},
             new object[] {Colors.Colors.Enum.LightYellow2, Colors.Colors.LightYellow2},
             new object[] {Colors.Colors.Enum.LightYellow1, Colors.Colors.LightYellow1},
-            new object[] {Colors.Colors.Enum.LightGoldenrodYellow, Colors.Colors.LightGoldenrodYellow},
+            new object[]
+            {
+                Colors.Colors.Enum.LightGoldenrodYellow, Colors.Colors.LightGoldenrodYellow
+            },
             new object[] {Colors.Colors.Enum.WarmGray, Colors.Colors.WarmGray},
             new object[] {Colors.Colors.Enum.SgiOliveDrab, Colors.Colors.SgiOliveDrab},
             new object[] {Colors.Colors.Enum.Olive, Colors.Colors.Olive},
@@ -360,7 +363,10 @@ namespace Appalachia.Utility
             new object[] {Colors.Colors.Enum.SpringGreen2, Colors.Colors.SpringGreen2},
             new object[] {Colors.Colors.Enum.SpringGreen1, Colors.Colors.SpringGreen1},
             new object[] {Colors.Colors.Enum.SpringGreen, Colors.Colors.SpringGreen},
-            new object[] {Colors.Colors.Enum.MediumSpringGreen, Colors.Colors.MediumSpringGreen},
+            new object[]
+            {
+                Colors.Colors.Enum.MediumSpringGreen, Colors.Colors.MediumSpringGreen
+            },
             new object[] {Colors.Colors.Enum.Aquamarine3, Colors.Colors.Aquamarine3},
             new object[] {Colors.Colors.Enum.Aquamarine1, Colors.Colors.Aquamarine1},
             new object[] {Colors.Colors.Enum.Aquamarine4, Colors.Colors.Aquamarine4},

@@ -25,7 +25,10 @@ namespace Appalachia.Utility.Colors
             return Color.HSVToRGB(newHue, sat, value, allowHdr);
         }
 
-        public static Color UpdateSaturation(this Color color, float newSaturation, bool allowHdr = true)
+        public static Color UpdateSaturation(
+            this Color color,
+            float newSaturation,
+            bool allowHdr = true)
         {
             Color.RGBToHSV(color, out var hue, out _, out var value);
             return Color.HSVToRGB(hue, newSaturation, value, allowHdr);

@@ -18,7 +18,6 @@ namespace Appalachia.Utility.Colors
 
         public static Color BlendRGB(this Color color, Color other)
         {
-
             var c = new Color(
                 (color.r + other.r) / 2f,
                 (color.g + other.g) / 2f,
@@ -30,7 +29,6 @@ namespace Appalachia.Utility.Colors
 
         public static Color BlendRGBA(this Color color, Color other)
         {
-
             var c = new Color(
                 (color.r + other.r) / 2f,
                 (color.g + other.g) / 2f,
