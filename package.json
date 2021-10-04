@@ -1,7 +1,7 @@
 {
   "name": "com.appalachia.unity3d.utility.colors",
   "displayName": "Appalachia.Utility.Colors for Unity3D",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "unity": "2020.3",
   "description": "The color API that you deserve.  For Unity3D.",
   "keywords": [

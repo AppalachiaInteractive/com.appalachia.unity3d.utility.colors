@@ -10,7 +10,7 @@
 
 ## Released Changes
 
-`0.1.6`
+`0.1.7`
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
-| 94dafcd7d3c78d23fe485ac08c112eb43b7c3043 | 2021-10-03 | Chris Schubert | Updating namespaces to match folder structure |
+
