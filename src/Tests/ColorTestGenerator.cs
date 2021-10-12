@@ -1,4 +1,4 @@
-namespace Appalachia.Utility
+namespace Appalachia.Utility.Tests
 {
     public static class ColorTestGenerator
     {

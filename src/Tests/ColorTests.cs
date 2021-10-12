@@ -3,7 +3,7 @@ using NUnit.Framework;
 using UnityEngine;
 using Assert = UnityEngine.Assertions.Assert;
 
-namespace Appalachia.Utility
+namespace Appalachia.Utility.Tests
 {
     public class ColorTests
     {
